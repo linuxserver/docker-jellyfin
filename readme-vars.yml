@@ -1,0 +1,63 @@
+---
+
+# project information
+project_name: jellyfin
+project_url: "https://jellyfin.github.io/"
+project_logo: "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it."
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# container parameters
+common_param_env_vars_enabled: true #PGID, PUID, etc
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "</path/to/library>", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*" }
+  - { vol_path: "/data/tvshows", vol_host_path: "<path/to/tvseries>", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
+  - { vol_path: "/data/movies", vol_host_path: "</path/to/movies>", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "8096", internal_port: "8096", port_desc: "Http webUI." }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+# optional container parameters
+opt_param_usage_include_vols: true
+opt_param_volumes:
+  - { vol_path: "/transcode", vol_host_path: "</path for transcoding>", desc: "Path for transcoding folder, *optional*." }
+opt_param_device_map: true
+opt_param_devices:
+  - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)." }
+opt_param_usage_include_ports: true
+opt_param_ports:
+  - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to setup your own certificate)." }
+
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Webui can be found at `http://<your-ip>:8096`
+
+  More information can be found in their official documentation [here](https://github.com/MediaBrowser/Wiki/wiki) .
+
+  Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
+
+  ```--device=/dev/dri:/dev/dri```
+
+  We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
+
+  Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
+
+  https://github.com/NVIDIA/nvidia-docker
+
+  We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
+
+# changelog
+changelogs:
+  - { date: "07.06.19:", desc: "Initial release." }
