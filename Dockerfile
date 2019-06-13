@@ -22,6 +22,7 @@ RUN \
  apt-get update && \
  apt-get install -y --no-install-recommends \
 	at \
+	i965-va-driver \
 	jellyfin-ffmpeg \
 	libfontconfig1 \
 	libfreetype6 \
