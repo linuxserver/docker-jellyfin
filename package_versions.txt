@@ -1,6 +1,6 @@
 adduser3.116ubuntu1
-apt1.6.10
-apt-utils1.6.10
+apt1.6.11
+apt-utils1.6.11
 at3.1.20-3.1ubuntu2
 base-files10.1ubuntu2.4
 base-passwd3.5.44
@@ -35,13 +35,14 @@ gpg-wks-server2.2.4-1ubuntu1.2
 grep3.1-2
 gzip1.6-5ubuntu1
 hostname3.20
+i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin10.3.5-1
 jellyfin-ffmpeg4.0.4-3-bionic
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
-libapt-inst2.01.6.10
-libapt-pkg5.01.6.10
+libapt-inst2.01.6.11
+libapt-pkg5.01.6.11
 libasn1-8-heimdal7.5.0+dfsg-1
 libass91:0.14.0-1
 libassuan02.5.1-2
@@ -62,6 +63,7 @@ libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdrm22.4.95-1~18.04.1
 libdrm-common2.4.95-1~18.04.1
+libdrm-intel12.4.95-1~18.04.1
 libexpat12.2.5-3
 libext2fs21.44.1-1ubuntu1.1
 libfdisk12.31.1-0.4ubuntu3.3
@@ -111,6 +113,7 @@ libpam0g1.1.8-3.6ubuntu2.18.04.1
 libpam-modules1.1.8-3.6ubuntu2.18.04.1
 libpam-modules-bin1.1.8-3.6ubuntu2.18.04.1
 libpam-runtime1.1.8-3.6ubuntu2.18.04.1
+libpciaccess00.14-1
 libpcre32:8.39-9
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
@@ -131,7 +134,7 @@ libsmartcols12.31.1-0.4ubuntu3.3
 libsqlite3-03.22.0-1
 libss21.44.1-1ubuntu1.1
 libssl1.0.01.0.2n-1ubuntu5.3
-libssl1.11.1.0g-2ubuntu4.3
+libssl1.11.1.1-1ubuntu2.1~18.04.1
 libstdc++68.3.0-6ubuntu1~18.04
 libsystemd0237-3ubuntu10.21
 libtasn1-64.13-2
@@ -173,7 +176,7 @@ mount2.31.1-0.4ubuntu3.3
 multiarch-support2.27-3ubuntu1
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-openssl1.1.0g-2ubuntu4.3
+openssl1.1.1-1ubuntu2.1~18.04.1
 passwd1:4.5-1ubuntu2
 perl-base5.26.1-6ubuntu0.3
 pinentry-curses1.1.0-1
