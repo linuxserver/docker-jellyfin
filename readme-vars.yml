@@ -60,4 +60,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.06.19:", desc: "Add Intel drivers for vaapi support on x86." }
   - { date: "07.06.19:", desc: "Initial release." }

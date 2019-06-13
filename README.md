@@ -206,4 +206,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.06.19:** - Add Intel drivers for vaapi support on x86.
 * **07.06.19:** - Initial release.
