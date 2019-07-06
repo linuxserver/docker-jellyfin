@@ -6,7 +6,7 @@ base-files10.1ubuntu2.4
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.1
 bsdutils1:2.31.1-0.4ubuntu3.3
-bzip21.0.6-8.1
+bzip21.0.6-8.1ubuntu0.1
 ca-certificates20180409
 coreutils8.28-1ubuntu1
 curl7.58.0-2ubuntu3.7
@@ -37,7 +37,7 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin10.3.5-1
+jellyfin10.3.6-1
 jellyfin-ffmpeg4.0.4-3-bionic
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
@@ -52,7 +52,7 @@ libaudit-common1:2.8.2-1ubuntu1
 libblkid12.31.1-0.4ubuntu3.3
 libbluray21:1.0.2-3
 libbsd00.8.7-1
-libbz2-1.01.0.6-8.1
+libbz2-1.01.0.6-8.1ubuntu0.1
 libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
@@ -61,9 +61,9 @@ libcom-err21.44.1-1ubuntu1.1
 libcurl47.58.0-2ubuntu3.7
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
-libdrm22.4.95-1~18.04.1
-libdrm-common2.4.95-1~18.04.1
-libdrm-intel12.4.95-1~18.04.1
+libdrm22.4.97-1ubuntu1~18.04.1
+libdrm-common2.4.97-1ubuntu1~18.04.1
+libdrm-intel12.4.97-1ubuntu1~18.04.1
 libexpat12.2.5-3ubuntu0.1
 libext2fs21.44.1-1ubuntu1.1
 libfdisk12.31.1-0.4ubuntu3.3
