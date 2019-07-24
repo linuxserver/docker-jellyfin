@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.11
 apt-utils1.6.11
 at3.1.20-3.1ubuntu2
-base-files10.1ubuntu2.4
+base-files10.1ubuntu2.5
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.3
@@ -37,7 +37,7 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin10.3.6-1
+jellyfin10.3.7-1
 jellyfin-ffmpeg4.0.4-3-bionic
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
