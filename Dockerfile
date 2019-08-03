@@ -26,7 +26,8 @@ RUN \
 	jellyfin-ffmpeg \
 	libfontconfig1 \
 	libfreetype6 \
-	libssl1.0.0 && \
+	libssl1.0.0 \
+	mesa-va-drivers && \
  echo "**** install jellyfin *****" && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \
 	JELLYFIN_RELEASE=$(curl -sX GET "https://api.github.com/repos/jellyfin/jellyfin/releases/latest" \
