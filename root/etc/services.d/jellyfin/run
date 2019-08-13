@@ -5,6 +5,10 @@ JELLYFIN_CONFIG_DIR="/config" \
 JELLYFIN_LOG_DIR="/config/log" \
 JELLYFIN_CACHE_DIR="/config/cache" 
 
+# set umask
+UMASK_SET=${UMASK_SET:-022}
+umask "$UMASK_SET"
+
 exec \
 	s6-setuidgid abc /usr/bin/jellyfin \
 	--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg
