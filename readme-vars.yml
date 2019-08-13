@@ -28,6 +28,9 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional container parameters
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Emby, default if left unset is 022."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/transcode", vol_host_path: "</path for transcoding>", desc: "Path for transcoding folder, *optional*." }
