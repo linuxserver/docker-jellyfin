@@ -63,6 +63,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.10.19:", desc: "Improve permission fixing for render & dvb devices." }
   - { date: "31.07.19:", desc: "Add AMD drivers for vaapi support on x86." }
   - { date: "13.06.19:", desc: "Add Intel drivers for vaapi support on x86." }
   - { date: "07.06.19:", desc: "Initial release." }
