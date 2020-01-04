@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 FILES=$(find /dev/dri /dev/dvb -type c -print 2>/dev/null)
-if [ -f "/dev/vchiq" ]; then
+if [ -e "/dev/vchiq" ]; then
 	FILES+=('/dev/vchiq')
 fi
 
