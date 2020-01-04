@@ -25,6 +25,8 @@ RUN \
 	jellyfin-ffmpeg \
 	libfontconfig1 \
 	libfreetype6 \
+	libomxil-bellagio0 \
+	libomxil-bellagio-bin \
 	libssl1.0.0 && \
  echo "**** install jellyfin *****" && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \

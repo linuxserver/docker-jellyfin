@@ -27,6 +27,8 @@ RUN \
 	jellyfin-ffmpeg \
 	libfontconfig1 \
 	libfreetype6 \
+	libomxil-bellagio0 \
+	libomxil-bellagio-bin \
 	libraspberrypi0 \
 	libssl1.0.0 && \
  echo "**** install jellyfin *****" && \
