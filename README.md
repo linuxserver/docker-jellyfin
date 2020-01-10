@@ -129,9 +129,9 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /transcode` | Path for transcoding folder, *optional*. |
-| `-v /opt/vc/lib` | Path for Rasberry Pi OpenMAX libs *optional*. |
+| `-v /opt/vc/lib` | Path for Raspberry Pi OpenMAX libs *optional*. |
 | `--device /dev/dri` | Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi). |
-| `--device /dev/vchiq` | Only needed if you want to use your Rasberry Pi OpenMax video encoding (Bellagio). |
+| `--device /dev/vchiq` | Only needed if you want to use your Raspberry Pi OpenMax video encoding (Bellagio). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -184,9 +184,9 @@ https://github.com/NVIDIA/nvidia-docker
 
 We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
 
-### OpenMAX (Rasberry Pi)
+### OpenMAX (Raspberry Pi)
 
-Hardware acceleration users for Rasberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+Hardware acceleration users for Raspberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
 ```
 --device=/dev/vchiq:/dev/vchiq

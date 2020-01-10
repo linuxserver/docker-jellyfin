@@ -34,11 +34,11 @@ opt_param_env_vars:
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/transcode", vol_host_path: "</path for transcoding>", desc: "Path for transcoding folder, *optional*." }
-  - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Rasberry Pi OpenMAX libs *optional*." }
+  - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
 opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)." }
-  - { device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Rasberry Pi OpenMax video encoding (Bellagio)." }
+  - { device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding (Bellagio)." }
 opt_param_usage_include_ports: true
 opt_param_ports:
   - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to setup your own certificate)." }
@@ -69,9 +69,9 @@ app_setup_block: |
 
   We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
   
-  ### OpenMAX (Rasberry Pi)
+  ### OpenMAX (Raspberry Pi)
   
-  Hardware acceleration users for Rasberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+  Hardware acceleration users for Raspberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
   ```
   --device=/dev/vchiq:/dev/vchiq
