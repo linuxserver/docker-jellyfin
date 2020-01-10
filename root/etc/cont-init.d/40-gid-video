@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-FILES=$(find /dev/dri /dev/dvb -type c -print 2>/dev/null)
+FILES=$(find /dev/dri /dev/dvb /dev/vchiq -type c -print 2>/dev/null)
 
 for i in $FILES
 do
@@ -24,3 +24,10 @@ done
 if [ -n "${FILES}" ] && [ ! -f "/groupadd" ]; then
 	usermod -a -G root abc
 fi
+
+# openmax lib loading
+if [ -e "/opt/vc/lib" ] && [ ! -e "/etc/ld.so.conf.d/00-vmcs.conf" ]; then
+	echo "[jellyfin-init] Pi Libs detected loading"
+	echo "/opt/vc/lib" > "/etc/ld.so.conf.d/00-vmcs.conf"
+	ldconfig
+fi	
