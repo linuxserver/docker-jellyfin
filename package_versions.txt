@@ -51,7 +51,7 @@ libaudit11:2.8.2-1ubuntu1
 libaudit-common1:2.8.2-1ubuntu1
 libblkid12.31.1-0.4ubuntu3.4
 libbluray21:1.0.2-3
-libbsd00.8.7-1
+libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
 libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
@@ -77,7 +77,7 @@ libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
 libfribidi00.19.7-2
 libgcc11:8.3.0-6ubuntu1~18.04.1
-libgcrypt201.8.1-4ubuntu1.1
+libgcrypt201.8.1-4ubuntu1.2
 libglib2.0-02.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.2
