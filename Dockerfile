@@ -30,14 +30,12 @@ RUN \
 	mesa-va-drivers && \
  echo "**** install jellyfin *****" && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \
-	JELLYFIN_RELEASE=$(curl -sX GET "https://api.github.com/repos/jellyfin/jellyfin/releases/latest" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
+	JELLYFIN="jellyfin-nightly"; \
+ else \
+	JELLYFIN="jellyfin-nightly=${JELLYFIN_RELEASE}"; \
  fi && \
- VERSION=$(echo "${JELLYFIN_RELEASE}" | sed 's/^v//g') && \
- curl -o \
- /tmp/jellyfin.deb -L \
-	"https://github.com/jellyfin/jellyfin/releases/download/v${VERSION}/jellyfin_${VERSION}-1_ubuntu-amd64.deb" && \
- dpkg -i /tmp/jellyfin.deb && \
+ apt-get install -y \
+	${JELLYFIN} && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/* \
