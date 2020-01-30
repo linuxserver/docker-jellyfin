@@ -54,6 +54,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable Jellyfin releases |
+| nightly | Nightly Jellyfin releases |
 
 ## Usage
 
@@ -259,6 +267,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **30.01.20:** - Add nightly tag.
 * **09.01.20:** - Add Pi OpenMax support.
 * **02.10.19:** - Improve permission fixing for render & dvb devices.
 * **31.07.19:** - Add AMD drivers for vaapi support on x86.
