@@ -13,6 +13,12 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable Jellyfin releases" }
+  - { tag: "nightly", desc: "Nightly Jellyfin releases" }
+
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc
 param_container_name: "{{ project_name }}"
@@ -80,6 +86,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.01.20:", desc: "Add nightly tag." }
   - { date: "09.01.20:", desc: "Add Pi OpenMax support." }
   - { date: "02.10.19:", desc: "Improve permission fixing for render & dvb devices." }
   - { date: "31.07.19:", desc: "Add AMD drivers for vaapi support on x86." }
