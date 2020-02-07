@@ -38,7 +38,7 @@ hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin-ffmpeg4.2.1-3-bionic
-jellyfin-nightly20200206
+jellyfin-nightly20200207
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12
@@ -61,12 +61,12 @@ libcom-err21.44.1-1ubuntu1.3
 libcurl47.58.0-2ubuntu3.8
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
-libdrm22.4.99-1ubuntu1~18.04.1
-libdrm-amdgpu12.4.99-1ubuntu1~18.04.1
-libdrm-common2.4.99-1ubuntu1~18.04.1
-libdrm-intel12.4.99-1ubuntu1~18.04.1
-libdrm-nouveau22.4.99-1ubuntu1~18.04.1
-libdrm-radeon12.4.99-1ubuntu1~18.04.1
+libdrm22.4.99-1ubuntu1~18.04.2
+libdrm-amdgpu12.4.99-1ubuntu1~18.04.2
+libdrm-common2.4.99-1ubuntu1~18.04.2
+libdrm-intel12.4.99-1ubuntu1~18.04.2
+libdrm-nouveau22.4.99-1ubuntu1~18.04.2
+libdrm-radeon12.4.99-1ubuntu1~18.04.2
 libedit23.1-20170329-1
 libelf10.170-0.4ubuntu0.1
 libexpat12.2.5-3ubuntu0.2
@@ -101,7 +101,7 @@ libkrb5support01.16-2ubuntu0.1
 libksba81.3.5-2
 libldap-2.4-22.4.45+dfsg-1ubuntu1.4
 libldap-common2.4.45+dfsg-1ubuntu1.4
-libllvm91:9-2~ubuntu18.04.1
+libllvm91:9-2~ubuntu18.04.2
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmount12.31.1-0.4ubuntu3.5
@@ -183,7 +183,7 @@ locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
-mesa-va-drivers19.2.8-0ubuntu0~18.04.1
+mesa-va-drivers19.2.8-0ubuntu0~18.04.2
 mount2.31.1-0.4ubuntu3.5
 multiarch-support2.27-3ubuntu1
 ncurses-base6.1-1ubuntu1.18.04
