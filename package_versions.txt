@@ -38,7 +38,7 @@ hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin-ffmpeg4.2.1-3-bionic
-jellyfin-nightly20200209
+jellyfin-nightly20200211
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12
@@ -173,7 +173,7 @@ libxcb-sync11.13-2~ubuntu18.04
 libxcb-xfixes01.13-2~ubuntu18.04
 libxdmcp61:1.1.2-3
 libxext62:1.3.3-1
-libxml22.9.4+dfsg1-6.1ubuntu1.2
+libxml22.9.4+dfsg1-6.1ubuntu1.3
 libxrender11:0.9.10-1
 libxshmfence11.3-1
 libzstd11.3.3+dfsg-2ubuntu1.1
