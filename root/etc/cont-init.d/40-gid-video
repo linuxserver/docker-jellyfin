@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-FILES=$(find /dev/dri /dev/dvb /dev/vchiq -type c -print 2>/dev/null)
+FILES=$(find /dev/dri /dev/dvb /dev/vchiq /dev/video1? -type c -print 2>/dev/null)
 
 for i in $FILES
 do
