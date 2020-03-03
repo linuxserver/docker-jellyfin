@@ -38,7 +38,7 @@ hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin-ffmpeg4.2.1-5-bionic
-jellyfin-nightly20200302
+jellyfin-nightly20200303
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12
@@ -183,7 +183,7 @@ locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
-mesa-va-drivers19.2.8-0ubuntu0~18.04.2
+mesa-va-drivers19.2.8-0ubuntu0~18.04.3
 mount2.31.1-0.4ubuntu3.5
 multiarch-support2.27-3ubuntu1
 ncurses-base6.1-1ubuntu1.18.04
