@@ -24,9 +24,9 @@ common_param_env_vars_enabled: true #PGID, PUID, etc
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "</path/to/library>", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*" }
-  - { vol_path: "/data/tvshows", vol_host_path: "<path/to/tvseries>", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
-  - { vol_path: "/data/movies", vol_host_path: "</path/to/movies>", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
+  - { vol_path: "/config", vol_host_path: "/path/to/library", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*" }
+  - { vol_path: "/data/tvshows", vol_host_path: "path/to/tvseries", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
+  - { vol_path: "/data/movies", vol_host_path: "/path/to/movies", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8096", internal_port: "8096", port_desc: "Http webUI." }
@@ -39,15 +39,17 @@ opt_param_env_vars:
   - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Emby, default if left unset is 022."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/transcode", vol_host_path: "</path for transcoding>", desc: "Path for transcoding folder, *optional*." }
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
 opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)." }
   - { device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding (Bellagio)." }
+  - { device_path: "/dev/video10", device_host_path: "/dev/video10", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
+  - { device_path: "/dev/video11", device_host_path: "/dev/video11", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
+  - { device_path: "/dev/video12", device_host_path: "/dev/video12", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
 opt_param_usage_include_ports: true
 opt_param_ports:
-  - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to setup your own certificate)." }
+  - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to set up your own certificate)." }
 
 
 # application setup block
@@ -55,7 +57,7 @@ app_setup_block_enabled: true
 app_setup_block: |
   Webui can be found at `http://<your-ip>:8096`
 
-  More information can be found in their official documentation [here](https://github.com/MediaBrowser/Wiki/wiki) .
+  More information can be found in their official documentation [here](https://jellyfin.org/docs/general/quick-start.html) .
 
   ## Hardware Acceleration
   
@@ -84,8 +86,18 @@ app_setup_block: |
   -v /opt/vc/lib:/opt/vc/lib
   ```
 
+  ### V4L2 (Raspberry Pi)
+  
+  Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/video1X devices inside of the container by passing the following options when running or creating the container:
+  ```
+  --device=/dev/video10:/dev/video10
+  --device=/dev/video11:/dev/video11
+  --device=/dev/video12:/dev/video12
+  ```
+
 # changelog
 changelogs:
+  - { date: "11.03.20:", desc: "Add v4l2 support on Raspberry Pi; remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`)." }
   - { date: "30.01.20:", desc: "Add nightly tag." }
   - { date: "09.01.20:", desc: "Add Pi OpenMax support." }
   - { date: "02.10.19:", desc: "Improve permission fixing for render & dvb devices." }
