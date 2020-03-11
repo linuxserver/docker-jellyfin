@@ -49,7 +49,7 @@ opt_param_devices:
   - { device_path: "/dev/video12", device_host_path: "/dev/video12", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
 opt_param_usage_include_ports: true
 opt_param_ports:
-  - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to setup your own certificate)." }
+  - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to set up your own certificate)." }
 
 
 # application setup block
@@ -99,7 +99,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "24.02.20:", desc: "Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`)." }
+  - { date: "11.03.20:", desc: "Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`)." }
   - { date: "30.01.20:", desc: "Add nightly tag." }
   - { date: "09.01.20:", desc: "Add Pi OpenMax support." }
   - { date: "02.10.19:", desc: "Improve permission fixing for render & dvb devices." }

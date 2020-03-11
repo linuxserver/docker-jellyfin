@@ -132,7 +132,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | Parameter | Function |
 | :----: | --- |
 | `-p 8096` | Http webUI. |
-| `-p 8920` | Https webUI (you need to setup your own certificate). |
+| `-p 8920` | Https webUI (you need to set up your own certificate). |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
@@ -283,7 +283,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **24.02.20:** - Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`).
+* **11.03.20:** - Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`).
 * **30.01.20:** - Add nightly tag.
 * **09.01.20:** - Add Pi OpenMax support.
 * **02.10.19:** - Improve permission fixing for render & dvb devices.
