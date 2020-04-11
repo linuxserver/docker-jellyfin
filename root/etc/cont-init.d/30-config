@@ -2,7 +2,7 @@
 
 # create directories
 mkdir -p \
-	/config/{log,data,cache} \
+	/config/{log,data/transcodes,cache} \
 	/data \
 	/transcode
 
