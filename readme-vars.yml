@@ -43,6 +43,7 @@ opt_param_volumes:
 opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)." }
+  - { device_path: "/dev/vc-mem", device_host_path: "/dev/vc-mem", desc: "Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings)." }
   - { device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding." }
   - { device_path: "/dev/video10", device_host_path: "/dev/video10", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
   - { device_path: "/dev/video11", device_host_path: "/dev/video11", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding." }
@@ -65,7 +66,7 @@ app_setup_block: |
   
   Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
 
-  ```--device=/dev/dri:/dev/dri```
+  `--device=/dev/dri:/dev/dri`
 
   We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
   
@@ -79,16 +80,17 @@ app_setup_block: |
   
   ### OpenMAX (Raspberry Pi)
   
-  Hardware acceleration users for Raspberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+  Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vc-mem` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
   ```
+  --device=/dev/vc-mem:/dev/vc-mem
   --device=/dev/vchiq:/dev/vchiq
   -v /opt/vc/lib:/opt/vc/lib
   ```
 
   ### V4L2 (Raspberry Pi)
   
-  Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/videoX video devices inside of the container by passing the following options when running or creating the container:
+  Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
 
   ```
   --device=/dev/video10:/dev/video10
@@ -99,6 +101,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "11.04.20:", desc: "Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder." }
   - { date: "11.03.20:", desc: "Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`)." }
   - { date: "30.01.20:", desc: "Add nightly tag." }
   - { date: "09.01.20:", desc: "Add Pi OpenMax support." }
