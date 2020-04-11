@@ -11,7 +11,7 @@ chown abc:abc \
 	/config \
 	/config/* \
 	/data \
-	/data/transcodes \
+	/config/data/transcodes \
 	/transcode
 if [ -n "$(ls -A /data 2>/dev/null)" ]; then
 chown abc:abc \
