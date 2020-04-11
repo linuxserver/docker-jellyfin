@@ -7,7 +7,7 @@
 [![GitHub](https://img.shields.io/static/v1.svg?style=flat-square&color=E68523&label=linuxserver.io&message=GitHub&logo=github&logoColor=FFFFFF)](https://github.com/linuxserver "view the source for all of our repositories.")
 [![Open Collective](https://img.shields.io/opencollective/all/linuxserver.svg?style=flat-square&color=E68523&label=Supporters&logo=open%20collective&logoColor=FFFFFF)](https://opencollective.com/linuxserver "please consider helping us by either donating or contributing to our budget")
 
-The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring :-
+The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring:
 
  * regular and timely application updates
  * easy user mappings (PGID, PUID)
@@ -83,6 +83,7 @@ docker create \
   -v /path/to/movies:/data/movies \
   -v /opt/vc/lib:/opt/vc/lib `#optional` \
   --device /dev/dri:/dev/dri `#optional` \
+  --device /dev/vc-mem:/dev/vc-mem `#optional` \
   --device /dev/vchiq:/dev/vchiq `#optional` \
   --device /dev/video10:/dev/video10 `#optional` \
   --device /dev/video11:/dev/video11 `#optional` \
@@ -98,7 +99,7 @@ Compatible with docker-compose v2 schemas.
 
 ```
 ---
-version: "2"
+version: "2.1"
 services:
   jellyfin:
     image: linuxserver/jellyfin
@@ -118,6 +119,7 @@ services:
       - 8920:8920 #optional
     devices:
       - /dev/dri:/dev/dri #optional
+      - /dev/vc-mem:/dev/vc-mem #optional
       - /dev/vchiq:/dev/vchiq #optional
       - /dev/video10:/dev/video10 #optional
       - /dev/video11:/dev/video11 #optional
@@ -142,6 +144,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /opt/vc/lib` | Path for Raspberry Pi OpenMAX libs *optional*. |
 | `--device /dev/dri` | Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi). |
+| `--device /dev/vc-mem` | Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings). |
 | `--device /dev/vchiq` | Only needed if you want to use your Raspberry Pi OpenMax video encoding. |
 | `--device /dev/video10` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
 | `--device /dev/video11` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
@@ -200,16 +203,17 @@ We automatically add the necessary environment variable that will utilise all th
 
 ### OpenMAX (Raspberry Pi)
 
-Hardware acceleration users for Raspberry Pi OpenMAX will need to mount their /dev/vchiq video device inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vc-mem` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
 ```
+--device=/dev/vc-mem:/dev/vc-mem
 --device=/dev/vchiq:/dev/vchiq
 -v /opt/vc/lib:/opt/vc/lib
 ```
 
 ### V4L2 (Raspberry Pi)
 
-Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/videoX video devices inside of the container by passing the following options when running or creating the container:
+Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
 
 ```
 --device=/dev/video10:/dev/video10
@@ -217,6 +221,11 @@ Hardware acceleration users for Raspberry Pi V4L2 will need to mount their /dev/
 --device=/dev/video12:/dev/video12
 ```
 
+
+## Docker Mods
+[![Docker Mods](https://img.shields.io/badge/dynamic/yaml?style=for-the-badge&color=E68523&label=mods&query=%24.mods%5B%27jellyfin%27%5D.mod_count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flinuxserver%2Fdocker-mods%2Fmaster%2Fmod-list.yml)](https://mods.linuxserver.io/?mod=jellyfin "view available mods for this container.")
+
+We publish various [Docker Mods](https://github.com/linuxserver/docker-mods) to enable additional functionality within the containers. The list of Mods available for this image (if any) can be accessed via the dynamic badge above.
 
 
 ## Support Info
@@ -283,6 +292,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.04.20:** - Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder.
 * **11.03.20:** - Add Pi V4L2 support, remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`).
 * **30.01.20:** - Add nightly tag.
 * **09.01.20:** - Add Pi OpenMax support.
