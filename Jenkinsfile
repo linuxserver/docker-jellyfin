@@ -29,7 +29,7 @@ pipeline {
     DIST_IMAGE = 'ubuntu'
     MULTIARCH='true'
     CI='true'
-    CI_WEB='false'
+    CI_WEB='true'
     CI_PORT='8096'
     CI_SSL='false'
     CI_DELAY='120'
