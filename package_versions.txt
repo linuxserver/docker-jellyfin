@@ -37,7 +37,7 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin-ffmpeg4.2.1-5-bionic
+jellyfin-ffmpeg4.2.1-7-bionic
 jellyfin-nightly20200408
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
@@ -150,8 +150,6 @@ libudev1237-3ubuntu10.39
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libva22.1.0-3
-libva-drm22.1.0-3
-libvdpau11.1.1-3ubuntu1
 libvorbis0a1.3.5-4.2
 libvorbisenc21.3.5-4.2
 libwebp60.6.1-2
