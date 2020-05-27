@@ -3,7 +3,8 @@
 export JELLYFIN_DATA_DIR="/config/data" \
 JELLYFIN_CONFIG_DIR="/config" \
 JELLYFIN_LOG_DIR="/config/log" \
-JELLYFIN_CACHE_DIR="/config/cache" 
+JELLYFIN_CACHE_DIR="/config/cache" \
+JELLYFIN_WEB_DIR="/usr/share/jellyfin/web"
 
 # set umask
 UMASK_SET=${UMASK_SET:-022}
