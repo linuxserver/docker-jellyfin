@@ -291,6 +291,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.05.20:** - Set web directory path.
 * **11.04.20:** - Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder.
 * **11.03.20:** - Add v4l2 support on Raspberry Pi; remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`).
 * **30.01.20:** - Add nightly tag.

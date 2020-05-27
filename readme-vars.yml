@@ -99,6 +99,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.05.20:", desc: "Set web directory path." }
   - { date: "11.04.20:", desc: "Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder." }
   - { date: "11.03.20:", desc: "Add v4l2 support on Raspberry Pi; remove optional transcode mapping (location is selected in the gui, defaults to path under `/config`)." }
   - { date: "30.01.20:", desc: "Add nightly tag." }
