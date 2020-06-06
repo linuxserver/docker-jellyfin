@@ -38,9 +38,9 @@ hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin-ffmpeg4.2.1-7-bionic
-jellyfin-nightly20200605
-jellyfin-server-nightly20200605
-jellyfin-web-nightly20200605
+jellyfin-nightly20200606
+jellyfin-server-nightly20200606
+jellyfin-web-nightly20200606
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
