@@ -38,9 +38,9 @@ hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin-ffmpeg4.2.1-7-bionic
-jellyfin-nightly20200610
-jellyfin-server-nightly20200610
-jellyfin-web-nightly20200610
+jellyfin-nightly20200611
+jellyfin-server-nightly20200611
+jellyfin-web-nightly20200611
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
@@ -139,7 +139,7 @@ libsemanage12.7-2build2
 libsemanage-common2.7-2build2
 libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.6
-libsqlite3-03.22.0-1ubuntu0.3
+libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.0.01.0.2n-1ubuntu5.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
