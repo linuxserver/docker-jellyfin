@@ -30,9 +30,9 @@ RUN \
 	mesa-va-drivers && \
  echo "**** install jellyfin *****" && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \
-	JELLYFIN="jellyfin-nightly"; \
+	JELLYFIN="jellyfin-server-nightly jellyfin-web-nightly"; \
  else \
-	JELLYFIN="jellyfin-nightly=${JELLYFIN_RELEASE}"; \
+	JELLYFIN="jellyfin-server-nightly=${JELLYFIN_RELEASE} jellyfin-web-nightly=${JELLYFIN_RELEASE}"; \
  fi && \
  apt-get install -y \
 	${JELLYFIN} && \
