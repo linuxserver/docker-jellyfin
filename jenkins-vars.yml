@@ -3,7 +3,7 @@
 # jenkins variables
 project_name: docker-jellyfin
 external_type: na
-custom_version_command: "curl -sX GET https://repo.jellyfin.org/ubuntu/dists/bionic/main/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-nightly' | awk -F ': ' '/Version/{print $2;exit}'"
+custom_version_command: "curl -sX GET https://repo.jellyfin.org/ubuntu/dists/bionic/main/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-server-nightly' | awk -F ': ' '/Version/{print $2;exit}'"
 release_type: prerelease
 release_tag: nightly
 ls_branch: nightly
