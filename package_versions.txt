@@ -177,13 +177,13 @@ libxshmfence11.3-1
 libzstd11.3.3+dfsg-2ubuntu1.1
 libzvbi00.2.35-13
 libzvbi-common0.2.35-13
-locales2.27-3ubuntu1
+locales2.27-3ubuntu1.2
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
 mesa-va-drivers19.2.8-0ubuntu0~18.04.3
 mount2.31.1-0.4ubuntu3.6
-multiarch-support2.27-3ubuntu1
+multiarch-support2.27-3ubuntu1.2
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 openssl1.1.1-1ubuntu2.1~18.04.6
