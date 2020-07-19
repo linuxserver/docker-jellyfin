@@ -53,10 +53,10 @@ libblkid12.31.1-0.4ubuntu3.6
 libbluray21:1.0.2-3
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1
+libc62.27-3ubuntu1.2
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1
+libc-bin2.27-3ubuntu1.2
 libcom-err21.44.1-1ubuntu1.3
 libcurl47.58.0-2ubuntu3.9
 libdb5.35.3.28-13.1ubuntu1.1
@@ -80,7 +80,7 @@ libgcc11:8.4.0-1ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libglib2.0-02.56.4-0ubuntu0.18.04.6
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.3
+libgnutls303.5.18-1ubuntu1.4
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgssapi3-heimdal7.5.0+dfsg-1
@@ -101,7 +101,7 @@ libkrb5support01.16-2ubuntu0.1
 libksba81.3.5-2
 libldap-2.4-22.4.45+dfsg-1ubuntu1.5
 libldap-common2.4.45+dfsg-1ubuntu1.5
-libllvm91:9-2~ubuntu18.04.2
+libllvm101:10.0.0-4ubuntu1~18.04.1
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmount12.31.1-0.4ubuntu3.6
@@ -181,7 +181,7 @@ locales2.27-3ubuntu1.2
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
-mesa-va-drivers19.2.8-0ubuntu0~18.04.3
+mesa-va-drivers20.0.8-0ubuntu1~18.04.1
 mount2.31.1-0.4ubuntu3.6
 multiarch-support2.27-3ubuntu1.2
 ncurses-base6.1-1ubuntu1.18.04
