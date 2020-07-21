@@ -12,6 +12,10 @@ ARG DEBIAN_FRONTEND="noninteractive"
 ENV NVIDIA_DRIVER_CAPABILITIES="compute,video,utility"
 
 RUN \
+ echo "**** install packages ****" && \
+ apt-get update && \
+ apt-get install -y --no-install-recommends \
+	gnupg && \
  echo "**** install jellyfin *****" && \
  curl -s https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | apt-key add - && \
  echo 'deb [arch=amd64] https://repo.jellyfin.org/ubuntu bionic main' > /etc/apt/sources.list.d/jellyfin.list && \
