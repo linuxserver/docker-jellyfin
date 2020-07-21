@@ -11,4 +11,5 @@ umask "$UMASK_SET"
 
 exec \
 	s6-setuidgid abc /usr/bin/jellyfin \
-	--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg
+	--ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg \
+	--webdir=/usr/share/jellyfin/web

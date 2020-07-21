@@ -2,14 +2,12 @@
 
 # jenkins variables
 project_name: docker-jellyfin
-external_type: github_stable
+external_type: na
+custom_version_command: "curl -sX GET https://repo.jellyfin.org/ubuntu/dists/focal/main/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin' | awk -F ': ' '/Version/{print $2;exit}'"
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'jellyfin'
-  - EXT_REPO = 'jellyfin'
   - BUILD_VERSION_ARG = 'JELLYFIN_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-jellyfin'
