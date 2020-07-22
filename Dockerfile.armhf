@@ -39,7 +39,7 @@ RUN \
 	libomxil-bellagio0 \
 	libomxil-bellagio-bin \
 	libraspberrypi0 \
-	libssl1.0.0 && \
+	libssl1.1 && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/* \
