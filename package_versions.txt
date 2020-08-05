@@ -37,10 +37,10 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin20200729.2-unstable
+jellyfin20200805.4-unstable
 jellyfin-ffmpeg4.3.1-1-bionic
-jellyfin-server20200729.2-unstable
-jellyfin-web20200729.1-unstable
+jellyfin-server20200805.2-unstable
+jellyfin-web20200805.4-unstable
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
@@ -103,7 +103,7 @@ libkrb5support01.16-2ubuntu0.1
 libksba81.3.5-2
 libldap-2.4-22.4.45+dfsg-1ubuntu1.6
 libldap-common2.4.45+dfsg-1ubuntu1.6
-libllvm101:10.0.0-4ubuntu1~18.04.1
+libllvm101:10.0.0-4ubuntu1~18.04.2
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmount12.31.1-0.4ubuntu3.6
@@ -133,7 +133,7 @@ librtmp12.4+20151223.gitfa8646d.1-1
 libsasl2-22.1.27~101-g0780600+dfsg-3ubuntu2.1
 libsasl2-modules2.1.27~101-g0780600+dfsg-3ubuntu2.1
 libsasl2-modules-db2.1.27~101-g0780600+dfsg-3ubuntu2.1
-libseccomp22.4.3-1ubuntu3.18.04.2
+libseccomp22.4.3-1ubuntu3.18.04.3
 libselinux12.7-2build2
 libsemanage12.7-2build2
 libsemanage-common2.7-2build2
