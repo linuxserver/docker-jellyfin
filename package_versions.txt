@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.12ubuntu0.1
 apt-utils1.6.12ubuntu0.1
 at3.1.20-3.1ubuntu2
-base-files10.1ubuntu2.8
+base-files10.1ubuntu2.9
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.6
@@ -37,10 +37,10 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin20200811.25-unstable
+jellyfin20200818.19-unstable
 jellyfin-ffmpeg4.3.1-1-bionic
-jellyfin-server20200811.8-unstable
-jellyfin-web20200811.25-unstable
+jellyfin-server20200818.9-unstable
+jellyfin-web20200818.19-unstable
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
@@ -143,11 +143,11 @@ libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.41
+libsystemd0237-3ubuntu10.42
 libtasn1-64.13-2
 libtheora01.1.1+dfsg.1-14
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.41
+libudev1237-3ubuntu10.42
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libva22.1.0-3
