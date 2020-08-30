@@ -37,10 +37,10 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin10.6.3-1
+jellyfin10.6.4-1
 jellyfin-ffmpeg4.3.1-1-bionic
-jellyfin-server10.6.3-1
-jellyfin-web10.6.3-1
+jellyfin-server10.6.4-1
+jellyfin-web10.6.4-1
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
