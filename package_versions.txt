@@ -37,10 +37,10 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin20200902.1-unstable
+jellyfin20200909.2-unstable
 jellyfin-ffmpeg4.3.1-1-bionic
-jellyfin-server20200901.24-unstable
-jellyfin-web20200902.1-unstable
+jellyfin-server20200905.6-unstable
+jellyfin-web20200909.2-unstable
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
@@ -157,9 +157,9 @@ libvorbisenc21.3.5-4.2
 libwebp60.6.1-2
 libwebpmux30.6.1-2
 libwind0-heimdal7.5.0+dfsg-1
-libx11-62:1.6.4-3ubuntu0.2
-libx11-data2:1.6.4-3ubuntu0.2
-libx11-xcb12:1.6.4-3ubuntu0.2
+libx11-62:1.6.4-3ubuntu0.3
+libx11-data2:1.6.4-3ubuntu0.3
+libx11-xcb12:1.6.4-3ubuntu0.3
 libx264-1522:0.152.2854+gite9a5903-2
 libx265-1462.6-3
 libxau61:1.0.8-1ubuntu1
