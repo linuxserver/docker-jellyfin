@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.12ubuntu0.1
 apt-utils1.6.12ubuntu0.1
 at3.1.20-3.1ubuntu2
-base-files10.1ubuntu2.9
+base-files10.1ubuntu2.10
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 bsdutils1:2.31.1-0.4ubuntu3.6
@@ -117,10 +117,10 @@ libnuma12.0.11-2.1ubuntu0.1
 libogg01.3.2-1
 libopus01.1.2-1ubuntu1
 libp11-kit00.23.9-2
-libpam0g1.1.8-3.6ubuntu2.18.04.1
-libpam-modules1.1.8-3.6ubuntu2.18.04.1
-libpam-modules-bin1.1.8-3.6ubuntu2.18.04.1
-libpam-runtime1.1.8-3.6ubuntu2.18.04.1
+libpam0g1.1.8-3.6ubuntu2.18.04.2
+libpam-modules1.1.8-3.6ubuntu2.18.04.2
+libpam-modules-bin1.1.8-3.6ubuntu2.18.04.2
+libpam-runtime1.1.8-3.6ubuntu2.18.04.2
 libpciaccess00.14-1
 libpcre32:8.39-9
 libpixman-1-00.34.0-2
