@@ -51,7 +51,18 @@ opt_param_devices:
 opt_param_usage_include_ports: true
 opt_param_ports:
   - { external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to set up your own certificate)." }
+optional_parameters: |
+The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has several additional ports that can provide auto discovery.
 
+Service Discovery (1900) Since client auto-discover would break if this option were configurable, you cannot change this in the settings at this time. DLNA also uses this port and is required to be in the local subnet.
+
+Client Discovery (7359 UDP) Allows clients to discover Jellyfin on the local network. A broadcast message to this port with Who is JellyfinServer? will get a JSON response that includes the server address, ID, and name.
+
+
+```
+  -p 7359:7359/udp \
+  -p 1900:1900/udp \
+```
 
 # application setup block
 app_setup_block_enabled: true
