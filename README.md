@@ -166,6 +166,21 @@ Will set the environment variable `PASSWORD` based on the contents of the `/run/
 For all of our images we provide the ability to override the default umask settings for services started within the containers using the optional `-e UMASK=022` setting.
 Keep in mind umask is not chmod it subtracts from permissions based on it's value it does not add. Please read up [here](https://en.wikipedia.org/wiki/Umask) before asking for support.
 
+## Optional Parameters
+
+The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has several additional ports that can provide auto discovery.
+
+Service Discovery (1900) Since client auto-discover would break if this option were configurable, you cannot change this in the settings at this time. DLNA also uses this port and is required to be in the local subnet.
+
+Client Discovery (7359 UDP) Allows clients to discover Jellyfin on the local network. A broadcast message to this port with Who is JellyfinServer? will get a JSON response that includes the server address, ID, and name.
+
+
+```
+  -p 7359:7359/udp \
+  -p 1900:1900/udp \
+
+```
+
 ## User / Group Identifiers
 
 When using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
