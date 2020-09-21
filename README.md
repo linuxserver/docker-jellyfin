@@ -77,6 +77,8 @@ docker create \
   -e UMASK_SET=<022> `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
+  -p 7359/udp:7359/udp `#optional` \
+  -p 1900/udp:1900/udp `#optional` \
   -v /path/to/library:/config \
   -v /path/to/tvseries:/data/tvshows \
   -v /path/to/movies:/data/movies \
@@ -116,6 +118,8 @@ services:
     ports:
       - 8096:8096
       - 8920:8920 #optional
+      - 7359/udp:7359/udp #optional
+      - 1900/udp:1900/udp #optional
     devices:
       - /dev/dri:/dev/dri #optional
       - /dev/vcsm:/dev/vcsm #optional
@@ -133,7 +137,9 @@ Container images are configured using parameters passed at runtime (such as thos
 | Parameter | Function |
 | :----: | --- |
 | `-p 8096` | Http webUI. |
-| `-p 8920` | Https webUI (you need to set up your own certificate). |
+| `-p 8920` | Optional - Https webUI (you need to set up your own certificate). |
+| `-p 7359/udp` | Optional - Allows clients to discover Jellyfin on the local network. |
+| `-p 1900/udp` | Optional - Service discovery used by DNLA and clients. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
@@ -165,6 +171,20 @@ Will set the environment variable `PASSWORD` based on the contents of the `/run/
 
 For all of our images we provide the ability to override the default umask settings for services started within the containers using the optional `-e UMASK=022` setting.
 Keep in mind umask is not chmod it subtracts from permissions based on it's value it does not add. Please read up [here](https://en.wikipedia.org/wiki/Umask) before asking for support.
+
+## Optional Parameters
+
+The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has additional ports that can provide auto discovery.
+
+Service Discovery (`1900/udp`) - Since client auto-discover would break if this option were configurable, you cannot change this in the settings at this time. DLNA also uses this port and is required to be in the local subnet.
+
+Client Discovery (`7359/udp`) - Allows clients to discover Jellyfin on the local network. A broadcast message to this port with "Who is Jellyfin Server?" will get a JSON response that includes the server address, ID, and name.
+
+```
+  -p 7359:7359/udp \
+  -p 1900:1900/udp \
+```
+
 
 ## User / Group Identifiers
 
