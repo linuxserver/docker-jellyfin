@@ -93,8 +93,8 @@ services:
     ports:
       - 8096:8096
       - 8920:8920 #optional
-      - 7359/udp:7359/udp #optional
-      - 1900/udp:1900/udp #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
     devices:
       - /dev/dri:/dev/dri #optional
       - /dev/vcsm:/dev/vcsm #optional
@@ -116,8 +116,8 @@ docker run -d \
   -e UMASK_SET=<022> `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
-  -p 7359/udp:7359/udp `#optional` \
-  -p 1900/udp:1900/udp `#optional` \
+  -p 7359:7359/udp `#optional` \
+  -p 1900:1900/udp `#optional` \
   -v /path/to/library:/config \
   -v /path/to/tvseries:/data/tvshows \
   -v /path/to/movies:/data/movies \
