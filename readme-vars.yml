@@ -51,8 +51,8 @@ opt_param_devices:
 opt_param_usage_include_ports: true
 opt_param_ports:
   - { external_port: "8920", internal_port: "8920", port_desc: "Optional - Https webUI (you need to set up your own certificate)." }
-  - { external_port: "7359/udp", internal_port: "7359/udp", port_desc: "Optional - Allows clients to discover Jellyfin on the local network." }
-  - { external_port: "1900/udp", internal_port: "1900/udp", port_desc: "Optional - Service discovery used by DNLA and clients." }
+  - { external_port: "7359", internal_port: "7359/udp", port_desc: "Optional - Allows clients to discover Jellyfin on the local network." }
+  - { external_port: "1900", internal_port: "1900/udp", port_desc: "Optional - Service discovery used by DNLA and clients." }
 optional_parameters: |
   The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has additional ports that can provide auto discovery.
 
