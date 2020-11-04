@@ -37,10 +37,10 @@ gzip1.6-5ubuntu1
 hostname3.20
 i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
-jellyfin20201102.25-unstable
+jellyfin20201103.12-unstable
 jellyfin-ffmpeg4.3.1-1-bionic
 jellyfin-server20200927.6-unstable
-jellyfin-web20201102.25-unstable
+jellyfin-web20201103.12-unstable
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
 libapt-inst2.01.6.12ubuntu0.1
@@ -185,7 +185,7 @@ lsb-base9.20170808ubuntu1
 mawk1.3.3-17ubuntu3
 mesa-va-drivers20.0.8-0ubuntu1~18.04.1
 mount2.31.1-0.4ubuntu3.7
-multiarch-support2.27-3ubuntu1.2
+multiarch-support2.27-3ubuntu1.3
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 ocl-icd-libopencl12.2.11-1ubuntu1
