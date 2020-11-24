@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-bionic
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-focal
 
 # set version label
 ARG BUILD_DATE
@@ -19,7 +19,7 @@ RUN \
  echo "**** install jellyfin *****" && \
  curl -s https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | apt-key add - && \
  curl -s https://keyserver.ubuntu.com/pks/lookup?op=get\&search=0x6587ffd6536b8826e88a62547876ae518cbcf2f2 | apt-key add - && \
- echo 'deb [arch=armhf] https://repo.jellyfin.org/ubuntu bionic main' > /etc/apt/sources.list.d/jellyfin.list && \
+ echo 'deb [arch=armhf] https://repo.jellyfin.org/ubuntu focal main' > /etc/apt/sources.list.d/jellyfin.list && \
  echo "deb http://ppa.launchpad.net/ubuntu-raspi2/ppa/ubuntu bionic main">> /etc/apt/sources.list.d/raspbins.list && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \
 	JELLYFIN="jellyfin"; \
@@ -35,7 +35,7 @@ RUN \
 	libomxil-bellagio0 \
 	libomxil-bellagio-bin \
 	libraspberrypi0 \
-	libssl1.0.0 && \
+	libssl1.1 && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/* \

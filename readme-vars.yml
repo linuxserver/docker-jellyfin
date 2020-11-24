@@ -16,7 +16,8 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable Jellyfin releases" }
+  - { tag: "latest", desc: "Stable Jellyfin releases - Focal baseimage" }
+  - { tag: "bionic", desc: "Stable Jellyfin releases - Bionic baseimage" }
   - { tag: "nightly", desc: "Nightly Jellyfin releases" }
 
 # container parameters
@@ -113,6 +114,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Ingest releases from Jellyfin repo." }
   - { date: "28.04.20:", desc: "Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian." }
   - { date: "11.04.20:", desc: "Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder." }
