@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  external-trigger-nightly-customized:
+  external-trigger-nightly:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.3
@@ -65,7 +65,7 @@ jobs:
           elif [ $(curl -s https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-jellyfin/job/nightly/lastBuild/api/json | jq -r '.building') == "true" ]; then
             echo "**** New version ${EXT_RELEASE} found; but there already seems to be an active build on Jenkins; exiting ****"
             exit 0
-          elif [[ $(( $(date +%s%3N) - $(curl -s https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-jellyfin/job/nightly/lastBuild/api/json | jq -r '.timestamp')  )) -lt 21600000 ]]; then
+          elif [[ $(( $(date +%s%3N) - $(curl -s https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-jellyfin/job/nightly/lastBuild/api/json | jq -r '.timestamp')  )) -lt $(( 6 * 3600000 )) ]]; then
             echo "**** New version ${EXT_RELEASE} found; but the last build was less than 6 hours ago; skipping trigger ****"
             exit 0
           else
