@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:bionic
+FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
 
 # set version label
 ARG BUILD_DATE
@@ -18,8 +18,8 @@ RUN \
 	gnupg && \
  echo "**** install jellyfin *****" && \
  curl -s https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | apt-key add - && \
- echo 'deb [arch=amd64] https://repo.jellyfin.org/ubuntu bionic main' > /etc/apt/sources.list.d/jellyfin.list && \
- echo 'deb [arch=amd64] https://repo.jellyfin.org/ubuntu bionic unstable' >> /etc/apt/sources.list.d/jellyfin.list && \
+ echo 'deb [arch=amd64] https://repo.jellyfin.org/ubuntu focal main' > /etc/apt/sources.list.d/jellyfin.list && \
+ echo 'deb [arch=amd64] https://repo.jellyfin.org/ubuntu focal unstable' >> /etc/apt/sources.list.d/jellyfin.list && \
  if [ -z ${JELLYFIN_RELEASE+x} ]; then \
         JELLYFIN="jellyfin"; \
  else \
