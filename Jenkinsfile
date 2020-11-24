@@ -103,7 +103,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET https://repo.jellyfin.org/ubuntu/dists/bionic/unstable/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin' | awk -F ': ' '/Version/{print $2;exit}' ''',
+            script: ''' curl -sX GET https://repo.jellyfin.org/ubuntu/dists/focal/unstable/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin' | awk -F ': ' '/Version/{print $2;exit}' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

@@ -62,7 +62,8 @@ This image provides various versions that are available via tags. `latest` tag u
 
 | Tag | Description |
 | :----: | --- |
-| latest | Stable Jellyfin releases |
+| latest | Stable Jellyfin releases - Focal baseimage |
+| bionic | Stable Jellyfin releases - Bionic baseimage |
 | nightly | Unstable Jellyfin releases |
 
 ## Usage
@@ -299,6 +300,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.11.20:** - Rebase to Focal, branch off Bionic.
 * **22.07.20:** - Install nightly from unstable.
 * **27.05.20:** - Set web directory path.
 * **11.04.20:** - Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder.

@@ -16,7 +16,8 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable Jellyfin releases" }
+  - { tag: "latest", desc: "Stable Jellyfin releases - Focal baseimage" }
+  - { tag: "bionic", desc: "Stable Jellyfin releases - Bionic baseimage" }
   - { tag: "nightly", desc: "Unstable Jellyfin releases" }
 
 # container parameters
@@ -99,6 +100,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Install nightly from unstable." }
   - { date: "27.05.20:", desc: "Set web directory path." }
   - { date: "11.04.20:", desc: "Enable hw decode (mmal) on Raspberry Pi, update readme instructions, add donation info, create missing default transcodes folder." }
