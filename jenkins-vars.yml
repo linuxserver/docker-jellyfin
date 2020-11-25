@@ -7,6 +7,7 @@ custom_version_command: "curl -sX GET https://repo.jellyfin.org/ubuntu/dists/foc
 release_type: prerelease
 release_tag: nightly
 ls_branch: nightly
+external_trigger_delay_hours: 6
 repo_vars:
   - BUILD_VERSION_ARG = 'JELLYFIN_RELEASE'
   - LS_USER = 'linuxserver'
