@@ -28,6 +28,7 @@ RUN \
  apt-get install -y --no-install-recommends \
 	at \
 	i965-va-driver \
+	intel-media-va-driver-non-free \
 	${JELLYFIN} \
 	libfontconfig1 \
 	libfreetype6 \
