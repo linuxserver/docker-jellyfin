@@ -32,7 +32,8 @@ RUN \
 	libfontconfig1 \
 	libfreetype6 \
 	libssl1.1 \
-	mesa-va-drivers && \
+	mesa-va-drivers \
+	intel-media-va-driver-non-free && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/* \
