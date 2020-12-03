@@ -29,6 +29,7 @@ RUN \
  apt-get install -y --no-install-recommends \
 	at \
 	i965-va-driver \
+	intel-media-va-driver-non-free \
 	${JELLYFIN} \
 	jellyfin-ffmpeg \
 	jellyfin-server \
