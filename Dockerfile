@@ -29,6 +29,7 @@ RUN \
  apt-get install -y --no-install-recommends \
 	at \
 	i965-va-driver \
+	intel-media-va-driver-non-free \
 	${JELLYFIN} \
 	jellyfin-ffmpeg \
 	jellyfin-server \
@@ -36,8 +37,7 @@ RUN \
 	libfontconfig1 \
 	libfreetype6 \
 	libssl1.1 \
-	mesa-va-drivers \
-	intel-media-va-driver-non-free && \
+	mesa-va-drivers && \
  echo "**** cleanup ****" && \
  rm -rf \
 	/tmp/* \
