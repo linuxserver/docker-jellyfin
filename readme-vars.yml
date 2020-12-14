@@ -37,7 +37,8 @@ param_env_vars:
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Emby, default if left unset is 022."}
+  - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Jellyfin, default if left unset is 022."}
+  - { env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
@@ -65,6 +66,8 @@ optional_parameters: |
     -p 7359:7359/udp \
     -p 1900:1900/udp \
   ```
+
+  The [official documentation for environmentals](https://jellyfin.org/docs/general/administration/configuration.html) has additional environmentals that can provide additional configurability.
 
 # application setup block
 app_setup_block_enabled: true
