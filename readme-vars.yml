@@ -33,12 +33,16 @@ param_ports:
   - { external_port: "8096", internal_port: "8096", port_desc: "Http webUI." }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use (e.g. Europe/London)."}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Jellyfin, default if left unset is 022."}
   - { env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
+  - { env_var: "JELLYFIN_DATA_DIR", env_value: "config/data", desc: "sets the data directory. This will allow migration to the native Jellyfin image."}
+  - { env_var: "JELLYFIN_CONFIG_DIR", env_value: "/config", desc: "sets the config directory. This will allow migration to the native Jellyfin image."}
+  - { env_var: "JELLYFIN_LOG_DIR", env_value: "config/log", desc: "sets the log directory. This will allow migration to the native Jellyfin image."}
+  - { env_var: "JELLYFIN_CACHE_DIR", env_value: "config/cache", desc: "sets the cache directory. This will allow migration to the native Jellyfin image."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
@@ -74,7 +78,7 @@ app_setup_block_enabled: true
 app_setup_block: |
   Webui can be found at `http://<your-ip>:8096`
 
-  More information can be found in their official documentation [here](https://jellyfin.org/docs/general/quick-start.html) .
+  More information can be found on the official documentation [here](https://jellyfin.org/docs/general/quick-start.html).
 
   ## Hardware Acceleration
   
@@ -114,10 +118,9 @@ app_setup_block: |
   --device=/dev/video12:/dev/video12
   ```
 
-
 # changelog
 changelogs:
-  - { date: "14.12.20:", desc: "Add Jellyfin Binary Environmental" }
+  - { date: "14.12.20:", desc: "Add Jellyfin Binary Environmentals" }
   - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Ingest releases from Jellyfin repo." }
   - { date: "28.04.20:", desc: "Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian." }
