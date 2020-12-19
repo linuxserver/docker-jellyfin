@@ -39,10 +39,6 @@ opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Jellyfin, default if left unset is 022."}
   - { env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
-  - { env_var: "JELLYFIN_DATA_DIR", env_value: "config/data", desc: "sets the data directory. This will allow migration to the native Jellyfin image."}
-  - { env_var: "JELLYFIN_CONFIG_DIR", env_value: "/config", desc: "sets the config directory. This will allow migration to the native Jellyfin image."}
-  - { env_var: "JELLYFIN_LOG_DIR", env_value: "config/log", desc: "sets the log directory. This will allow migration to the native Jellyfin image."}
-  - { env_var: "JELLYFIN_CACHE_DIR", env_value: "config/cache", desc: "sets the cache directory. This will allow migration to the native Jellyfin image."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
@@ -71,7 +67,7 @@ optional_parameters: |
     -p 1900:1900/udp \
   ```
 
-  The [official documentation for environmentals](https://jellyfin.org/docs/general/administration/configuration.html) has additional environmentals that can provide additional configurability.
+  The [official documentation for environmentals](https://jellyfin.org/docs/general/administration/configuration.html) has additional environmentals that can provide additional configurability such as migrating to the native Jellyfin image.
 
 # application setup block
 app_setup_block_enabled: true
