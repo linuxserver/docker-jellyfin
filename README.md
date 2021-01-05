@@ -300,6 +300,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **05.01.21:** - Add nvidia.icd file to fix missing tonemapping using Nvidia HW.
 * **23.11.20:** - Rebase to Focal, branch off Bionic.
 * **22.07.20:** - Install nightly from unstable.
 * **27.05.20:** - Set web directory path.
