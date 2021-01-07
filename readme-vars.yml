@@ -100,6 +100,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "05.01.21:", desc: "Add nvidia.icd file to fix missing tonemapping using Nvidia HW." }
   - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Install nightly from unstable." }
   - { date: "27.05.20:", desc: "Set web directory path." }
