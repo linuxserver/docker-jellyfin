@@ -65,12 +65,12 @@ libcrypt11:4.4.10-10ubuntu4
 libcurl47.68.0-1ubuntu2.4
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
-libdrm22.4.101-2
-libdrm-amdgpu12.4.101-2
-libdrm-common2.4.101-2
-libdrm-intel12.4.101-2
-libdrm-nouveau22.4.101-2
-libdrm-radeon12.4.101-2
+libdrm22.4.102-1ubuntu1~20.04.1
+libdrm-amdgpu12.4.102-1ubuntu1~20.04.1
+libdrm-common2.4.102-1ubuntu1~20.04.1
+libdrm-intel12.4.102-1ubuntu1~20.04.1
+libdrm-nouveau22.4.102-1ubuntu1~20.04.1
+libdrm-radeon12.4.102-1ubuntu1~20.04.1
 libedit23.1-20191231-1
 libelf10.176-1.1build1
 libexpat12.2.9-1build1
@@ -107,7 +107,7 @@ libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2
 libldap-2.4-22.4.49+dfsg-2ubuntu1.5
 libldap-common2.4.49+dfsg-2ubuntu1.5
-libllvm101:10.0.0-4ubuntu1
+libllvm111:11.0.0-2~ubuntu20.04.1
 liblz4-11.9.2-2
 liblzma55.2.4-1ubuntu1
 libmount12.34-0.1ubuntu9.1
@@ -120,7 +120,7 @@ libnpth01.6-1
 libnuma12.0.12-1
 libogg01.3.4-0ubuntu1
 libopus01.3.1-0ubuntu1
-libp11-kit00.23.20-1build1
+libp11-kit00.23.20-1ubuntu0.1
 libpam0g1.3.1-5ubuntu4.1
 libpam-modules1.3.1-5ubuntu4.1
 libpam-modules-bin1.3.1-5ubuntu4.1
@@ -191,7 +191,7 @@ login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mesa-va-drivers20.0.8-0ubuntu1~20.04.1
+mesa-va-drivers20.2.6-0ubuntu0.20.04.1
 mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
