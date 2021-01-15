@@ -207,7 +207,7 @@ sed4.7-1
 sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7
-tzdata2020d-0ubuntu0.20.04
+tzdata2020f-0ubuntu0.20.04.1
 ubuntu-keyring2020.02.11.2
 ucf3.0038+nmu1
 util-linux2.34-0.1ubuntu9.1
