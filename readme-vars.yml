@@ -35,9 +35,8 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional container parameters
-opt_param_usage_include_env: true
-opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Emby, default if left unset is 022."}
+opt_param_usage_include_env: false
+
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
@@ -114,6 +113,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: 20.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Ingest releases from Jellyfin repo." }
   - { date: "28.04.20:", desc: "Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian." }

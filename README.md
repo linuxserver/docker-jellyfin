@@ -85,7 +85,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - UMASK_SET=<022> #optional
     volumes:
       - /path/to/library:/config
       - /path/to/tvseries:/data/tvshows
@@ -114,7 +113,6 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e UMASK_SET=<022> `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
   -p 7359:7359/udp `#optional` \
@@ -147,7 +145,6 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
-| `-e UMASK_SET=<022>` | for umask setting of Emby, default if left unset is 022. |
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
@@ -321,6 +318,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.01.21:"** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **23.11.20:** - Rebase to Focal, branch off Bionic.
 * **22.07.20:** - Ingest releases from Jellyfin repo.
 * **28.04.20:** - Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian.
