@@ -2,7 +2,7 @@ name: Package Trigger Scheduler
 
 on:
   schedule:
-    - cron:  '53 5 * * 5'
+    - cron:  '03 2 * * 4'
   workflow_dispatch:
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2.3.3
         with:
           fetch-depth: '0'
-        
+
       - name: Package Trigger Scheduler
         run: |
           echo "**** Branches found: ****"
