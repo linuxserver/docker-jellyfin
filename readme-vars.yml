@@ -35,9 +35,7 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional container parameters
-opt_param_usage_include_env: true
-opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "<022>", desc: "for umask setting of Emby, default if left unset is 022."}
+opt_param_usage_include_env: false
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*." }
@@ -62,25 +60,25 @@ app_setup_block: |
   More information can be found in their official documentation [here](https://jellyfin.org/docs/general/quick-start.html) .
 
   ## Hardware Acceleration
-  
+
   ### Intel
-  
+
   Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
 
   ```--device=/dev/dri:/dev/dri```
 
   We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
-  
+
   ### Nvidia
-  
+
   Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
 
   https://github.com/NVIDIA/nvidia-docker
 
   We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
-  
+
   ### MMAL/OpenMAX (Raspberry Pi)
-  
+
   Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vc-mem` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
   ```
@@ -90,7 +88,7 @@ app_setup_block: |
   ```
 
   ### V4L2 (Raspberry Pi)
-  
+
   Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
   ```
   --device=/dev/video10:/dev/video10
@@ -100,6 +98,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: 20.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "05.01.21:", desc: "Add nvidia.icd file to fix missing tonemapping using Nvidia HW." }
   - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Install nightly from unstable." }
