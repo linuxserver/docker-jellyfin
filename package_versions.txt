@@ -149,11 +149,11 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.1
 libstdc++610.2.0-5ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.3
+libsystemd0245.4-4ubuntu3.4
 libtasn1-64.16.0-2
 libtheora01.1.1+dfsg.1-15ubuntu2
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.3
+libudev1245.4-4ubuntu3.4
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libva22.7.0-2
@@ -206,7 +206,7 @@ readline-common8.0-4
 sed4.7-1
 sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
-tar1.30+dfsg-7
+tar1.30+dfsg-7ubuntu0.20.04.1
 tzdata2020f-0ubuntu0.20.04.1
 ubuntu-keyring2020.02.11.2
 ucf3.0038+nmu1
