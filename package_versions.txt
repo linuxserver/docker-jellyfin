@@ -49,8 +49,8 @@ libasn1-8-heimdal7.5.0+dfsg-1
 libass91:0.14.0-1
 libassuan02.5.1-2
 libattr11:2.4.47-2build1
-libaudit11:2.8.2-1ubuntu1
-libaudit-common1:2.8.2-1ubuntu1
+libaudit11:2.8.2-1ubuntu1.1
+libaudit-common1:2.8.2-1ubuntu1.1
 libblkid12.31.1-0.4ubuntu3.7
 libbluray21:1.0.2-3
 libbsd00.8.7-1ubuntu0.1
