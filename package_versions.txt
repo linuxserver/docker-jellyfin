@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
-apt2.0.2ubuntu0.2
-apt-utils2.0.2ubuntu0.2
+apt2.0.4
+apt-utils2.0.4
 at3.1.23-1ubuntu1
 base-files11ubuntu5.2
 base-passwd3.5.47
@@ -44,7 +44,7 @@ jellyfin-server10.6.4-1
 jellyfin-web10.6.4-1
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
-libapt-pkg6.02.0.2ubuntu0.2
+libapt-pkg6.02.0.4
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libass91:0.14.0-2
 libassuan02.5.3-7ubuntu2
