@@ -2,7 +2,7 @@ adduser3.118ubuntu2
 apt2.0.4
 apt-utils2.0.4
 at3.1.23-1ubuntu1
-base-files11ubuntu5.2
+base-files11ubuntu5.3
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
 bsdutils1:2.34-0.1ubuntu9.1
@@ -38,10 +38,10 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210201.17-unstable
+jellyfin20210202.1-unstable
 jellyfin-ffmpeg4.3.1-3-focal
 jellyfin-server20210131.3-unstable
-jellyfin-web20210201.17-unstable
+jellyfin-web20210202.1-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapt-pkg6.02.0.4
@@ -56,10 +56,10 @@ libbluray21:1.2.0-1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
 libbz2-1.01.0.8-2
-libc62.31-0ubuntu9.1
+libc62.31-0ubuntu9.2
 libcairo21.16.0-4ubuntu1
 libcap-ng00.7.9-2.1build1
-libc-bin2.31-0ubuntu9.1
+libc-bin2.31-0ubuntu9.2
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libcurl47.68.0-1ubuntu2.4
