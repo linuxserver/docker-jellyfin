@@ -5,15 +5,3 @@ mkdir -p \
 	/config/{log,data/transcodes,cache} \
 	/data \
 	/transcode
-
-# permissions
-chown abc:abc \
-	/config \
-	/config/* \
-	/data \
-	/config/data/transcodes \
-	/transcode
-if [ -n "$(ls -A /data 2>/dev/null)" ]; then
-chown abc:abc \
-	/data/*
-fi
