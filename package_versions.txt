@@ -177,7 +177,7 @@ libxext62:1.3.3-1
 libxml22.9.4+dfsg1-6.1ubuntu1.3
 libxrender11:0.9.10-1
 libxshmfence11.3-1
-libzstd11.3.3+dfsg-2ubuntu1.1
+libzstd11.3.3+dfsg-2ubuntu1.2
 libzvbi00.2.35-13
 libzvbi-common0.2.35-13
 locales2.27-3ubuntu1.4
