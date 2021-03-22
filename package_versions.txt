@@ -40,7 +40,7 @@ init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
 jellyfin10.7.1-1
 jellyfin-ffmpeg4.3.1-4-focal
-jellyfin-server10.7.0-1
+jellyfin-server10.7.1-1
 jellyfin-web10.7.1-1
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
