@@ -38,9 +38,9 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210327.5-unstable
+jellyfin20210330.4-unstable
 jellyfin-ffmpeg4.3.1-4-focal
-jellyfin-server20210327.5-unstable
+jellyfin-server20210330.4-unstable
 jellyfin-web20210326.6-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
@@ -149,11 +149,11 @@ libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.3
 libstdc++610.2.0-5ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.4
+libsystemd0245.4-4ubuntu3.5
 libtasn1-64.16.0-2
 libtheora01.1.1+dfsg.1-15ubuntu2
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.4
+libudev1245.4-4ubuntu3.5
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libva22.7.0-2
@@ -196,7 +196,7 @@ mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 ocl-icd-libopencl12.2.11-1ubuntu1
-openssl1.1.1f-1ubuntu2.2
+openssl1.1.1f-1ubuntu2.3
 passwd1:4.8.1-1ubuntu5.20.04
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
