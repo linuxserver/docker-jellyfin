@@ -35,9 +35,8 @@ gpg-wks-server2.2.19-3ubuntu2.1
 grep3.4-1
 gzip1.10-0ubuntu4
 hostname3.23
-i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
-intel-media-va-driver-non-free20.1.1+ds1-1build1
+intel-media-va-driver-non-free21.1.2+i526~u20.04
 jellyfin10.7.2-1
 jellyfin-ffmpeg4.3.1-4-focal
 jellyfin-server10.7.2-1
@@ -65,12 +64,12 @@ libcrypt11:4.4.10-10ubuntu4
 libcurl47.68.0-1ubuntu2.5
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
-libdrm22.4.102-1ubuntu1~20.04.1
-libdrm-amdgpu12.4.102-1ubuntu1~20.04.1
-libdrm-common2.4.102-1ubuntu1~20.04.1
-libdrm-intel12.4.102-1ubuntu1~20.04.1
-libdrm-nouveau22.4.102-1ubuntu1~20.04.1
-libdrm-radeon12.4.102-1ubuntu1~20.04.1
+libdrm22.4.104+i526~u20.04
+libdrm-amdgpu12.4.104+i526~u20.04
+libdrm-common2.4.104+i526~u20.04
+libdrm-intel12.4.104+i526~u20.04
+libdrm-nouveau22.4.104+i526~u20.04
+libdrm-radeon12.4.104+i526~u20.04
 libedit23.1-20191231-1
 libelf10.176-1.1build1
 libexpat12.2.9-1build1
@@ -98,7 +97,7 @@ libhogweed53.5.1+really3.5.1-2
 libhx509-5-heimdal7.7.0+dfsg-1ubuntu1
 libicu6666.1-2ubuntu2
 libidn2-02.2.0-2
-libigdgmm1120.1.1+ds1-1
+libigdgmm1120.4.1+i526~u20.04
 libk5crypto31.17-6ubuntu4.1
 libkeyutils11.6-6ubuntu1
 libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
@@ -156,7 +155,7 @@ libtinfo66.2-0ubuntu2
 libudev1245.4-4ubuntu3.6
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
-libva22.7.0-2
+libva22.10.0+i526~u20.04
 libvdpau11.3-1ubuntu2
 libvorbis0a1.3.6-2ubuntu1
 libvorbisenc21.3.6-2ubuntu1
