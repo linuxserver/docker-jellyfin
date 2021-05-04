@@ -38,10 +38,10 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210504.1-unstable
+jellyfin20210504.27-unstable
 jellyfin-ffmpeg4.3.2-1-focal
 jellyfin-server20210503.12-unstable
-jellyfin-web20210504.1-unstable
+jellyfin-web20210504.27-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapt-pkg6.02.0.5
@@ -186,7 +186,7 @@ libxshmfence11.3-1
 libzstd11.4.4+dfsg-3ubuntu0.1
 libzvbi00.2.35-17
 libzvbi-common0.2.35-17
-locales2.31-0ubuntu9.3
+locales2.31-0ubuntu9.2
 login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
