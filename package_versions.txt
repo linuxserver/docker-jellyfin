@@ -158,9 +158,9 @@ libvpx51.7.0-3ubuntu0.18.04.1
 libwebp60.6.1-2
 libwebpmux30.6.1-2
 libwind0-heimdal7.5.0+dfsg-1
-libx11-62:1.6.4-3ubuntu0.3
-libx11-data2:1.6.4-3ubuntu0.3
-libx11-xcb12:1.6.4-3ubuntu0.3
+libx11-62:1.6.4-3ubuntu0.4
+libx11-data2:1.6.4-3ubuntu0.4
+libx11-xcb12:1.6.4-3ubuntu0.4
 libx264-1522:0.152.2854+gite9a5903-2
 libx265-1462.6-3
 libxau61:1.0.8-1ubuntu1
