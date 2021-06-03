@@ -160,8 +160,8 @@ libvdpau11.3-1ubuntu2
 libvorbis0a1.3.6-2ubuntu1
 libvorbisenc21.3.6-2ubuntu1
 libvpx61.8.2-1build1
-libwebp60.6.1-2
-libwebpmux30.6.1-2
+libwebp60.6.1-2ubuntu0.20.04.1
+libwebpmux30.6.1-2ubuntu0.20.04.1
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
 libx11-62:1.6.9-2ubuntu1.2
 libx11-data2:1.6.9-2ubuntu1.2
