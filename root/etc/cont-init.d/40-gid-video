@@ -4,6 +4,7 @@ FILES=$(find /dev/dri /dev/dvb /dev/vchiq /dev/vc-mem /dev/video1? -type c -prin
 
 for i in $FILES
 do
+	chmod g+rwx "$i"
 	VIDEO_GID=$(stat -c '%g' "$i")
 	if ! id -G abc | grep -qw "$VIDEO_GID"; then
 		VIDEO_NAME=$(getent group "${VIDEO_GID}" | awk -F: '{print $1}')
