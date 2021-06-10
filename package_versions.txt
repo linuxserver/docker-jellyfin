@@ -107,7 +107,7 @@ libksba81.3.5-2
 libldap-2.4-22.4.49+dfsg-2ubuntu1.8
 libldap-common2.4.49+dfsg-2ubuntu1.8
 libllvm111:11.0.0-2~ubuntu20.04.1
-liblz4-11.9.2-2
+liblz4-11.9.2-2ubuntu0.20.04.1
 liblzma55.2.4-1ubuntu1
 libmount12.34-0.1ubuntu9.1
 libmp3lame03.100-3
@@ -120,10 +120,10 @@ libnuma12.0.12-1
 libogg01.3.4-0ubuntu1
 libopus01.3.1-0ubuntu1
 libp11-kit00.23.20-1ubuntu0.1
-libpam0g1.3.1-5ubuntu4.1
-libpam-modules1.3.1-5ubuntu4.1
-libpam-modules-bin1.3.1-5ubuntu4.1
-libpam-runtime1.3.1-5ubuntu4.1
+libpam0g1.3.1-5ubuntu4.2
+libpam-modules1.3.1-5ubuntu4.2
+libpam-modules-bin1.3.1-5ubuntu4.2
+libpam-runtime1.3.1-5ubuntu4.2
 libpciaccess00.16-0ubuntu1
 libpcre2-8-010.34-7
 libpcre32:8.39-12build1
