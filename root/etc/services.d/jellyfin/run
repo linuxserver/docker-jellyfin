@@ -1,9 +1,17 @@
 #!/usr/bin/with-contenv bash
 
-export JELLYFIN_DATA_DIR="/config/data" \
-JELLYFIN_CONFIG_DIR="/config" \
-JELLYFIN_LOG_DIR="/config/log" \
-JELLYFIN_CACHE_DIR="/config/cache"
+echo "
+JELLYFIN_DATA_DIR: ${JELLYFIN_DATA_DIR:=/config/data}
+JELLYFIN_CONFIG_DIR: ${JELLYFIN_CONFIG_DIR:=/config}
+JELLYFIN_CACHE_DIR: ${JELLYFIN_CACHE_DIR:=/config/cache}
+JELLYFIN_LOG_DIR: ${JELLYFIN_LOG_DIR:=/config/log}
+"
+
+export \
+JELLYFIN_DATA_DIR \
+JELLYFIN_CONFIG_DIR \
+JELLYFIN_CACHE_DIR \
+JELLYFIN_LOG_DIR
 
 if [ -n "${UMASK_SET}" ] && [ -z "${UMASK}" ]; then
   echo -e "You are using a legacy method of defining umask\nplease update your environment variable from UMASK_SET to UMASK\nto keep the functionality after July 2021"
