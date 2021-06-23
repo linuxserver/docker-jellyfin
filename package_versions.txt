@@ -39,7 +39,7 @@ i965-va-driver2.1.0-0ubuntu1
 init-system-helpers1.51
 jellyfin10.7.6-1
 jellyfin-ffmpeg4.3.1-4-bionic
-jellyfin-server10.7.5-1
+jellyfin-server10.7.6-1
 jellyfin-web10.7.6-1
 krb5-locales1.16-2ubuntu0.2
 libacl12.2.52-3build1
