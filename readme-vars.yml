@@ -17,7 +17,7 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable Jellyfin releases - Focal baseimage" }
-  - { tag: "bionic", desc: "Stable Jellyfin releases - Bionic baseimage" }
+  - { tag: "bionic", desc: "DEPRECATED, no longer updated - Stable Jellyfin releases - Bionic baseimage" }
   - { tag: "nightly", desc: "Nightly Jellyfin releases" }
 
 # container parameters
@@ -115,7 +115,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "23.06.21:", desc: "Add log message if device permissions are incorrect, pin jellyfin dependency versions to prevent upstream apt repo issues." }
+  - { date: "23.06.21:", desc: "Add log message if device permissions are incorrect. Pin jellyfin dependency versions to prevent upstream apt repo issues. Deprecate the `bionic` tag." }
   - { date: "21.05.21:", desc: "Add nvidia.icd file to fix missing tonemapping using Nvidia HW." }
   - { date: "20.01.21:", desc: "Add Jellyfin Binary Environmentals" }
   - { date: "20.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
