@@ -302,7 +302,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **23.06.21:** - Add log message if device permissions are incorrect. Pin jellyfin dependency versions to prevent upstream apt repo issues. Deprecate the `bionic` tag.
+* **23.06.21:** - Add log message if device permissions are incorrect. Deprecate the `bionic` tag.
 * **20.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.01.21:** - Add nvidia.icd file to fix missing tonemapping using Nvidia HW.
 * **23.11.20:** - Rebase to Focal, branch off Bionic.
