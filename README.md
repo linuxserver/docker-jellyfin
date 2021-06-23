@@ -64,7 +64,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable Jellyfin releases - Focal baseimage |
-| bionic | Stable Jellyfin releases - Bionic baseimage |
+| bionic | DEPRECATED, no longer updated - Stable Jellyfin releases - Bionic baseimage |
 | nightly | Nightly Jellyfin releases |
 
 ## Application Setup
@@ -327,6 +327,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.06.21:** - Add log message if device permissions are incorrect. Pin jellyfin dependency versions to prevent upstream apt repo issues. Deprecate the `bionic` tag.
 * **21.05.21:** - Add nvidia.icd file to fix missing tonemapping using Nvidia HW.
 * **20.01.21:** - Add Jellyfin Binary Environmentals
 * **20.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.

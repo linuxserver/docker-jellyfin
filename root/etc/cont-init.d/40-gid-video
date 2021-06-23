@@ -4,21 +4,24 @@ FILES=$(find /dev/dri /dev/dvb /dev/vchiq /dev/vc-mem /dev/video1? -type c -prin
 
 for i in $FILES
 do
-	VIDEO_GID=$(stat -c '%g' "$i")
-	if ! id -G abc | grep -qw "$VIDEO_GID"; then
-		VIDEO_NAME=$(getent group "${VIDEO_GID}" | awk -F: '{print $1}')
-		if [ -z "${VIDEO_NAME}" ]; then
-			VIDEO_NAME="video$(head /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c8)"
-			groupadd "$VIDEO_NAME"
-			groupmod -g "$VIDEO_GID" "$VIDEO_NAME"
-		fi
-		usermod -a -G "$VIDEO_NAME" abc
-	fi
+    VIDEO_GID=$(stat -c '%g' "$i")
+    if ! id -G abc | grep -qw "$VIDEO_GID"; then
+        VIDEO_NAME=$(getent group "${VIDEO_GID}" | awk -F: '{print $1}')
+        if [ -z "${VIDEO_NAME}" ]; then
+            VIDEO_NAME="video$(head /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c8)"
+            groupadd "$VIDEO_NAME"
+            groupmod -g "$VIDEO_GID" "$VIDEO_NAME"
+        fi
+        usermod -a -G "$VIDEO_NAME" abc
+        if [ $(stat -c '%A' "${i}" | cut -b 8,9) != "rw" ]; then
+            echo -e "**** The device ${i} does not have group read/write permissions, which might prevent hardware transcode from functioning correctly. To fix it, you can run the following on your docker host: ****\nsudo chmod g+rw ${i}\n"
+        fi
+    fi
 done
 
 # openmax lib loading
 if [ -e "/opt/vc/lib" ] && [ ! -e "/etc/ld.so.conf.d/00-vmcs.conf" ]; then
-	echo "[jellyfin-init] Pi Libs detected loading"
-	echo "/opt/vc/lib" > "/etc/ld.so.conf.d/00-vmcs.conf"
-	ldconfig
+    echo "[jellyfin-init] Pi Libs detected loading"
+    echo "/opt/vc/lib" > "/etc/ld.so.conf.d/00-vmcs.conf"
+    ldconfig
 fi
