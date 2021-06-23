@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+The "bionic" tag has been deprecated.
+Please use the "latest" tag instead.
+
 # [linuxserver/jellyfin](https://github.com/linuxserver/docker-jellyfin)
 
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-jellyfin.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-jellyfin)
@@ -64,7 +70,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable Jellyfin releases on Focal baseimage |
-| bionic | Stable Jellyfin releases on Bionic baseimage |
+| bionic | DEPRECATED, no longer updated - Stable Jellyfin releases on Bionic baseimage |
 | nightly | Nightly Jellyfin releases |
 
 ## Application Setup
@@ -325,6 +331,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.06.21:** - Deprecate the Bionic tag.
 * **23.11.20:** - Rebase to Focal, branch off Bionic.
 * **22.07.20:** - Ingest releases from Jellyfin repo.
 * **28.04.20:** - Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian.

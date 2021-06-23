@@ -7,6 +7,12 @@ project_logo: "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/bra
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it."
 
+project_deprecation_status: true
+project_deprecation_message: |
+  The "bionic" tag has been deprecated.
+  Please use the "latest" tag instead.
+
+
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
@@ -17,7 +23,7 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable Jellyfin releases on Focal baseimage" }
-  - { tag: "bionic", desc: "Stable Jellyfin releases on Bionic baseimage" }
+  - { tag: "bionic", desc: "DEPRECATED, no longer updated - Stable Jellyfin releases on Bionic baseimage" }
   - { tag: "nightly", desc: "Nightly Jellyfin releases" }
 
 # container parameters
@@ -114,6 +120,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.06.21:", desc: "Deprecate the Bionic tag." }
   - { date: "23.11.20:", desc: "Rebase to Focal, branch off Bionic." }
   - { date: "22.07.20:", desc: "Ingest releases from Jellyfin repo." }
   - { date: "28.04.20:", desc: "Replace MMAL/OMX dependency device `/dev/vc-mem` with `/dev/vcsm` as the former was not sufficient for raspbian." }
