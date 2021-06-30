@@ -21,7 +21,7 @@ fdisk2.34-0.1ubuntu9.1
 findutils4.7.0-1ubuntu1
 fontconfig-config2.13.1-2ubuntu3
 fonts-dejavu-core2.37-1
-gcc-10-base10.2.0-5ubuntu1~20.04
+gcc-10-base10.3.0-1ubuntu1~20.04
 gnupg2.2.19-3ubuntu2.1
 gnupg-l10n2.2.19-3ubuntu2.1
 gnupg-utils2.2.19-3ubuntu2.1
@@ -38,9 +38,9 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210628.10-unstable
+jellyfin20210629.3-unstable
 jellyfin-ffmpeg4.3.1-4-focal
-jellyfin-server20210628.10-unstable
+jellyfin-server20210629.3-unstable
 jellyfin-web20210624.6-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
@@ -81,7 +81,7 @@ libfl22.6.4-6.2
 libfontconfig12.13.1-2ubuntu3
 libfreetype62.10.1-2ubuntu0.1
 libfribidi01.0.8-2
-libgcc-s110.2.0-5ubuntu1~20.04
+libgcc-s110.3.0-1ubuntu1~20.04
 libgcrypt201.8.5-5ubuntu1
 libglib2.0-02.64.6-1~ubuntu20.04.3
 libgmp102:6.2.0+dfsg-4
@@ -94,7 +94,7 @@ libharfbuzz0b2.6.4-1ubuntu4
 libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1
 libheimbase1-heimdal7.7.0+dfsg-1ubuntu1
 libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1
-libhogweed53.5.1+really3.5.1-2ubuntu0.1
+libhogweed53.5.1+really3.5.1-2ubuntu0.2
 libhx509-5-heimdal7.7.0+dfsg-1ubuntu1
 libicu6666.1-2ubuntu2
 libidn2-02.2.0-2
@@ -114,7 +114,7 @@ libmount12.34-0.1ubuntu9.1
 libmp3lame03.100-3
 libncurses66.2-0ubuntu2
 libncursesw66.2-0ubuntu2
-libnettle73.5.1+really3.5.1-2ubuntu0.1
+libnettle73.5.1+really3.5.1-2ubuntu0.2
 libnghttp2-141.40.0-1build1
 libnpth01.6-1
 libnuma12.0.12-1
@@ -130,7 +130,7 @@ libpcre2-8-010.34-7
 libpcre32:8.39-12build1
 libpixman-1-00.38.4-0ubuntu1
 libpng16-161.6.37-2
-libprocps82:3.3.16-1ubuntu2.1
+libprocps82:3.3.16-1ubuntu2.2
 libpsl50.21.0-1ubuntu1
 libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1ubuntu1
@@ -148,12 +148,12 @@ libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
 libssl1.11.1.1f-1ubuntu2.4
-libstdc++610.2.0-5ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.6
+libstdc++610.3.0-1ubuntu1~20.04
+libsystemd0245.4-4ubuntu3.7
 libtasn1-64.16.0-2
 libtheora01.1.1+dfsg.1-15ubuntu2
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.6
+libudev1245.4-4ubuntu3.7
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libva22.7.0-2
@@ -200,7 +200,7 @@ openssl1.1.1f-1ubuntu2.4
 passwd1:4.8.1-1ubuntu5.20.04
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
-procps2:3.3.16-1ubuntu2.1
+procps2:3.3.16-1ubuntu2.2
 publicsuffix20200303.0012-1
 readline-common8.0-4
 sed4.7-1
