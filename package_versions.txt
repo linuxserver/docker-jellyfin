@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
-apt2.0.5
-apt-utils2.0.5
+apt2.0.6
+apt-utils2.0.6
 at3.1.23-1ubuntu1
 base-files11ubuntu5.3
 base-passwd3.5.47
@@ -38,13 +38,13 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210705.5-unstable
+jellyfin20210706.1-unstable
 jellyfin-ffmpeg4.3.1-4-focal
 jellyfin-server20210705.5-unstable
-jellyfin-web20210702.25-unstable
+jellyfin-web20210706.1-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
-libapt-pkg6.02.0.5
+libapt-pkg6.02.0.6
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libass91:0.14.0-2
 libassuan02.5.3-7ubuntu2
