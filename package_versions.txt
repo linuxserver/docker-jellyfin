@@ -38,9 +38,9 @@ hostname3.23
 i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
-jellyfin20210815.9-unstable
+jellyfin20210815.12-unstable
 jellyfin-ffmpeg4.3.1-4-focal
-jellyfin-server20210815.9-unstable
+jellyfin-server20210815.12-unstable
 jellyfin-web20210813.2-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
