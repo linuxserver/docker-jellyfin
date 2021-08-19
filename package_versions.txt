@@ -190,12 +190,12 @@ login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mesa-va-drivers21.0.3-0ubuntu0.2~20.04.1
+mesa-va-drivers21.0.3-0ubuntu0.3~20.04.1
 mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 ocl-icd-libopencl12.2.11-1ubuntu1
-openssl1.1.1f-1ubuntu2.4
+openssl1.1.1f-1ubuntu2.5
 passwd1:4.8.1-1ubuntu5.20.04.1
 perl-base5.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
