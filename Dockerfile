@@ -22,15 +22,17 @@ RUN \
   curl -s https://repositories.intel.com/graphics/intel-graphics.key | apt-key add - && \
   echo 'deb [arch=amd64] https://repositories.intel.com/graphics/ubuntu focal main' > /etc/apt/sources.list.d/intel-graphics.list && \
   if [ -z ${JELLYFIN_RELEASE+x} ]; then \
-    JELLYFIN="jellyfin"; \
+    JELLYFIN="jellyfin-server"; \
   else \
-    JELLYFIN="jellyfin=${JELLYFIN_RELEASE} jellyfin-server=${JELLYFIN_RELEASE} jellyfin-web=${JELLYFIN_RELEASE}"; \
+    JELLYFIN="jellyfin-server=${JELLYFIN_RELEASE}"; \
   fi && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     at \
     intel-media-va-driver-non-free \
     ${JELLYFIN} \
+    jellyfin-ffmpeg \
+    jellyfin-web \
     libfontconfig1 \
     libfreetype6 \
     libssl1.1 \

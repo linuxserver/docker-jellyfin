@@ -22,14 +22,16 @@ RUN \
   echo 'deb [arch=arm64] https://repo.jellyfin.org/ubuntu focal main' > /etc/apt/sources.list.d/jellyfin.list && \
   echo "deb http://ppa.launchpad.net/ubuntu-raspi2/ppa-nightly/ubuntu focal main">> /etc/apt/sources.list.d/raspbins.list && \
   if [ -z ${JELLYFIN_RELEASE+x} ]; then \
-    JELLYFIN="jellyfin"; \
+    JELLYFIN="jellyfin-server"; \
   else \
-    JELLYFIN="jellyfin=${JELLYFIN_RELEASE} jellyfin-server=${JELLYFIN_RELEASE} jellyfin-web=${JELLYFIN_RELEASE}"; \
+    JELLYFIN="jellyfin-server=${JELLYFIN_RELEASE}"; \
   fi && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     at \
     ${JELLYFIN} \
+    jellyfin-ffmpeg \
+    jellyfin-web \
     libfontconfig1 \
     libfreetype6 \
     libomxil-bellagio0 \
