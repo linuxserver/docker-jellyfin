@@ -39,8 +39,8 @@ i965-va-driver2.4.0-0ubuntu1
 init-system-helpers1.57
 intel-media-va-driver-non-free20.1.1+ds1-1build1
 jellyfin-ffmpeg4.3.1-4-focal
-jellyfin-server20211117.10-unstable
-jellyfin-web20211117.17-unstable
+jellyfin-server20211119.3-unstable
+jellyfin-web20211119.1-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapt-pkg6.02.0.6
@@ -190,7 +190,7 @@ login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mesa-va-drivers21.0.3-0ubuntu0.3~20.04.3
+mesa-va-drivers21.0.3-0ubuntu0.3~20.04.4
 mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
