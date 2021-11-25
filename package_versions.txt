@@ -94,7 +94,7 @@ libheimbase1-heimdal7.7.0+dfsg-1ubuntu1
 libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1
 libhogweed53.5.1+really3.5.1-2ubuntu0.2
 libhx509-5-heimdal7.7.0+dfsg-1ubuntu1
-libicu6666.1-2ubuntu2
+libicu6666.1-2ubuntu2.1
 libidn2-02.2.0-2
 libigdgmm1121.2.2+i620~u20.04
 libk5crypto31.17-6ubuntu4.1
@@ -189,7 +189,7 @@ login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mesa-va-drivers21.0.3-0ubuntu0.3~20.04.3
+mesa-va-drivers21.0.3-0ubuntu0.3~20.04.4
 mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
