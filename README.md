@@ -133,19 +133,11 @@ services:
       - /path/to/library:/config
       - /path/to/tvseries:/data/tvshows
       - /path/to/movies:/data/movies
-      - /opt/vc/lib:/opt/vc/lib #optional
     ports:
       - 8096:8096
       - 8920:8920 #optional
       - 7359:7359/udp #optional
       - 1900:1900/udp #optional
-    devices:
-      - /dev/dri:/dev/dri #optional
-      - /dev/vcsm:/dev/vcsm #optional
-      - /dev/vchiq:/dev/vchiq #optional
-      - /dev/video10:/dev/video10 #optional
-      - /dev/video11:/dev/video11 #optional
-      - /dev/video12:/dev/video12 #optional
     restart: unless-stopped
 ```
 
@@ -165,13 +157,6 @@ docker run -d \
   -v /path/to/library:/config \
   -v /path/to/tvseries:/data/tvshows \
   -v /path/to/movies:/data/movies \
-  -v /opt/vc/lib:/opt/vc/lib `#optional` \
-  --device /dev/dri:/dev/dri `#optional` \
-  --device /dev/vcsm:/dev/vcsm `#optional` \
-  --device /dev/vchiq:/dev/vchiq `#optional` \
-  --device /dev/video10:/dev/video10 `#optional` \
-  --device /dev/video11:/dev/video11 `#optional` \
-  --device /dev/video12:/dev/video12 `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/jellyfin
 ```
@@ -193,13 +178,6 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
-| `-v /opt/vc/lib` | Path for Raspberry Pi OpenMAX libs *optional*. |
-| `--device /dev/dri` | Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi). |
-| `--device /dev/vcsm` | Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings). |
-| `--device /dev/vchiq` | Only needed if you want to use your Raspberry Pi OpenMax video encoding. |
-| `--device /dev/video10` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
-| `--device /dev/video11` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
-| `--device /dev/video12` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -325,6 +303,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.12.21:** - Rework readme, disable template sync.
 * **22.09.21:** - Pull only the server, web and ffmpeg packages instead of the wrapper.
 * **23.06.21:** - Add log message if device permissions are incorrect. Pin jellyfin dependency versions to prevent upstream apt repo issues. Deprecate the `bionic` tag.
 * **21.05.21:** - Add nvidia.icd file to fix missing tonemapping using Nvidia HW.
