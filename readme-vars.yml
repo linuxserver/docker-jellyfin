@@ -117,6 +117,7 @@ unraid_template_sync: false
 
 # changelog
 changelogs:
+  - { date: "25.12.21:", desc: "Fix video device group perms error message." }
   - { date: "10.12.21:", desc: "Rework readme, disable template sync." }
   - { date: "22.09.21:", desc: "Pull only the server, web and ffmpeg packages instead of the wrapper." }
   - { date: "23.06.21:", desc: "Add log message if device permissions are incorrect. Pin jellyfin dependency versions to prevent upstream apt repo issues. Deprecate the `bionic` tag." }
