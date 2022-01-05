@@ -16,8 +16,7 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable Jellyfin releases - Focal baseimage" }
-  - { tag: "bionic", desc: "DEPRECATED, no longer updated - Stable Jellyfin releases - Bionic baseimage" }
+  - { tag: "latest", desc: "Stable Jellyfin releases" }
   - { tag: "nightly", desc: "Nightly Jellyfin releases" }
 
 # container parameters
