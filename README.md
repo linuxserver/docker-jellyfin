@@ -64,8 +64,7 @@ This image provides various versions that are available via tags. `latest` tag u
 
 | Tag | Description |
 | :----: | --- |
-| latest | Stable Jellyfin releases - Focal baseimage |
-| bionic | DEPRECATED, no longer updated - Stable Jellyfin releases - Bionic baseimage |
+| latest | Stable Jellyfin releases |
 | nightly | Unstable Jellyfin releases |
 
 ## Application Setup
