@@ -16,8 +16,7 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable Jellyfin releases - Focal baseimage" }
-  - { tag: "bionic", desc: "DEPRECATED, no longer updated - Stable Jellyfin releases - Bionic baseimage" }
+  - { tag: "latest", desc: "Stable Jellyfin releases" }
   - { tag: "nightly", desc: "Unstable Jellyfin releases" }
 
 # container parameters
@@ -98,6 +97,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "05.01.22:", desc: "Specify Intel iHD driver versions to avoid mismatched libva errors." }
   - { date: "25.12.21:", desc: "Fix video device group perms error message." }
   - { date: "22.09.21:", desc: "Pull only the server, web and ffmpeg packages instead of the wrapper." }
   - { date: "23.06.21:", desc: "Add log message if device permissions are incorrect. Deprecate the `bionic` tag." }
