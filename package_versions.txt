@@ -38,8 +38,8 @@ hostname3.23
 init-system-helpers1.57
 intel-media-va-driver-non-free21.4.1+i643~u20.04
 jellyfin-ffmpeg4.4.1-1-focal
-jellyfin-server20220114.13-unstable
-jellyfin-web20220114.23-unstable
+jellyfin-server20220114.16-unstable
+jellyfin-web20220114.37-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapt-pkg6.02.0.6
