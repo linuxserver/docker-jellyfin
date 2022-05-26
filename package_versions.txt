@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
-apt2.0.6
-apt-utils2.0.6
+apt2.0.8
+apt-utils2.0.8
 at3.1.23-1ubuntu1
 base-files11ubuntu5.5
 base-passwd3.5.47
@@ -42,7 +42,7 @@ jellyfin-server10.7.7-1
 jellyfin-web10.7.7-1
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
-libapt-pkg6.02.0.6
+libapt-pkg6.02.0.8
 libasn1-8-heimdal7.7.0+dfsg-1ubuntu1
 libass91:0.14.0-2
 libassuan02.5.3-7ubuntu2
@@ -103,8 +103,8 @@ libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2
-libldap-2.4-22.4.49+dfsg-2ubuntu1.8
-libldap-common2.4.49+dfsg-2ubuntu1.8
+libldap-2.4-22.4.49+dfsg-2ubuntu1.9
+libldap-common2.4.49+dfsg-2ubuntu1.9
 libllvm121:12.0.0-3ubuntu1~20.04.5
 liblz4-11.9.2-2ubuntu0.20.04.1
 liblzma55.2.4-1ubuntu1
