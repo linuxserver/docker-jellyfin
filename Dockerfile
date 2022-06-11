@@ -39,7 +39,7 @@ RUN \
     libigdgmm11="${INTEL_GMM_VER}" \
     intel-media-va-driver-non-free="${INTEL_iHD_VER}" \
     ${JELLYFIN} \
-    jellyfin-ffmpeg \
+    jellyfin-ffmpeg5 \
     jellyfin-web \
     libfontconfig1 \
     libfreetype6 \

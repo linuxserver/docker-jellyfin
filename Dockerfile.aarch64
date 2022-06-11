@@ -30,7 +30,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     at \
     ${JELLYFIN} \
-    jellyfin-ffmpeg \
+    jellyfin-ffmpeg5 \
     jellyfin-web \
     libfontconfig1 \
     libfreetype6 \
