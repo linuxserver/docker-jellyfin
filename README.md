@@ -138,6 +138,8 @@ services:
       - 8920:8920 #optional
       - 7359:7359/udp #optional
       - 1900:1900/udp #optional
+    devices:    
+      - /dev/dri:/dev/dri #optional
     restart: unless-stopped
 ```
 
