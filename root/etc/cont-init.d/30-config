@@ -7,8 +7,9 @@ mkdir -p \
     /transcode
 
 # permissions
-chown abc:abc \
-    /config \
-    /config/* \
-    /config/data/transcodes \
-    /transcode
+find /config \
+     /config/* \
+     /config/data/transcodes \
+     /transcode \
+     \( ! -user abc -o ! -group abc \) \
+     -exec chown abc:abc {} +
