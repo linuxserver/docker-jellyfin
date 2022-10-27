@@ -99,7 +99,7 @@ libkeyutils11.6-6ubuntu1.1
 libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1.1
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
-libksba81.3.5-2
+libksba81.3.5-2ubuntu0.20.04.1
 libldap-2.4-22.4.49+dfsg-2ubuntu1.9
 libldap-common2.4.49+dfsg-2ubuntu1.9
 libllvm111:11.0.0-2~ubuntu20.04.1
