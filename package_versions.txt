@@ -9,7 +9,7 @@ bsdutils1:2.34-0.1ubuntu9.3
 bzip21.0.8-2
 ca-certificates20211016~20.04.1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.13
+curl7.68.0-1ubuntu2.14
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -37,7 +37,7 @@ gzip1.10-0ubuntu4
 hostname3.23
 init-system-helpers1.57
 jellyfin-ffmpeg55.1.2-4-focal
-jellyfin-server20221030.5-unstable
+jellyfin-server20221030.7-unstable
 jellyfin-web20220906.1-unstable
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
@@ -59,7 +59,7 @@ libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.7
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
-libcurl47.68.0-1ubuntu2.13
+libcurl47.68.0-1ubuntu2.14
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libdrm22.4.107-8ubuntu1~20.04.2
@@ -201,7 +201,7 @@ sed4.7-1
 sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022c-0ubuntu0.20.04.0
+tzdata2022e-0ubuntu0.20.04.0
 ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 util-linux2.34-0.1ubuntu9.3
