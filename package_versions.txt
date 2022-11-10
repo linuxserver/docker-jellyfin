@@ -123,7 +123,7 @@ libpam-runtime1.3.1-5ubuntu4.3
 libpciaccess00.16-0ubuntu1
 libpcre2-8-010.34-7
 libpcre32:8.39-12build1
-libpixman-1-00.38.4-0ubuntu1
+libpixman-1-00.38.4-0ubuntu2.1
 libpng16-161.6.37-2
 libprocps82:3.3.16-1ubuntu2.3
 libpsl50.21.0-1ubuntu1
@@ -139,7 +139,7 @@ libsemanage13.0-1build2
 libsemanage-common3.0-1build2
 libsepol13.0-1
 libsmartcols12.34-0.1ubuntu9.3
-libsqlite3-03.31.1-4ubuntu0.4
+libsqlite3-03.31.1-4ubuntu0.5
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
 libssl1.11.1.1f-1ubuntu2.16
@@ -201,7 +201,7 @@ sed4.7-1
 sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022e-0ubuntu0.20.04.0
+tzdata2022f-0ubuntu0.20.04.0
 ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 util-linux2.34-0.1ubuntu9.3
