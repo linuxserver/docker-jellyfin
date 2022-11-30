@@ -75,11 +75,14 @@ More information can be found on the official documentation [here](https://jelly
 
 ## Hardware Acceleration
 
+Full information can be found on the official documentation [here](https://jellyfin.org/docs/general/administration/hardware-acceleration/)
+
 ### Intel
 
-Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
+Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri/`<device>` video devices inside of the container by passing the following command when running or creating the container:
 
-`--device=/dev/dri:/dev/dri`
+ `--device /dev/dri/renderD128:/dev/dri/renderD128 \`
+ `--device /dev/dri/card0:/dev/dri/card0 \`
 
 We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
 
@@ -139,6 +142,10 @@ services:
       - 7359:7359/udp #optional
       - 1900:1900/udp #optional
     restart: unless-stopped
+    devices: #optional see: HW acceleration
+      # VAAPI Devices (examples)
+      - /dev/dri/renderD128:/dev/dri/renderD128
+      - /dev/dri/card0:/dev/dri/card0
 ```
 
 ### docker cli ([click here for more info](https://docs.docker.com/engine/reference/commandline/cli/))
