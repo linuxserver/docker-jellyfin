@@ -97,6 +97,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.12.22:", desc: "Rebase nightly to Jammy, migrate to s6v3." }
   - { date: "05.01.22:", desc: "Specify Intel iHD driver versions to avoid mismatched libva errors." }
   - { date: "25.12.21:", desc: "Fix video device group perms error message." }
   - { date: "22.09.21:", desc: "Pull only the server, web and ffmpeg packages instead of the wrapper." }

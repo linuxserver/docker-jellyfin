@@ -7,7 +7,7 @@ mkdir -p \
     /transcode
 
 # permissions
-chown abc:abc \
+lsiown abc:abc \
     /config \
     /config/* \
     /config/data/transcodes \
