@@ -34,8 +34,8 @@ grep3.7-1build1
 gzip1.10-4ubuntu4.1
 hostname3.23ubuntu2
 init-system-helpers1.62
-jellyfin-ffmpeg55.1.2-4-jammy
-jellyfin-server20221210.2-unstable
+jellyfin-ffmpeg55.1.2-5-jammy
+jellyfin-server20221213.10-unstable
 jellyfin-web20220906.1-unstable
 jq1.6-2.1ubuntu3
 libacl12.3.1-1
@@ -200,7 +200,7 @@ sed4.8-1ubuntu2
 sensible-utils0.0.17
 sysvinit-utils3.01-1ubuntu1
 tar1.34+dfsg-1build3
-tzdata2022f-0ubuntu0.22.04.1
+tzdata2022g-0ubuntu0.22.04.1
 ubuntu-keyring2021.03.26
 ucf3.0043
 usrmerge25ubuntu2
