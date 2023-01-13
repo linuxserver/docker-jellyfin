@@ -35,7 +35,7 @@ gzip1.10-4ubuntu4.1
 hostname3.23ubuntu2
 init-system-helpers1.62
 jellyfin-ffmpeg55.1.2-6-jammy
-jellyfin-server20230113.8-unstable
+jellyfin-server20230113.18-unstable
 jellyfin-web20220906.1-unstable
 jq1.6-2.1ubuntu3
 libacl12.3.1-1
