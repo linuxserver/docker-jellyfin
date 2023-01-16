@@ -83,6 +83,10 @@ Hardware acceleration users for Intel Quicksync will need to mount their /dev/dr
 
 We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
 
+To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the OpenCL-Intel mod from here:
+
+https://mods.linuxserver.io/?mod=jellyfin
+
 ### Nvidia
 
 Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
