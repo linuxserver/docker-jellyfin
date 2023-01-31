@@ -34,8 +34,8 @@ grep3.7-1build1
 gzip1.10-4ubuntu4.1
 hostname3.23ubuntu2
 init-system-helpers1.62
-jellyfin-ffmpeg55.1.2-6-jammy
-jellyfin-server20230128.7-unstable
+jellyfin-ffmpeg55.1.2-7-jammy
+jellyfin-server20230130.7-unstable
 jellyfin-web20220906.1-unstable
 jq1.6-2.1ubuntu3
 libacl12.3.1-1
@@ -60,11 +60,11 @@ libcrypt11:4.4.27-1
 libcurl47.81.0-1ubuntu1.7
 libdb5.35.3.28+dfsg1-0.8ubuntu3
 libdebconfclient00.261ubuntu1
-libdrm22.4.110-1ubuntu1
-libdrm-amdgpu12.4.110-1ubuntu1
-libdrm-common2.4.110-1ubuntu1
-libdrm-nouveau22.4.110-1ubuntu1
-libdrm-radeon12.4.110-1ubuntu1
+libdrm22.4.113-2~ubuntu0.22.04.1
+libdrm-amdgpu12.4.113-2~ubuntu0.22.04.1
+libdrm-common2.4.113-2~ubuntu0.22.04.1
+libdrm-nouveau22.4.113-2~ubuntu0.22.04.1
+libdrm-radeon12.4.113-2~ubuntu0.22.04.1
 libedit23.1-20210910-1build1
 libelf10.186-1build1
 libexpat12.4.7-1ubuntu0.2
@@ -93,8 +93,8 @@ libkrb5support01.19.2-2
 libksba81.6.0-2ubuntu0.2
 libldap-2.5-02.5.13+dfsg-0ubuntu0.22.04.1
 libldap-common2.5.13+dfsg-0ubuntu0.22.04.1
-libllvm131:13.0.1-2ubuntu2.1
 libllvm141:14.0.0-1ubuntu1
+libllvm151:15.0.6-3~ubuntu0.22.04.2
 liblz4-11.9.3-2build2
 liblzma55.2.5-2ubuntu1
 libmd01.0.4-1build1
@@ -182,7 +182,7 @@ login1:4.8.1-2ubuntu2.1
 logsave1.46.5-2ubuntu1.1
 lsb-base11.1.0ubuntu4
 mawk1.3.4.20200120-3
-mesa-va-drivers22.0.5-0ubuntu0.3
+mesa-va-drivers22.2.5-0ubuntu0.1~22.04.1
 mount2.37.2-4ubuntu3
 ncurses-base6.3-2
 ncurses-bin6.3-2
