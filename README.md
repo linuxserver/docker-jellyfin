@@ -97,6 +97,8 @@ We automatically add the necessary environment variable that will utilise all th
 
 ### OpenMAX (Raspberry Pi)
 
+Deprecated. Use V4L2.
+
 Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
 ```
