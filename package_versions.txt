@@ -35,7 +35,7 @@ gzip1.10-4ubuntu4.1
 hostname3.23ubuntu2
 init-system-helpers1.62
 jellyfin-ffmpeg55.1.2-7-jammy
-jellyfin-server20230206.8-unstable
+jellyfin-server20230208.11-unstable
 jellyfin-web20220906.1-unstable
 jq1.6-2.1ubuntu3
 libacl12.3.1-1
@@ -136,7 +136,7 @@ libsmartcols12.37.2-4ubuntu3
 libsqlite3-03.37.2-2ubuntu0.1
 libss21.46.5-2ubuntu1.1
 libssh-40.9.6-2build1
-libssl33.0.2-0ubuntu1.7
+libssl33.0.2-0ubuntu1.8
 libstdc++612.1.0-2ubuntu1~22.04
 libsystemd0249.11-0ubuntu3.6
 libtasn1-64.18.0-4build1
