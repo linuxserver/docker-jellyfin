@@ -35,7 +35,7 @@ gzip1.10-4ubuntu4.1
 hostname3.23ubuntu2
 init-system-helpers1.62
 jellyfin-ffmpeg55.1.2-7-jammy
-jellyfin-server20230212.14-unstable
+jellyfin-server20230214.2-unstable
 jellyfin-web20220906.1-unstable
 jq1.6-2.1ubuntu3
 libacl12.3.1-1
@@ -189,7 +189,7 @@ ncurses-bin6.3-2
 netcat1.218-4ubuntu1
 netcat-openbsd1.218-4ubuntu1
 ocl-icd-libopencl12.2.14-3
-openssl3.0.2-0ubuntu1.7
+openssl3.0.2-0ubuntu1.8
 passwd1:4.8.1-2ubuntu2.1
 perl-base5.34.0-3ubuntu1.1
 pinentry-curses1.1.1-1build2
