@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable Jellyfin releases |
 | nightly | ✅ | Nightly Jellyfin releases |
-
 ## Application Setup
 
 Webui can be found at `http://<your-ip>:8096`
@@ -131,7 +130,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
     volumes:
       - /path/to/library:/config
@@ -152,7 +151,7 @@ docker run -d \
   --name=jellyfin \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e JELLYFIN_PublishedServerUrl=192.168.0.5 `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
@@ -163,6 +162,7 @@ docker run -d \
   -v /path/to/movies:/data/movies \
   --restart unless-stopped \
   lscr.io/linuxserver/jellyfin:latest
+
 ```
 
 ## Parameters
@@ -177,7 +177,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 1900/udp` | Optional - Service discovery used by DNLA and clients. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use (e.g. Europe/London). |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e JELLYFIN_PublishedServerUrl=192.168.0.5` | Set the autodiscovery response domain or IP address. |
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
