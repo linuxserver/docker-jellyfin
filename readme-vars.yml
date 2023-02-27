@@ -120,6 +120,7 @@ unraid_template_sync: false
 
 # changelog
 changelogs:
+  - { date: "02.27.23:", desc: "Update web-files to match set user/group (PUID/PGID)." }
   - { date: "07.12.22:", desc: "Rebase master to Jammy, migrate to s6v3." }
   - { date: "11.06.22:", desc: "Switch to upstream repo's ffmpeg5 build." }
   - { date: "05.01.22:", desc: "Specify Intel iHD driver versions to avoid mismatched libva errors." }
