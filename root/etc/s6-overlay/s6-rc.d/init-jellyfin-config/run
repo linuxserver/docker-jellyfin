@@ -12,3 +12,8 @@ lsiown abc:abc \
     /config/* \
     /config/data/transcodes \
     /transcode
+
+# Ensure that web-files are writable e.g. by user installed plugins.
+# https://github.com/linuxserver/docker-jellyfin/issues/182.
+lsiown -R abc:abc \
+    /usr/share/jellyfin/web
