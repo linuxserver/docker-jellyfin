@@ -1,208 +1,388 @@
-adduser3.118ubuntu5
-apt2.4.8
-apt-utils2.4.8
-at3.2.5-1ubuntu1
-base-files12ubuntu4.3
-base-passwd3.5.52build1
-bash5.1-6ubuntu1
-bsdutils1:2.37.2-4ubuntu3
-ca-certificates20211016ubuntu0.22.04.1
-coreutils8.32-4.1ubuntu1
-curl7.81.0-1ubuntu1.8
-dash0.5.11+git20210903+057cd650a4ed-3build1
-debconf1.5.79ubuntu1
-debianutils5.5-1ubuntu2
-diffutils1:3.8-0ubuntu2
-dirmngr2.2.27-3ubuntu2.1
-dpkg1.21.1ubuntu2.1
-e2fsprogs1.46.5-2ubuntu1.1
-findutils4.8.0-1ubuntu3
-fontconfig-config2.13.1-4.2ubuntu5
-fonts-dejavu-core2.37-2build1
-gcc-12-base12.1.0-2ubuntu1~22.04
-gnupg2.2.27-3ubuntu2.1
-gnupg-l10n2.2.27-3ubuntu2.1
-gnupg-utils2.2.27-3ubuntu2.1
-gpg2.2.27-3ubuntu2.1
-gpg-agent2.2.27-3ubuntu2.1
-gpgconf2.2.27-3ubuntu2.1
-gpgsm2.2.27-3ubuntu2.1
-gpgv2.2.27-3ubuntu2.1
-gpg-wks-client2.2.27-3ubuntu2.1
-gpg-wks-server2.2.27-3ubuntu2.1
-grep3.7-1build1
-gzip1.10-4ubuntu4.1
-hostname3.23ubuntu2
-init-system-helpers1.62
-jellyfin-ffmpeg55.1.2-8-jammy
-jellyfin-server20230228.6-unstable
-jellyfin-web20220906.1-unstable
-jq1.6-2.1ubuntu3
-libacl12.3.1-1
-libapt-pkg6.02.4.8
-libass91:0.15.2-1
-libassuan02.5.5-1build1
-libattr11:2.5.1-1build1
-libaudit11:3.0.7-1build1
-libaudit-common1:3.0.7-1build1
-libblkid12.37.2-4ubuntu3
-libbluray21:1.3.1-1
-libbrotli11.0.9-2build6
-libbsd00.11.5-1
-libbz2-1.01.0.8-5build1
-libc62.35-0ubuntu3.1
-libcairo21.16.0-5ubuntu2
-libcap21:2.44-1build3
-libcap-ng00.7.9-2.2build3
-libc-bin2.35-0ubuntu3.1
-libcom-err21.46.5-2ubuntu1.1
-libcrypt11:4.4.27-1
-libcurl47.81.0-1ubuntu1.8
-libdb5.35.3.28+dfsg1-0.8ubuntu3
-libdebconfclient00.261ubuntu1
-libdrm22.4.113-2~ubuntu0.22.04.1
-libdrm-amdgpu12.4.113-2~ubuntu0.22.04.1
-libdrm-common2.4.113-2~ubuntu0.22.04.1
-libdrm-nouveau22.4.113-2~ubuntu0.22.04.1
-libdrm-radeon12.4.113-2~ubuntu0.22.04.1
-libedit23.1-20210910-1build1
-libelf10.186-1build1
-libexpat12.4.7-1ubuntu0.2
-libext2fs21.46.5-2ubuntu1.1
-libffi83.4.2-4
-libfontconfig12.13.1-4.2ubuntu5
-libfreetype62.11.1+dfsg-1ubuntu0.1
-libfribidi01.0.8-2ubuntu3.1
-libgcc-s112.1.0-2ubuntu1~22.04
-libgcrypt201.9.4-3ubuntu3
-libglib2.0-02.72.4-0ubuntu1
-libgmp102:6.2.1+dfsg-3ubuntu1
-libgnutls303.7.3-4ubuntu1.1
-libgpg-error01.43-3
-libgraphite2-31.3.14-1build2
-libgssapi-krb5-21.19.2-2ubuntu0.1
-libharfbuzz0b2.7.4-1ubuntu3.1
-libhogweed63.7.3-1build2
-libicu7070.1-2
-libidn2-02.3.2-2build1
-libjq11.6-2.1ubuntu3
-libk5crypto31.19.2-2ubuntu0.1
-libkeyutils11.6.1-2ubuntu3
-libkrb5-31.19.2-2ubuntu0.1
-libkrb5support01.19.2-2ubuntu0.1
-libksba81.6.0-2ubuntu0.2
-libldap-2.5-02.5.13+dfsg-0ubuntu0.22.04.1
-libldap-common2.5.13+dfsg-0ubuntu0.22.04.1
-libllvm141:14.0.0-1ubuntu1
-libllvm151:15.0.6-3~ubuntu0.22.04.2
-liblz4-11.9.3-2build2
-liblzma55.2.5-2ubuntu1
-libmd01.0.4-1build1
-libmount12.37.2-4ubuntu3
-libmp3lame03.100-3build2
-libncurses66.3-2
-libncursesw66.3-2
-libnettle83.7.3-1build2
-libnghttp2-141.43.0-1build3
-libnpth01.6-3build2
-libnsl21.3.0-2build2
-libnuma12.0.14-3ubuntu2
-libogg01.3.5-0ubuntu3
-libonig56.9.7.1-2build1
-libopus01.3.1-0.1build2
-libp11-kit00.24.0-6build1
-libpam0g1.4.0-11ubuntu2.3
-libpam-modules1.4.0-11ubuntu2.3
-libpam-modules-bin1.4.0-11ubuntu2.3
-libpam-runtime1.4.0-11ubuntu2.3
-libpciaccess00.16-3
-libpcre2-8-010.39-3ubuntu0.1
-libpcre32:8.39-13ubuntu0.22.04.1
-libpixman-1-00.40.0-1ubuntu0.22.04.1
-libpng16-161.6.37-3build5
-libprocps82:3.3.17-6ubuntu2
-libpsl50.21.0-1.2build2
-libreadline88.1.2-1
-librtmp12.4+20151223.gitfa8646d.1-2build4
-libsasl2-22.1.27+dfsg2-3ubuntu1.1
-libsasl2-modules2.1.27+dfsg2-3ubuntu1.1
-libsasl2-modules-db2.1.27+dfsg2-3ubuntu1.1
-libseccomp22.5.3-2ubuntu2
-libselinux13.3-1build2
-libsemanage23.3-1build2
-libsemanage-common3.3-1build2
-libsepol23.3-1build1
-libsmartcols12.37.2-4ubuntu3
-libsqlite3-03.37.2-2ubuntu0.1
-libss21.46.5-2ubuntu1.1
-libssh-40.9.6-2build1
-libssl33.0.2-0ubuntu1.8
-libstdc++612.1.0-2ubuntu1~22.04
-libsystemd0249.11-0ubuntu3.6
-libtasn1-64.18.0-4build1
-libtheora01.1.1+dfsg.1-15ubuntu4
-libtinfo66.3-2
-libtirpc31.3.2-2ubuntu0.1
-libtirpc-common1.3.2-2ubuntu0.1
-libudev1249.11-0ubuntu3.6
-libudfread01.1.2-1
-libunistring21.0-1
-libuuid12.37.2-4ubuntu3
-libvorbis0a1.3.7-1build2
-libvorbisenc21.3.7-1build2
-libvpx71.11.0-2ubuntu2
-libwebp71.2.2-2
-libwebpmux31.2.2-2
-libx11-62:1.7.5-1
-libx11-data2:1.7.5-1
-libx11-xcb12:1.7.5-1
-libx264-1632:0.163.3060+git5db6aa6-2build1
-libx265-1993.5-2
-libxau61:1.0.9-1build5
-libxcb11.14-3ubuntu3
-libxcb-dri2-01.14-3ubuntu3
-libxcb-dri3-01.14-3ubuntu3
-libxcb-present01.14-3ubuntu3
-libxcb-randr01.14-3ubuntu3
-libxcb-render01.14-3ubuntu3
-libxcb-shm01.14-3ubuntu3
-libxcb-sync11.14-3ubuntu3
-libxcb-xfixes01.14-3ubuntu3
-libxdmcp61:1.1.3-0ubuntu5
-libxext62:1.3.4-1build1
-libxml22.9.13+dfsg-1ubuntu0.2
-libxrender11:0.9.10-1build4
-libxshmfence11.3-1build4
-libxxhash00.8.1-1
-libzstd11.4.8+dfsg-3build1
-libzvbi00.2.35-19
-libzvbi-common0.2.35-19
-locales2.35-0ubuntu3.1
-login1:4.8.1-2ubuntu2.1
-logsave1.46.5-2ubuntu1.1
-lsb-base11.1.0ubuntu4
-mawk1.3.4.20200120-3
-mesa-va-drivers22.2.5-0ubuntu0.1~22.04.1
-mount2.37.2-4ubuntu3
-ncurses-base6.3-2
-ncurses-bin6.3-2
-netcat1.218-4ubuntu1
-netcat-openbsd1.218-4ubuntu1
-ocl-icd-libopencl12.2.14-3
-openssl3.0.2-0ubuntu1.8
-passwd1:4.8.1-2ubuntu2.1
-perl-base5.34.0-3ubuntu1.1
-pinentry-curses1.1.1-1build2
-procps2:3.3.17-6ubuntu2
-publicsuffix20211207.1025-1
-readline-common8.1.2-1
-sed4.8-1ubuntu2
-sensible-utils0.0.17
-sysvinit-utils3.01-1ubuntu1
-tar1.34+dfsg-1build3
-tzdata2022g-0ubuntu0.22.04.1
-ubuntu-keyring2021.03.26
-ucf3.0043
-usrmerge25ubuntu2
-util-linux2.37.2-4ubuntu3
-zlib1g1:1.2.11.dfsg-2ubuntu9.2
+NAME                                                                           VERSION                                  TYPE   
+BlurHashSharp                                                                  1.2.0                                    dotnet  
+BlurHashSharp.SkiaSharp                                                        1.2.0                                    dotnet  
+CacheManager.Core                                                              1.2.0                                    dotnet  
+CommandLineParser                                                              2.9.1                                    dotnet  
+Diacritics                                                                     3.3.14                                   dotnet  
+DiscUtils.Core                                                                 0.16.13                                  dotnet  
+DiscUtils.Iso9660                                                              0.16.13                                  dotnet  
+DiscUtils.Streams                                                              0.16.13                                  dotnet  
+DiscUtils.Udf                                                                  0.16.13                                  dotnet  
+DotNet.Glob                                                                    3.1.3                                    dotnet  
+EFCoreSecondLevelCacheInterceptor                                              3.8.5                                    dotnet  
+EasyCaching.Core                                                               1.8.0                                    dotnet  
+Jellyfin.XmlTv                                                                 10.8.0                                   dotnet  
+LrcParser                                                                      2022.529.1                               dotnet  
+MetaBrainz.Common                                                              1.0.0                                    dotnet  
+MetaBrainz.Common.Json                                                         5.1.0                                    dotnet  
+MetaBrainz.MusicBrainz                                                         5.0.0                                    dotnet  
+Microsoft.AspNetCore.Authorization                                             7.0.3                                    dotnet  
+Microsoft.AspNetCore.Metadata                                                  7.0.3                                    dotnet  
+Microsoft.Bcl.AsyncInterfaces                                                  6.0.0                                    dotnet  
+Microsoft.Data.Sqlite.Core                                                     7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore                                                  7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore.Abstractions                                     7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore.Analyzers                                        7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore.Relational                                       7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore.Sqlite                                           7.0.3                                    dotnet  
+Microsoft.EntityFrameworkCore.Sqlite.Core                                      7.0.3                                    dotnet  
+Microsoft.Extensions.ApiDescription.Server                                     3.0.0                                    dotnet  
+Microsoft.Extensions.Caching.Abstractions                                      7.0.0                                    dotnet  
+Microsoft.Extensions.Caching.Memory                                            7.0.0                                    dotnet  
+Microsoft.Extensions.Configuration                                             7.0.0                                    dotnet  
+Microsoft.Extensions.Configuration.Abstractions                                7.0.0                                    dotnet  
+Microsoft.Extensions.Configuration.Binder                                      7.0.3                                    dotnet  
+Microsoft.Extensions.Configuration.EnvironmentVariables                        7.0.0                                    dotnet  
+Microsoft.Extensions.Configuration.FileExtensions                              7.0.0                                    dotnet  
+Microsoft.Extensions.Configuration.Json                                        7.0.0                                    dotnet  
+Microsoft.Extensions.DependencyInjection                                       7.0.0                                    dotnet  
+Microsoft.Extensions.DependencyInjection.Abstractions                          7.0.0                                    dotnet  
+Microsoft.Extensions.DependencyModel                                           7.0.0                                    dotnet  
+Microsoft.Extensions.Diagnostics.HealthChecks                                  7.0.3                                    dotnet  
+Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions                     7.0.3                                    dotnet  
+Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore              7.0.3                                    dotnet  
+Microsoft.Extensions.FileProviders.Abstractions                                7.0.0                                    dotnet  
+Microsoft.Extensions.FileProviders.Physical                                    7.0.0                                    dotnet  
+Microsoft.Extensions.FileSystemGlobbing                                        7.0.0                                    dotnet  
+Microsoft.Extensions.Hosting.Abstractions                                      7.0.0                                    dotnet  
+Microsoft.Extensions.Http                                                      7.0.0                                    dotnet  
+Microsoft.Extensions.Logging                                                   7.0.0                                    dotnet  
+Microsoft.Extensions.Logging.Abstractions                                      7.0.0                                    dotnet  
+Microsoft.Extensions.ObjectPool                                                7.0.0                                    dotnet  
+Microsoft.Extensions.Options                                                   7.0.1                                    dotnet  
+Microsoft.Extensions.Options.ConfigurationExtensions                           6.0.0                                    dotnet  
+Microsoft.Extensions.Primitives                                                7.0.0                                    dotnet  
+Microsoft.NETCore.Platforms                                                    5.0.0                                    dotnet  
+Microsoft.NETCore.Targets                                                      1.1.0                                    dotnet  
+Microsoft.OpenApi                                                              1.2.3                                    dotnet  
+Microsoft.Win32.Primitives                                                     4.3.0                                    dotnet  
+Microsoft.Win32.Registry                                                       5.0.0                                    dotnet  
+Microsoft.Win32.SystemEvents                                                   6.0.0                                    dotnet  
+Mono.Nat                                                                       3.0.4                                    dotnet  
+NEbml                                                                          0.11.0                                   dotnet  
+NeoSmart.AsyncLock                                                             3.2.1                                    dotnet  
+Newtonsoft.Json                                                                13.0.2                                   dotnet  
+PlaylistsNET                                                                   1.3.1                                    dotnet  
+SQLitePCL.pretty.netstandard                                                   3.1.0                                    dotnet  
+SQLitePCLRaw.bundle_e_sqlite3                                                  2.1.4                                    dotnet  
+SQLitePCLRaw.core                                                              2.1.4                                    dotnet  
+SQLitePCLRaw.lib.e_sqlite3                                                     2.1.4                                    dotnet  
+SQLitePCLRaw.provider.e_sqlite3                                                2.1.4                                    dotnet  
+Serilog                                                                        2.10.0                                   dotnet  
+Serilog.AspNetCore                                                             6.1.0                                    dotnet  
+Serilog.Enrichers.Thread                                                       3.1.0                                    dotnet  
+Serilog.Extensions.Hosting                                                     5.0.1                                    dotnet  
+Serilog.Extensions.Logging                                                     3.1.0                                    dotnet  
+Serilog.Formatting.Compact                                                     1.1.0                                    dotnet  
+Serilog.Settings.Configuration                                                 3.4.0                                    dotnet  
+Serilog.Sinks.Async                                                            1.5.0                                    dotnet  
+Serilog.Sinks.Console                                                          4.1.0                                    dotnet  
+Serilog.Sinks.Debug                                                            2.0.0                                    dotnet  
+Serilog.Sinks.File                                                             5.0.0                                    dotnet  
+Serilog.Sinks.Graylog                                                          2.3.0                                    dotnet  
+SkiaSharp                                                                      2.88.3                                   dotnet  
+SkiaSharp.NativeAssets.Linux                                                   2.88.3                                   dotnet  
+SkiaSharp.NativeAssets.Win32                                                   2.88.3                                   dotnet  
+SkiaSharp.NativeAssets.macOS                                                   2.88.3                                   dotnet  
+SkiaSharp.Svg                                                                  1.60.0                                   dotnet  
+Swashbuckle.AspNetCore                                                         6.2.3                                    dotnet  
+Swashbuckle.AspNetCore.ReDoc                                                   6.4.0                                    dotnet  
+Swashbuckle.AspNetCore.Swagger                                                 6.2.3                                    dotnet  
+Swashbuckle.AspNetCore.SwaggerGen                                              6.2.3                                    dotnet  
+Swashbuckle.AspNetCore.SwaggerUI                                               6.2.3                                    dotnet  
+System.Buffers                                                                 4.3.0                                    dotnet  
+System.Collections                                                             4.3.0                                    dotnet  
+System.Collections.Concurrent                                                  4.3.0                                    dotnet  
+System.Diagnostics.Debug                                                       4.3.0                                    dotnet  
+System.Diagnostics.DiagnosticSource                                            6.0.0                                    dotnet  
+System.Diagnostics.Tracing                                                     4.3.0                                    dotnet  
+System.Drawing.Common                                                          6.0.0                                    dotnet  
+System.Globalization                                                           4.3.0                                    dotnet  
+System.Globalization.Calendars                                                 4.3.0                                    dotnet  
+System.Globalization.Extensions                                                4.3.0                                    dotnet  
+System.IO                                                                      4.3.0                                    dotnet  
+System.IO.FileSystem                                                           4.3.0                                    dotnet  
+System.IO.FileSystem.Primitives                                                4.3.0                                    dotnet  
+System.Linq                                                                    4.3.0                                    dotnet  
+System.Linq.Async                                                              6.0.1                                    dotnet  
+System.Memory                                                                  4.5.4                                    dotnet  
+System.Net.Http                                                                4.3.4                                    dotnet  
+System.Net.Primitives                                                          4.3.0                                    dotnet  
+System.Private.Uri                                                             4.3.0                                    dotnet  
+System.Reflection                                                              4.3.0                                    dotnet  
+System.Reflection.Primitives                                                   4.3.0                                    dotnet  
+System.Resources.ResourceManager                                               4.3.0                                    dotnet  
+System.Runtime                                                                 4.3.0                                    dotnet  
+System.Runtime.CompilerServices.Unsafe                                         6.0.0                                    dotnet  
+System.Runtime.Extensions                                                      4.3.0                                    dotnet  
+System.Runtime.Handles                                                         4.3.0                                    dotnet  
+System.Runtime.InteropServices                                                 4.3.0                                    dotnet  
+System.Runtime.Numerics                                                        4.3.0                                    dotnet  
+System.Security.AccessControl                                                  5.0.0                                    dotnet  
+System.Security.Cryptography.Algorithms                                        4.3.0                                    dotnet  
+System.Security.Cryptography.Cng                                               4.3.0                                    dotnet  
+System.Security.Cryptography.Csp                                               4.3.0                                    dotnet  
+System.Security.Cryptography.Encoding                                          4.3.0                                    dotnet  
+System.Security.Cryptography.OpenSsl                                           4.3.0                                    dotnet  
+System.Security.Cryptography.Primitives                                        4.3.0                                    dotnet  
+System.Security.Cryptography.X509Certificates                                  4.3.0                                    dotnet  
+System.Security.Principal.Windows                                              5.0.0                                    dotnet  
+System.Text.Encoding                                                           4.3.0                                    dotnet  
+System.Text.Encoding.CodePages                                                 7.0.0                                    dotnet  
+System.Text.Encoding.Extensions                                                4.3.0                                    dotnet  
+System.Text.Encodings.Web                                                      7.0.0                                    dotnet  
+System.Text.Json                                                               7.0.2                                    dotnet  
+System.Threading                                                               4.3.0                                    dotnet  
+System.Threading.Tasks                                                         4.3.0                                    dotnet  
+System.Threading.Tasks.Dataflow                                                7.0.0                                    dotnet  
+TMDbLib                                                                        2.0.0                                    dotnet  
+TagLibSharp                                                                    2.3.0                                    dotnet  
+UTF.Unknown                                                                    2.5.1                                    dotnet  
+adduser                                                                        3.118ubuntu5                             deb     
+apt                                                                            2.4.8                                    deb     
+apt-utils                                                                      2.4.8                                    deb     
+at                                                                             3.2.5-1ubuntu1                           deb     
+base-files                                                                     12ubuntu4.3                              deb     
+base-passwd                                                                    3.5.52build1                             deb     
+bash                                                                           5.1-6ubuntu1                             deb     
+bsdutils                                                                       1:2.37.2-4ubuntu3                        deb     
+ca-certificates                                                                20211016ubuntu0.22.04.1                  deb     
+coreutils                                                                      8.32-4.1ubuntu1                          deb     
+curl                                                                           7.81.0-1ubuntu1.8                        deb     
+dash                                                                           0.5.11+git20210903+057cd650a4ed-3build1  deb     
+debconf                                                                        1.5.79ubuntu1                            deb     
+debianutils                                                                    5.5-1ubuntu2                             deb     
+diffutils                                                                      1:3.8-0ubuntu2                           deb     
+dirmngr                                                                        2.2.27-3ubuntu2.1                        deb     
+dpkg                                                                           1.21.1ubuntu2.1                          deb     
+e2fsprogs                                                                      1.46.5-2ubuntu1.1                        deb     
+findutils                                                                      4.8.0-1ubuntu3                           deb     
+fontconfig-config                                                              2.13.1-4.2ubuntu5                        deb     
+fonts-dejavu-core                                                              2.37-2build1                             deb     
+gcc-12-base                                                                    12.1.0-2ubuntu1~22.04                    deb     
+gnupg                                                                          2.2.27-3ubuntu2.1                        deb     
+gnupg-l10n                                                                     2.2.27-3ubuntu2.1                        deb     
+gnupg-utils                                                                    2.2.27-3ubuntu2.1                        deb     
+gpg                                                                            2.2.27-3ubuntu2.1                        deb     
+gpg-agent                                                                      2.2.27-3ubuntu2.1                        deb     
+gpg-wks-client                                                                 2.2.27-3ubuntu2.1                        deb     
+gpg-wks-server                                                                 2.2.27-3ubuntu2.1                        deb     
+gpgconf                                                                        2.2.27-3ubuntu2.1                        deb     
+gpgsm                                                                          2.2.27-3ubuntu2.1                        deb     
+gpgv                                                                           2.2.27-3ubuntu2.1                        deb     
+grep                                                                           3.7-1build1                              deb     
+gzip                                                                           1.10-4ubuntu4.1                          deb     
+hostname                                                                       3.23ubuntu2                              deb     
+init-system-helpers                                                            1.62                                     deb     
+jellyfin-ffmpeg5                                                               5.1.2-8-jammy                            deb     
+jellyfin-server                                                                20230228.6-unstable                      deb     
+jellyfin-web                                                                   20220906.1-unstable                      deb     
+jq                                                                             1.6-2.1ubuntu3                           deb     
+libacl1                                                                        2.3.1-1                                  deb     
+libapt-pkg6.0                                                                  2.4.8                                    deb     
+libass9                                                                        1:0.15.2-1                               deb     
+libassuan0                                                                     2.5.5-1build1                            deb     
+libattr1                                                                       1:2.5.1-1build1                          deb     
+libaudit-common                                                                1:3.0.7-1build1                          deb     
+libaudit1                                                                      1:3.0.7-1build1                          deb     
+libblkid1                                                                      2.37.2-4ubuntu3                          deb     
+libbluray2                                                                     1:1.3.1-1                                deb     
+libbrotli1                                                                     1.0.9-2build6                            deb     
+libbsd0                                                                        0.11.5-1                                 deb     
+libbz2-1.0                                                                     1.0.8-5build1                            deb     
+libc-bin                                                                       2.35-0ubuntu3.1                          deb     
+libc6                                                                          2.35-0ubuntu3.1                          deb     
+libcairo2                                                                      1.16.0-5ubuntu2                          deb     
+libcap-ng0                                                                     0.7.9-2.2build3                          deb     
+libcap2                                                                        1:2.44-1build3                           deb     
+libcom-err2                                                                    1.46.5-2ubuntu1.1                        deb     
+libcrypt1                                                                      1:4.4.27-1                               deb     
+libcurl4                                                                       7.81.0-1ubuntu1.8                        deb     
+libdb5.3                                                                       5.3.28+dfsg1-0.8ubuntu3                  deb     
+libdebconfclient0                                                              0.261ubuntu1                             deb     
+libdrm-amdgpu1                                                                 2.4.113-2~ubuntu0.22.04.1                deb     
+libdrm-common                                                                  2.4.113-2~ubuntu0.22.04.1                deb     
+libdrm-nouveau2                                                                2.4.113-2~ubuntu0.22.04.1                deb     
+libdrm-radeon1                                                                 2.4.113-2~ubuntu0.22.04.1                deb     
+libdrm2                                                                        2.4.113-2~ubuntu0.22.04.1                deb     
+libedit2                                                                       3.1-20210910-1build1                     deb     
+libelf1                                                                        0.186-1build1                            deb     
+libexpat1                                                                      2.4.7-1ubuntu0.2                         deb     
+libext2fs2                                                                     1.46.5-2ubuntu1.1                        deb     
+libffi8                                                                        3.4.2-4                                  deb     
+libfontconfig1                                                                 2.13.1-4.2ubuntu5                        deb     
+libfreetype6                                                                   2.11.1+dfsg-1ubuntu0.1                   deb     
+libfribidi0                                                                    1.0.8-2ubuntu3.1                         deb     
+libgcc-s1                                                                      12.1.0-2ubuntu1~22.04                    deb     
+libgcrypt20                                                                    1.9.4-3ubuntu3                           deb     
+libglib2.0-0                                                                   2.72.4-0ubuntu1                          deb     
+libgmp10                                                                       2:6.2.1+dfsg-3ubuntu1                    deb     
+libgnutls30                                                                    3.7.3-4ubuntu1.1                         deb     
+libgpg-error0                                                                  1.43-3                                   deb     
+libgraphite2-3                                                                 1.3.14-1build2                           deb     
+libgssapi-krb5-2                                                               1.19.2-2ubuntu0.1                        deb     
+libharfbuzz0b                                                                  2.7.4-1ubuntu3.1                         deb     
+libhogweed6                                                                    3.7.3-1build2                            deb     
+libicu70                                                                       70.1-2                                   deb     
+libidn2-0                                                                      2.3.2-2build1                            deb     
+libjq1                                                                         1.6-2.1ubuntu3                           deb     
+libk5crypto3                                                                   1.19.2-2ubuntu0.1                        deb     
+libkeyutils1                                                                   1.6.1-2ubuntu3                           deb     
+libkrb5-3                                                                      1.19.2-2ubuntu0.1                        deb     
+libkrb5support0                                                                1.19.2-2ubuntu0.1                        deb     
+libksba8                                                                       1.6.0-2ubuntu0.2                         deb     
+libldap-2.5-0                                                                  2.5.13+dfsg-0ubuntu0.22.04.1             deb     
+libldap-common                                                                 2.5.13+dfsg-0ubuntu0.22.04.1             deb     
+libllvm14                                                                      1:14.0.0-1ubuntu1                        deb     
+libllvm15                                                                      1:15.0.6-3~ubuntu0.22.04.2               deb     
+liblz4-1                                                                       1.9.3-2build2                            deb     
+liblzma5                                                                       5.2.5-2ubuntu1                           deb     
+libmd0                                                                         1.0.4-1build1                            deb     
+libmount1                                                                      2.37.2-4ubuntu3                          deb     
+libmp3lame0                                                                    3.100-3build2                            deb     
+libncurses6                                                                    6.3-2                                    deb     
+libncursesw6                                                                   6.3-2                                    deb     
+libnettle8                                                                     3.7.3-1build2                            deb     
+libnghttp2-14                                                                  1.43.0-1build3                           deb     
+libnpth0                                                                       1.6-3build2                              deb     
+libnsl2                                                                        1.3.0-2build2                            deb     
+libnuma1                                                                       2.0.14-3ubuntu2                          deb     
+libogg0                                                                        1.3.5-0ubuntu3                           deb     
+libonig5                                                                       6.9.7.1-2build1                          deb     
+libopus0                                                                       1.3.1-0.1build2                          deb     
+libp11-kit0                                                                    0.24.0-6build1                           deb     
+libpam-modules                                                                 1.4.0-11ubuntu2.3                        deb     
+libpam-modules-bin                                                             1.4.0-11ubuntu2.3                        deb     
+libpam-runtime                                                                 1.4.0-11ubuntu2.3                        deb     
+libpam0g                                                                       1.4.0-11ubuntu2.3                        deb     
+libpciaccess0                                                                  0.16-3                                   deb     
+libpcre2-8-0                                                                   10.39-3ubuntu0.1                         deb     
+libpcre3                                                                       2:8.39-13ubuntu0.22.04.1                 deb     
+libpixman-1-0                                                                  0.40.0-1ubuntu0.22.04.1                  deb     
+libpng16-16                                                                    1.6.37-3build5                           deb     
+libprocps8                                                                     2:3.3.17-6ubuntu2                        deb     
+libpsl5                                                                        0.21.0-1.2build2                         deb     
+libreadline8                                                                   8.1.2-1                                  deb     
+librtmp1                                                                       2.4+20151223.gitfa8646d.1-2build4        deb     
+libsasl2-2                                                                     2.1.27+dfsg2-3ubuntu1.2                  deb     
+libsasl2-modules                                                               2.1.27+dfsg2-3ubuntu1.2                  deb     
+libsasl2-modules-db                                                            2.1.27+dfsg2-3ubuntu1.2                  deb     
+libse                                                                          3.6.10                                   dotnet  
+libseccomp2                                                                    2.5.3-2ubuntu2                           deb     
+libselinux1                                                                    3.3-1build2                              deb     
+libsemanage-common                                                             3.3-1build2                              deb     
+libsemanage2                                                                   3.3-1build2                              deb     
+libsepol2                                                                      3.3-1build1                              deb     
+libsmartcols1                                                                  2.37.2-4ubuntu3                          deb     
+libsqlite3-0                                                                   3.37.2-2ubuntu0.1                        deb     
+libss2                                                                         1.46.5-2ubuntu1.1                        deb     
+libssh-4                                                                       0.9.6-2build1                            deb     
+libssl3                                                                        3.0.2-0ubuntu1.8                         deb     
+libstdc++6                                                                     12.1.0-2ubuntu1~22.04                    deb     
+libsystemd0                                                                    249.11-0ubuntu3.6                        deb     
+libtasn1-6                                                                     4.18.0-4build1                           deb     
+libtheora0                                                                     1.1.1+dfsg.1-15ubuntu4                   deb     
+libtinfo6                                                                      6.3-2                                    deb     
+libtirpc-common                                                                1.3.2-2ubuntu0.1                         deb     
+libtirpc3                                                                      1.3.2-2ubuntu0.1                         deb     
+libudev1                                                                       249.11-0ubuntu3.6                        deb     
+libudfread0                                                                    1.1.2-1                                  deb     
+libunistring2                                                                  1.0-1                                    deb     
+libuuid1                                                                       2.37.2-4ubuntu3                          deb     
+libvorbis0a                                                                    1.3.7-1build2                            deb     
+libvorbisenc2                                                                  1.3.7-1build2                            deb     
+libvpx7                                                                        1.11.0-2ubuntu2                          deb     
+libwebp7                                                                       1.2.2-2                                  deb     
+libwebpmux3                                                                    1.2.2-2                                  deb     
+libx11-6                                                                       2:1.7.5-1                                deb     
+libx11-data                                                                    2:1.7.5-1                                deb     
+libx11-xcb1                                                                    2:1.7.5-1                                deb     
+libx264-163                                                                    2:0.163.3060+git5db6aa6-2build1          deb     
+libx265-199                                                                    3.5-2                                    deb     
+libxau6                                                                        1:1.0.9-1build5                          deb     
+libxcb-dri2-0                                                                  1.14-3ubuntu3                            deb     
+libxcb-dri3-0                                                                  1.14-3ubuntu3                            deb     
+libxcb-present0                                                                1.14-3ubuntu3                            deb     
+libxcb-randr0                                                                  1.14-3ubuntu3                            deb     
+libxcb-render0                                                                 1.14-3ubuntu3                            deb     
+libxcb-shm0                                                                    1.14-3ubuntu3                            deb     
+libxcb-sync1                                                                   1.14-3ubuntu3                            deb     
+libxcb-xfixes0                                                                 1.14-3ubuntu3                            deb     
+libxcb1                                                                        1.14-3ubuntu3                            deb     
+libxdmcp6                                                                      1:1.1.3-0ubuntu5                         deb     
+libxext6                                                                       2:1.3.4-1build1                          deb     
+libxml2                                                                        2.9.13+dfsg-1ubuntu0.2                   deb     
+libxrender1                                                                    1:0.9.10-1build4                         deb     
+libxshmfence1                                                                  1.3-1build4                              deb     
+libxxhash0                                                                     0.8.1-1                                  deb     
+libzstd1                                                                       1.4.8+dfsg-3build1                       deb     
+libzvbi-common                                                                 0.2.35-19                                deb     
+libzvbi0                                                                       0.2.35-19                                deb     
+locales                                                                        2.35-0ubuntu3.1                          deb     
+login                                                                          1:4.8.1-2ubuntu2.1                       deb     
+logsave                                                                        1.46.5-2ubuntu1.1                        deb     
+lsb-base                                                                       11.1.0ubuntu4                            deb     
+mawk                                                                           1.3.4.20200120-3                         deb     
+mesa-va-drivers                                                                22.2.5-0ubuntu0.1~22.04.1                deb     
+mount                                                                          2.37.2-4ubuntu3                          deb     
+ncurses-base                                                                   6.3-2                                    deb     
+ncurses-bin                                                                    6.3-2                                    deb     
+netcat                                                                         1.218-4ubuntu1                           deb     
+netcat-openbsd                                                                 1.218-4ubuntu1                           deb     
+ocl-icd-libopencl1                                                             2.2.14-3                                 deb     
+openssl                                                                        3.0.2-0ubuntu1.8                         deb     
+passwd                                                                         1:4.8.1-2ubuntu2.1                       deb     
+perl-base                                                                      5.34.0-3ubuntu1.1                        deb     
+pinentry-curses                                                                1.1.1-1build2                            deb     
+procps                                                                         2:3.3.17-6ubuntu2                        deb     
+prometheus-net                                                                 8.0.0                                    dotnet  
+prometheus-net.AspNetCore                                                      8.0.0                                    dotnet  
+prometheus-net.DotNetRuntime                                                   4.4.0                                    dotnet  
+publicsuffix                                                                   20211207.1025-1                          deb     
+readline-common                                                                8.1.2-1                                  deb     
+runtime.any.System.Collections                                                 4.3.0                                    dotnet  
+runtime.any.System.Diagnostics.Tracing                                         4.3.0                                    dotnet  
+runtime.any.System.Globalization                                               4.3.0                                    dotnet  
+runtime.any.System.Globalization.Calendars                                     4.3.0                                    dotnet  
+runtime.any.System.IO                                                          4.3.0                                    dotnet  
+runtime.any.System.Reflection                                                  4.3.0                                    dotnet  
+runtime.any.System.Reflection.Primitives                                       4.3.0                                    dotnet  
+runtime.any.System.Resources.ResourceManager                                   4.3.0                                    dotnet  
+runtime.any.System.Runtime                                                     4.3.0                                    dotnet  
+runtime.any.System.Runtime.Handles                                             4.3.0                                    dotnet  
+runtime.any.System.Runtime.InteropServices                                     4.3.0                                    dotnet  
+runtime.any.System.Text.Encoding                                               4.3.0                                    dotnet  
+runtime.any.System.Text.Encoding.Extensions                                    4.3.0                                    dotnet  
+runtime.any.System.Threading.Tasks                                             4.3.0                                    dotnet  
+runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl       4.3.2                                    dotnet  
+runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl      4.3.2                                    dotnet  
+runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl      4.3.2                                    dotnet  
+runtime.native.System                                                          4.3.0                                    dotnet  
+runtime.native.System.Net.Http                                                 4.3.0                                    dotnet  
+runtime.native.System.Security.Cryptography.Apple                              4.3.0                                    dotnet  
+runtime.native.System.Security.Cryptography.OpenSsl                            4.3.2                                    dotnet  
+runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl  4.3.2                                    dotnet  
+runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl  4.3.2                                    dotnet  
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple        4.3.0                                    dotnet  
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl      4.3.2                                    dotnet  
+runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl         4.3.2                                    dotnet  
+runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl   4.3.2                                    dotnet  
+runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl   4.3.2                                    dotnet  
+runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl   4.3.2                                    dotnet  
+runtime.unix.Microsoft.Win32.Primitives                                        4.3.0                                    dotnet  
+runtime.unix.System.Diagnostics.Debug                                          4.3.0                                    dotnet  
+runtime.unix.System.IO.FileSystem                                              4.3.0                                    dotnet  
+runtime.unix.System.Net.Primitives                                             4.3.0                                    dotnet  
+runtime.unix.System.Private.Uri                                                4.3.0                                    dotnet  
+runtime.unix.System.Runtime.Extensions                                         4.3.0                                    dotnet  
+sed                                                                            4.8-1ubuntu2                             deb     
+sensible-utils                                                                 0.0.17                                   deb     
+sysvinit-utils                                                                 3.01-1ubuntu1                            deb     
+tar                                                                            1.34+dfsg-1build3                        deb     
+tzdata                                                                         2022g-0ubuntu0.22.04.1                   deb     
+ubuntu-keyring                                                                 2021.03.26                               deb     
+ucf                                                                            3.0043                                   deb     
+usrmerge                                                                       25ubuntu2                                deb     
+util-linux                                                                     2.37.2-4ubuntu3                          deb     
+zlib.net-mutliplatform                                                         1.0.6                                    dotnet  
+zlib1g                                                                         1:1.2.11.dfsg-2ubuntu9.2                 deb     
