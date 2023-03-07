@@ -175,7 +175,7 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.2-8-jammy                            deb     
-jellyfin-server                                                                20230302.10-unstable                     deb     
+jellyfin-server                                                                20230307.2-unstable                      deb     
 jellyfin-web                                                                   20220906.1-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
@@ -217,7 +217,7 @@ libgcc-s1                                                                      1
 libgcrypt20                                                                    1.9.4-3ubuntu3                           deb     
 libglib2.0-0                                                                   2.72.4-0ubuntu1                          deb     
 libgmp10                                                                       2:6.2.1+dfsg-3ubuntu1                    deb     
-libgnutls30                                                                    3.7.3-4ubuntu1.1                         deb     
+libgnutls30                                                                    3.7.3-4ubuntu1.2                         deb     
 libgpg-error0                                                                  1.43-3                                   deb     
 libgraphite2-3                                                                 1.3.14-1build2                           deb     
 libgssapi-krb5-2                                                               1.19.2-2ubuntu0.1                        deb     
@@ -378,7 +378,7 @@ runtime.unix.System.Runtime.Extensions                                         4
 sed                                                                            4.8-1ubuntu2                             deb     
 sensible-utils                                                                 0.0.17                                   deb     
 sysvinit-utils                                                                 3.01-1ubuntu1                            deb     
-tar                                                                            1.34+dfsg-1build3                        deb     
+tar                                                                            1.34+dfsg-1ubuntu0.1.22.04.1             deb     
 tzdata                                                                         2022g-0ubuntu0.22.04.1                   deb     
 ubuntu-keyring                                                                 2021.03.26                               deb     
 ucf                                                                            3.0043                                   deb     
