@@ -12,7 +12,7 @@ DotNet.Glob                                                                    3
 EFCoreSecondLevelCacheInterceptor                                              3.8.5                                    dotnet  
 EasyCaching.Core                                                               1.8.0                                    dotnet  
 Jellyfin.XmlTv                                                                 10.8.0                                   dotnet  
-LrcParser                                                                      2022.529.1                               dotnet  
+LrcParser                                                                      2023.308.0                               dotnet  
 MetaBrainz.Common                                                              1.0.0                                    dotnet  
 MetaBrainz.Common.Json                                                         5.1.0                                    dotnet  
 MetaBrainz.MusicBrainz                                                         5.0.0                                    dotnet  
@@ -175,7 +175,7 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.2-8-jammy                            deb     
-jellyfin-server                                                                20230307.2-unstable                      deb     
+jellyfin-server                                                                20230308.6-unstable                      deb     
 jellyfin-web                                                                   20220906.1-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
