@@ -61,7 +61,7 @@ Microsoft.Win32.SystemEvents                                                   6
 Mono.Nat                                                                       3.0.4                                    dotnet  
 NEbml                                                                          0.11.0                                   dotnet  
 NeoSmart.AsyncLock                                                             3.2.1                                    dotnet  
-Newtonsoft.Json                                                                13.0.2                                   dotnet  
+Newtonsoft.Json                                                                13.0.3                                   dotnet  
 PlaylistsNET                                                                   1.3.1                                    dotnet  
 SQLitePCL.pretty.netstandard                                                   3.1.0                                    dotnet  
 SQLitePCLRaw.bundle_e_sqlite3                                                  2.1.4                                    dotnet  
@@ -175,7 +175,7 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.2-8-jammy                            deb     
-jellyfin-server                                                                20230308.6-unstable                      deb     
+jellyfin-server                                                                20230308.7-unstable                      deb     
 jellyfin-web                                                                   20220906.1-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
