@@ -176,7 +176,7 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.2-8-jammy                            deb     
-jellyfin-server                                                                20230311.3-unstable                      deb     
+jellyfin-server                                                                20230311.5-unstable                      deb     
 jellyfin-web                                                                   20220906.1-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
@@ -268,7 +268,7 @@ librtmp1                                                                       2
 libsasl2-2                                                                     2.1.27+dfsg2-3ubuntu1.2                  deb     
 libsasl2-modules                                                               2.1.27+dfsg2-3ubuntu1.2                  deb     
 libsasl2-modules-db                                                            2.1.27+dfsg2-3ubuntu1.2                  deb     
-libse                                                                          3.6.10                                   dotnet  
+libse                                                                          3.6.11                                   dotnet  
 libseccomp2                                                                    2.5.3-2ubuntu2                           deb     
 libselinux1                                                                    3.3-1build2                              deb     
 libsemanage-common                                                             3.3-1build2                              deb     
