@@ -177,7 +177,7 @@ hostname                                                                       3
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-1-jammy                            deb     
 jellyfin-server                                                                20230422.1-unstable                      deb     
-jellyfin-web                                                                   20230423.10-unstable                     deb     
+jellyfin-web                                                                   20230425.7-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.8                                    deb     
