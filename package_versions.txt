@@ -10,7 +10,7 @@ DiscUtils.Iso9660                                                              0
 DiscUtils.Streams                                                              0.16.13                                  dotnet  
 DiscUtils.Udf                                                                  0.16.13                                  dotnet  
 DotNet.Glob                                                                    3.1.3                                    dotnet  
-EFCoreSecondLevelCacheInterceptor                                              3.8.8                                    dotnet  
+EFCoreSecondLevelCacheInterceptor                                              3.9.0                                    dotnet  
 EasyCaching.Core                                                               1.8.0                                    dotnet  
 Jellyfin.XmlTv                                                                 10.8.0                                   dotnet  
 LrcParser                                                                      2023.308.0                               dotnet  
@@ -176,8 +176,8 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-1-jammy                            deb     
-jellyfin-server                                                                20230427.3-unstable                      deb     
-jellyfin-web                                                                   20230427.13-unstable                     deb     
+jellyfin-server                                                                20230428.4-unstable                      deb     
+jellyfin-web                                                                   20230427.18-unstable                     deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.9                                    deb     
@@ -216,7 +216,7 @@ libfreetype6                                                                   2
 libfribidi0                                                                    1.0.8-2ubuntu3.1                         deb     
 libgcc-s1                                                                      12.1.0-2ubuntu1~22.04                    deb     
 libgcrypt20                                                                    1.9.4-3ubuntu3                           deb     
-libglib2.0-0                                                                   2.72.4-0ubuntu1                          deb     
+libglib2.0-0                                                                   2.72.4-0ubuntu2                          deb     
 libgmp10                                                                       2:6.2.1+dfsg-3ubuntu1                    deb     
 libgnutls30                                                                    3.7.3-4ubuntu1.2                         deb     
 libgpg-error0                                                                  1.43-3                                   deb     
