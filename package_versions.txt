@@ -102,8 +102,8 @@ TMDbLib                                                            1.9.2        
 TagLibSharp                                                        2.3.0                                    dotnet  
 UTF.Unknown                                                        2.5.1                                    dotnet  
 adduser                                                            3.118ubuntu5                             deb     
-apt                                                                2.4.8                                    deb     
-apt-utils                                                          2.4.8                                    deb     
+apt                                                                2.4.9                                    deb     
+apt-utils                                                          2.4.9                                    deb     
 at                                                                 3.2.5-1ubuntu1                           deb     
 base-files                                                         12ubuntu4.3                              deb     
 base-passwd                                                        3.5.52build1                             deb     
@@ -142,7 +142,7 @@ jellyfin-server                                                    10.8.10-1    
 jellyfin-web                                                       10.8.10-1                                deb     
 jq                                                                 1.6-2.1ubuntu3                           deb     
 libacl1                                                            2.3.1-1                                  deb     
-libapt-pkg6.0                                                      2.4.8                                    deb     
+libapt-pkg6.0                                                      2.4.9                                    deb     
 libass9                                                            1:0.15.2-1                               deb     
 libassuan0                                                         2.5.5-1build1                            deb     
 libattr1                                                           1:2.5.1-1build1                          deb     
@@ -178,7 +178,7 @@ libfreetype6                                                       2.11.1+dfsg-1
 libfribidi0                                                        1.0.8-2ubuntu3.1                         deb     
 libgcc-s1                                                          12.1.0-2ubuntu1~22.04                    deb     
 libgcrypt20                                                        1.9.4-3ubuntu3                           deb     
-libglib2.0-0                                                       2.72.4-0ubuntu1                          deb     
+libglib2.0-0                                                       2.72.4-0ubuntu2                          deb     
 libgmp10                                                           2:6.2.1+dfsg-3ubuntu1                    deb     
 libgnutls30                                                        3.7.3-4ubuntu1.2                         deb     
 libgpg-error0                                                      1.43-3                                   deb     
@@ -241,7 +241,7 @@ libsmartcols1                                                      2.37.2-4ubunt
 libsqlite3-0                                                       3.37.2-2ubuntu0.1                        deb     
 libss2                                                             1.46.5-2ubuntu1.1                        deb     
 libssh-4                                                           0.9.6-2build1                            deb     
-libssl3                                                            3.0.2-0ubuntu1.8                         deb     
+libssl3                                                            3.0.2-0ubuntu1.9                         deb     
 libstdc++6                                                         12.1.0-2ubuntu1~22.04                    deb     
 libsystemd0                                                        249.11-0ubuntu3.9                        deb     
 libtasn1-6                                                         4.18.0-4build1                           deb     
@@ -295,7 +295,7 @@ ncurses-bin                                                        6.3-2        
 netcat                                                             1.218-4ubuntu1                           deb     
 netcat-openbsd                                                     1.218-4ubuntu1                           deb     
 ocl-icd-libopencl1                                                 2.2.14-3                                 deb     
-openssl                                                            3.0.2-0ubuntu1.8                         deb     
+openssl                                                            3.0.2-0ubuntu1.9                         deb     
 passwd                                                             1:4.8.1-2ubuntu2.1                       deb     
 perl-base                                                          5.34.0-3ubuntu1.1                        deb     
 pinentry-curses                                                    1.1.1-1build2                            deb     
