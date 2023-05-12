@@ -69,13 +69,13 @@ SQLitePCLRaw.bundle_e_sqlite3                                                  2
 SQLitePCLRaw.core                                                              2.1.4                                    dotnet  
 SQLitePCLRaw.lib.e_sqlite3                                                     2.1.4                                    dotnet  
 SQLitePCLRaw.provider.e_sqlite3                                                2.1.4                                    dotnet  
-Serilog                                                                        2.10.0                                   dotnet  
+Serilog                                                                        2.12.0                                   dotnet  
 Serilog.AspNetCore                                                             6.1.0                                    dotnet  
 Serilog.Enrichers.Thread                                                       3.1.0                                    dotnet  
 Serilog.Extensions.Hosting                                                     5.0.1                                    dotnet  
 Serilog.Extensions.Logging                                                     3.1.0                                    dotnet  
 Serilog.Formatting.Compact                                                     1.1.0                                    dotnet  
-Serilog.Settings.Configuration                                                 3.4.0                                    dotnet  
+Serilog.Settings.Configuration                                                 7.0.0                                    dotnet  
 Serilog.Sinks.Async                                                            1.5.0                                    dotnet  
 Serilog.Sinks.Console                                                          4.1.0                                    dotnet  
 Serilog.Sinks.Debug                                                            2.0.0                                    dotnet  
@@ -176,8 +176,8 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-1-jammy                            deb     
-jellyfin-server                                                                20230511.9-unstable                      deb     
-jellyfin-web                                                                   20230511.18-unstable                     deb     
+jellyfin-server                                                                20230512.5-unstable                      deb     
+jellyfin-web                                                                   20230512.2-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.9                                    deb     
