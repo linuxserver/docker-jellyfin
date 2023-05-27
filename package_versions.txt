@@ -176,8 +176,8 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-1-jammy                            deb     
-jellyfin-server                                                                20230526.4-unstable                      deb     
-jellyfin-web                                                                   20230526.3-unstable                      deb     
+jellyfin-server                                                                20230527.3-unstable                      deb     
+jellyfin-web                                                                   20230527.3-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.9                                    deb     
@@ -326,7 +326,7 @@ login                                                                          1
 logsave                                                                        1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                                       11.1.0ubuntu4                            deb     
 mawk                                                                           1.3.4.20200120-3                         deb     
-mesa-va-drivers                                                                22.2.5-0ubuntu0.1~22.04.2                deb     
+mesa-va-drivers                                                                22.2.5-0ubuntu0.1~22.04.1                deb     
 mount                                                                          2.37.2-4ubuntu3                          deb     
 ncurses-base                                                                   6.3-2                                    deb     
 ncurses-bin                                                                    6.3-2                                    deb     
