@@ -176,7 +176,7 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-2-jammy                            deb     
-jellyfin-server                                                                20230623.4-unstable                      deb     
+jellyfin-server                                                                20230624.3-unstable                      deb     
 jellyfin-web                                                                   20230621.3-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
