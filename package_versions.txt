@@ -12,6 +12,10 @@ DiscUtils.Udf                                                                  0
 DotNet.Glob                                                                    3.1.3                                    dotnet  
 EFCoreSecondLevelCacheInterceptor                                              3.9.2                                    dotnet  
 EasyCaching.Core                                                               1.8.0                                    dotnet  
+HarfBuzzSharp                                                                  2.8.2.3                                  dotnet  
+HarfBuzzSharp.NativeAssets.Linux                                               2.8.2.3                                  dotnet  
+HarfBuzzSharp.NativeAssets.Win32                                               2.8.2.3                                  dotnet  
+HarfBuzzSharp.NativeAssets.macOS                                               2.8.2.3                                  dotnet  
 Jellyfin.XmlTv                                                                 10.8.0                                   dotnet  
 LrcParser                                                                      2023.524.0                               dotnet  
 MetaBrainz.Common                                                              1.0.0                                    dotnet  
@@ -82,6 +86,7 @@ Serilog.Sinks.Debug                                                            2
 Serilog.Sinks.File                                                             5.0.0                                    dotnet  
 Serilog.Sinks.Graylog                                                          3.0.1                                    dotnet  
 SkiaSharp                                                                      2.88.3                                   dotnet  
+SkiaSharp.HarfBuzz                                                             2.88.3                                   dotnet  
 SkiaSharp.NativeAssets.Linux                                                   2.88.3                                   dotnet  
 SkiaSharp.NativeAssets.Win32                                                   2.88.3                                   dotnet  
 SkiaSharp.NativeAssets.macOS                                                   2.88.3                                   dotnet  
@@ -176,8 +181,8 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-2-jammy                            deb     
-jellyfin-server                                                                20230627.15-unstable                     deb     
-jellyfin-web                                                                   20230627.2-unstable                      deb     
+jellyfin-server                                                                20230628.4-unstable                      deb     
+jellyfin-web                                                                   20230627.3-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.9                                    deb     
@@ -195,7 +200,7 @@ libc-bin                                                                       2
 libc6                                                                          2.35-0ubuntu3.1                          deb     
 libcairo2                                                                      1.16.0-5ubuntu2                          deb     
 libcap-ng0                                                                     0.7.9-2.2build3                          deb     
-libcap2                                                                        1:2.44-1build3                           deb     
+libcap2                                                                        1:2.44-1ubuntu0.22.04.1                  deb     
 libcom-err2                                                                    1.46.5-2ubuntu1.1                        deb     
 libcrypt1                                                                      1:4.4.27-1                               deb     
 libcurl4                                                                       7.81.0-1ubuntu1.10                       deb     
