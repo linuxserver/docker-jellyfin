@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf | ✅ | arm32v7-\<version tag\> |
+| armhf | ❌ | |
 
 ## Version Tags
 
@@ -307,6 +307,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase master to Jammy, migrate to s6v3.
 * **11.06.22:** - Switch to upstream repo's ffmpeg5 build.
 * **05.01.22:** - Specify Intel iHD driver versions to avoid mismatched libva errors.
