@@ -137,7 +137,7 @@ grep                                                               3.7-1build1  
 gzip                                                               1.10-4ubuntu4.1                          deb     
 hostname                                                           3.23ubuntu2                              deb     
 init-system-helpers                                                1.62                                     deb     
-jellyfin-ffmpeg5                                                   5.1.3-2-jammy                            deb     
+jellyfin-ffmpeg5                                                   5.1.3-3-jammy                            deb     
 jellyfin-server                                                    10.8.10-1                                deb     
 jellyfin-web                                                       10.8.10-1                                deb     
 jq                                                                 1.6-2.1ubuntu3                           deb     
@@ -157,7 +157,7 @@ libc-bin                                                           2.35-0ubuntu3
 libc6                                                              2.35-0ubuntu3.1                          deb     
 libcairo2                                                          1.16.0-5ubuntu2                          deb     
 libcap-ng0                                                         0.7.9-2.2build3                          deb     
-libcap2                                                            1:2.44-1build3                           deb     
+libcap2                                                            1:2.44-1ubuntu0.22.04.1                  deb     
 libcom-err2                                                        1.46.5-2ubuntu1.1                        deb     
 libcrypt1                                                          1:4.4.27-1                               deb     
 libcurl4                                                           7.81.0-1ubuntu1.10                       deb     
