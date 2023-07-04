@@ -22,6 +22,10 @@ MetaBrainz.Common                                                              1
 MetaBrainz.Common.Json                                                         5.1.0                                    dotnet  
 MetaBrainz.MusicBrainz                                                         5.0.0                                    dotnet  
 Microsoft.AspNetCore.Authorization                                             7.0.8                                    dotnet  
+Microsoft.AspNetCore.Http.Abstractions                                         2.2.0                                    dotnet  
+Microsoft.AspNetCore.Http.Extensions                                           2.2.0                                    dotnet  
+Microsoft.AspNetCore.Http.Features                                             2.2.0                                    dotnet  
+Microsoft.AspNetCore.HttpOverrides                                             2.2.0                                    dotnet  
 Microsoft.AspNetCore.Metadata                                                  7.0.8                                    dotnet  
 Microsoft.Bcl.AsyncInterfaces                                                  6.0.0                                    dotnet  
 Microsoft.Data.Sqlite.Core                                                     7.0.8                                    dotnet  
@@ -59,6 +63,7 @@ Microsoft.Extensions.Options.ConfigurationExtensions                           6
 Microsoft.Extensions.Primitives                                                7.0.0                                    dotnet  
 Microsoft.NETCore.Platforms                                                    5.0.0                                    dotnet  
 Microsoft.NETCore.Targets                                                      1.1.0                                    dotnet  
+Microsoft.Net.Http.Headers                                                     2.2.0                                    dotnet  
 Microsoft.OpenApi                                                              1.2.3                                    dotnet  
 Microsoft.Win32.Primitives                                                     4.3.0                                    dotnet  
 Microsoft.Win32.Registry                                                       5.0.0                                    dotnet  
@@ -96,7 +101,7 @@ Swashbuckle.AspNetCore.ReDoc                                                   6
 Swashbuckle.AspNetCore.Swagger                                                 6.2.3                                    dotnet  
 Swashbuckle.AspNetCore.SwaggerGen                                              6.2.3                                    dotnet  
 Swashbuckle.AspNetCore.SwaggerUI                                               6.2.3                                    dotnet  
-System.Buffers                                                                 4.3.0                                    dotnet  
+System.Buffers                                                                 4.5.0                                    dotnet  
 System.Collections                                                             4.3.0                                    dotnet  
 System.Collections.Concurrent                                                  4.3.0                                    dotnet  
 System.Diagnostics.Debug                                                       4.3.0                                    dotnet  
@@ -181,8 +186,8 @@ gzip                                                                           1
 hostname                                                                       3.23ubuntu2                              deb     
 init-system-helpers                                                            1.62                                     deb     
 jellyfin-ffmpeg5                                                               5.1.3-3-jammy                            deb     
-jellyfin-server                                                                20230703.12-unstable                     deb     
-jellyfin-web                                                                   20230703.2-unstable                      deb     
+jellyfin-server                                                                20230703.13-unstable                     deb     
+jellyfin-web                                                                   20230703.4-unstable                      deb     
 jq                                                                             1.6-2.1ubuntu3                           deb     
 libacl1                                                                        2.3.1-1                                  deb     
 libapt-pkg6.0                                                                  2.4.9                                    deb     
