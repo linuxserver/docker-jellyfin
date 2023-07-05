@@ -9,6 +9,6 @@ export \
     JELLYFIN_WEB_DIR="/usr/share/jellyfin/web"
 
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8096" \
+    s6-notifyoncheck -d -n 300 -w 1000 \
         s6-setuidgid abc /usr/bin/jellyfin \
         --ffmpeg=/usr/lib/jellyfin-ffmpeg/ffmpeg
