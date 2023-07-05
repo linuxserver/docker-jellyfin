@@ -31,7 +31,8 @@ RUN \
     libomxil-bellagio0 \
     libomxil-bellagio-bin \
     libraspberrypi0 \
-    libssl3 && \
+    libssl3 \
+    xmlstarlet && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \

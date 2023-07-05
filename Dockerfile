@@ -29,7 +29,8 @@ RUN \
     libfontconfig1 \
     libfreetype6 \
     libssl3 \
-    mesa-va-drivers && \
+    mesa-va-drivers \
+    xmlstarlet && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
