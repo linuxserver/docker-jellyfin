@@ -570,7 +570,7 @@ login                                                                           
 logsave                                                                            1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                                           11.1.0ubuntu4                            deb     
 mawk                                                                               1.3.4.20200120-3                         deb     
-mesa-va-drivers                                                                    22.2.5-0ubuntu0.1~22.04.3                deb     
+mesa-va-drivers                                                                    23.0.4-0ubuntu1~22.04.1                  deb     
 mount                                                                              2.37.2-4ubuntu3                          deb     
 mscorlib                                                                           7.0.923.32018                            dotnet  
 ncurses-base                                                                       6.3-2ubuntu0.1                           deb     
