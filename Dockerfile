@@ -30,6 +30,7 @@ RUN \
     libfreetype6 \
     libssl3 \
     mesa-va-drivers \
+    intel-opencl-icd \
     xmlstarlet && \
   echo "**** cleanup ****" && \
   rm -rf \
@@ -38,7 +39,7 @@ RUN \
     /var/tmp/*
 
 # add local files
-COPY root/ / 
+COPY root/ /
 
 # ports and volumes
 EXPOSE 8096 8920
