@@ -376,6 +376,7 @@ at                                                                              
 base-files                                                                         12ubuntu4.3                              deb     
 base-passwd                                                                        3.5.52build1                             deb     
 bash                                                                               5.1-6ubuntu1                             deb     
+bash                                                                               5.1.16                                   binary  
 bsdutils                                                                           1:2.37.2-4ubuntu3                        deb     
 ca-certificates                                                                    20230311ubuntu0.22.04.1                  deb     
 coreutils                                                                          8.32-4.1ubuntu1                          deb     
