@@ -113,6 +113,7 @@ app_setup_block: |
 unraid_template_sync: false
 # changelog
 changelogs:
+  - {date: "12.09.23:", desc: "Take ownership of plugin directories."}
   - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "07.12.22:", desc: "Rebase master to Jammy, migrate to s6v3."}
   - {date: "11.06.22:", desc: "Switch to upstream repo's ffmpeg5 build."}
