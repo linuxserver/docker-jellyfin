@@ -421,7 +421,7 @@ hostname                                                                        
 init-system-helpers                                                                1.62                                     deb     
 jellyfin-ffmpeg5                                                                   5.1.3-5-jammy                            deb     
 jellyfin-server                                                                    20230913.11-unstable                     deb     
-jellyfin-web                                                                       20230807.8-unstable                      deb     
+jellyfin-web                                                                       20230914.11-unstable                     deb     
 jq                                                                                 1.6-2.1ubuntu3                           deb     
 libacl1                                                                            2.3.1-1                                  deb     
 libapt-pkg6.0                                                                      2.4.10                                   deb     
@@ -539,8 +539,8 @@ libvorbis0a                                                                     
 libvorbisenc2                                                                      1.3.7-1build2                            deb     
 libvorbisfile3                                                                     1.3.7-1build2                            deb     
 libvpx7                                                                            1.11.0-2ubuntu2                          deb     
-libwebp7                                                                           1.2.2-2ubuntu0.22.04.1                   deb     
-libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.1                   deb     
+libwebp7                                                                           1.2.2-2ubuntu0.22.04.2                   deb     
+libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.2                   deb     
 libx11-6                                                                           2:1.7.5-1ubuntu0.2                       deb     
 libx11-data                                                                        2:1.7.5-1ubuntu0.2                       deb     
 libx11-xcb1                                                                        2:1.7.5-1ubuntu0.2                       deb     
