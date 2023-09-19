@@ -526,8 +526,8 @@ libvorbis0a                                                                     
 libvorbisenc2                                                                      1.3.7-1build2                            deb     
 libvorbisfile3                                                                     1.3.7-1build2                            deb     
 libvpx7                                                                            1.11.0-2ubuntu2                          deb     
-libwebp7                                                                           1.2.2-2ubuntu0.22.04.1                   deb     
-libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.1                   deb     
+libwebp7                                                                           1.2.2-2ubuntu0.22.04.2                   deb     
+libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.2                   deb     
 libx11-6                                                                           2:1.7.5-1ubuntu0.2                       deb     
 libx11-data                                                                        2:1.7.5-1ubuntu0.2                       deb     
 libx11-xcb1                                                                        2:1.7.5-1ubuntu0.2                       deb     
@@ -553,7 +553,7 @@ libxxhash0                                                                      
 libzstd1                                                                           1.4.8+dfsg-3build1                       deb     
 libzvbi-common                                                                     0.2.35-19                                deb     
 libzvbi0                                                                           0.2.35-19                                deb     
-locales                                                                            2.35-0ubuntu3.1                          deb     
+locales                                                                            2.35-0ubuntu3.3                          deb     
 login                                                                              1:4.8.1-2ubuntu2.1                       deb     
 logsave                                                                            1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                                           11.1.0ubuntu4                            deb     
