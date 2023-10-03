@@ -525,7 +525,7 @@ libuuid1                                                                        
 libvorbis0a                                                                        1.3.7-1build2                            deb     
 libvorbisenc2                                                                      1.3.7-1build2                            deb     
 libvorbisfile3                                                                     1.3.7-1build2                            deb     
-libvpx7                                                                            1.11.0-2ubuntu2                          deb     
+libvpx7                                                                            1.11.0-2ubuntu2.2                        deb     
 libwebp7                                                                           1.2.2-2ubuntu0.22.04.2                   deb     
 libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.2                   deb     
 libx11-6                                                                           2:1.7.5-1ubuntu0.2                       deb     
