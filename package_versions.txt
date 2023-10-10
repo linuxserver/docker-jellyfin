@@ -528,9 +528,9 @@ libvorbisfile3                                                                  
 libvpx7                                                                            1.11.0-2ubuntu2.2                        deb     
 libwebp7                                                                           1.2.2-2ubuntu0.22.04.2                   deb     
 libwebpmux3                                                                        1.2.2-2ubuntu0.22.04.2                   deb     
-libx11-6                                                                           2:1.7.5-1ubuntu0.2                       deb     
-libx11-data                                                                        2:1.7.5-1ubuntu0.2                       deb     
-libx11-xcb1                                                                        2:1.7.5-1ubuntu0.2                       deb     
+libx11-6                                                                           2:1.7.5-1ubuntu0.3                       deb     
+libx11-data                                                                        2:1.7.5-1ubuntu0.3                       deb     
+libx11-xcb1                                                                        2:1.7.5-1ubuntu0.3                       deb     
 libx264-163                                                                        2:0.163.3060+git5db6aa6-2build1          deb     
 libx265-199                                                                        3.5-2                                    deb     
 libxau6                                                                            1:1.0.9-1build5                          deb     
@@ -553,7 +553,7 @@ libxxhash0                                                                      
 libzstd1                                                                           1.4.8+dfsg-3build1                       deb     
 libzvbi-common                                                                     0.2.35-19                                deb     
 libzvbi0                                                                           0.2.35-19                                deb     
-locales                                                                            2.35-0ubuntu3.3                          deb     
+locales                                                                            2.35-0ubuntu3.4                          deb     
 login                                                                              1:4.8.1-2ubuntu2.1                       deb     
 logsave                                                                            1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                                           11.1.0ubuntu4                            deb     
