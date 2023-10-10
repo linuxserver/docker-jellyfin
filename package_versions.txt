@@ -47,7 +47,7 @@ Microsoft.AspNetCore.Authentication.Abstractions                                
 Microsoft.AspNetCore.Authentication.Cookies                                        7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Authentication.Core                                           7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Authentication.OAuth                                          7.0.1123.42502                           dotnet  
-Microsoft.AspNetCore.Authorization                                                 7.0.1123.42502                           dotnet  
+Microsoft.AspNetCore.Authorization                                                 7.0.1223.47922                           dotnet  
 Microsoft.AspNetCore.Authorization.Policy                                          7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Components                                                    7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Components.Authorization                                      7.0.1123.42502                           dotnet  
@@ -83,7 +83,7 @@ Microsoft.AspNetCore.HttpsPolicy                                                
 Microsoft.AspNetCore.Identity                                                      7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Localization                                                  7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Localization.Routing                                          7.0.1123.42502                           dotnet  
-Microsoft.AspNetCore.Metadata                                                      7.0.1123.42502                           dotnet  
+Microsoft.AspNetCore.Metadata                                                      7.0.1223.47922                           dotnet  
 Microsoft.AspNetCore.Mvc                                                           7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Mvc.Abstractions                                              7.0.1123.42502                           dotnet  
 Microsoft.AspNetCore.Mvc.ApiExplorer                                               7.0.1123.42502                           dotnet  
@@ -420,8 +420,8 @@ gzip                                                                            
 hostname                                                                           3.23ubuntu2                              deb     
 init-system-helpers                                                                1.62                                     deb     
 jellyfin-ffmpeg5                                                                   5.1.3-5-jammy                            deb     
-jellyfin-server                                                                    20231010.6-unstable                      deb     
-jellyfin-web                                                                       20231010.7-unstable                      deb     
+jellyfin-server                                                                    20231010.14-unstable                     deb     
+jellyfin-web                                                                       20231010.17-unstable                     deb     
 jq                                                                                 1.6-2.1ubuntu3                           deb     
 libacl1                                                                            2.3.1-1                                  deb     
 libapt-pkg6.0                                                                      2.4.10                                   deb     
