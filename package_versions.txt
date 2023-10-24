@@ -380,7 +380,7 @@ bash                                                                            
 bsdutils                                                                           1:2.37.2-4ubuntu3                        deb     
 ca-certificates                                                                    20230311ubuntu0.22.04.1                  deb     
 coreutils                                                                          8.32-4.1ubuntu1                          deb     
-curl                                                                               7.81.0-1ubuntu1.13                       deb     
+curl                                                                               7.81.0-1ubuntu1.14                       deb     
 dash                                                                               0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                                                                            1.5.79ubuntu1                            deb     
 debianutils                                                                        5.5-1ubuntu2                             deb     
@@ -406,7 +406,7 @@ grep                                                                            
 gzip                                                                               1.10-4ubuntu4.1                          deb     
 hostname                                                                           3.23ubuntu2                              deb     
 init-system-helpers                                                                1.62                                     deb     
-jellyfin-ffmpeg5                                                                   5.1.3-5-jammy                            deb     
+jellyfin-ffmpeg5                                                                   5.1.3-6-jammy                            deb     
 jellyfin-server                                                                    10.8.11-1                                deb     
 jellyfin-web                                                                       10.8.11-1                                deb     
 jq                                                                                 1.6-2.1ubuntu3                           deb     
@@ -429,7 +429,7 @@ libcap-ng0                                                                      
 libcap2                                                                            1:2.44-1ubuntu0.22.04.1                  deb     
 libcom-err2                                                                        1.46.5-2ubuntu1.1                        deb     
 libcrypt1                                                                          1:4.4.27-1                               deb     
-libcurl4                                                                           7.81.0-1ubuntu1.13                       deb     
+libcurl4                                                                           7.81.0-1ubuntu1.14                       deb     
 libdb5.3                                                                           5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdebconfclient0                                                                  0.261ubuntu1                             deb     
 libdrm-amdgpu1                                                                     2.4.113-2~ubuntu0.22.04.1                deb     
