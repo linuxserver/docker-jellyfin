@@ -13,7 +13,7 @@ DiscUtils.Iso9660                                                               
 DiscUtils.Streams                                                                  0.16.13.55129                            dotnet  
 DiscUtils.Udf                                                                      0.16.13.55129                            dotnet  
 DotNet.Glob                                                                        1.0.0.0                                  dotnet  
-EFCoreSecondLevelCacheInterceptor                                                  3.9.5.0                                  dotnet  
+EFCoreSecondLevelCacheInterceptor                                                  4.0.0.0                                  dotnet  
 EasyCaching.Core                                                                   1.9.1.0                                  dotnet  
 Emby.Dlna                                                                          10.9.0                                   dotnet  
 Emby.Naming                                                                        10.9.0                                   dotnet  
@@ -425,8 +425,8 @@ gzip                                                                            
 hostname                                                                           3.23ubuntu2                              deb     
 init-system-helpers                                                                1.62                                     deb     
 jellyfin-ffmpeg5                                                                   5.1.3-6-jammy                            deb     
-jellyfin-server                                                                    20231031.7-unstable                      deb     
-jellyfin-web                                                                       20231031.9-unstable                      deb     
+jellyfin-server                                                                    20231101.2-unstable                      deb     
+jellyfin-web                                                                       20231101.3-unstable                      deb     
 jq                                                                                 1.6-2.1ubuntu3                           deb     
 libacl1                                                                            2.3.1-1                                  deb     
 libapt-pkg6.0                                                                      2.4.10                                   deb     
