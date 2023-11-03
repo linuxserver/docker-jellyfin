@@ -3,8 +3,8 @@ NAME                                                                            
                                                                                    8.1.0                                    dotnet  
 AsyncLock                                                                          3.2.1.0                                  dotnet  
 BDInfo                                                                             0.7.6.2                                  dotnet  
-BlurHashSharp                                                                      1.2.0.0                                  dotnet  
-BlurHashSharp.SkiaSharp                                                            1.2.0.0                                  dotnet  
+BlurHashSharp                                                                      1.3.1.0                                  dotnet  
+BlurHashSharp.SkiaSharp                                                            1.3.1.0                                  dotnet  
 CacheManager.Core                                                                  1.2.0.0                                  dotnet  
 CommandLine                                                                        2.9.1.0                                  dotnet  
 Diacritics                                                                         3.3.18                                   dotnet  
@@ -207,8 +207,8 @@ Serilog.Sinks.File                                                              
 Serilog.Sinks.Graylog                                                              3.0.0.0                                  dotnet  
 Serilog.Sinks.Graylog.Core                                                         1.0.0.0                                  dotnet  
 ShimSkiaSharp                                                                      1.0.0.2                                  dotnet  
-SkiaSharp                                                                          2.88.5.0                                 dotnet  
-SkiaSharp.HarfBuzz                                                                 2.88.5.0                                 dotnet  
+SkiaSharp                                                                          2.88.6.0                                 dotnet  
+SkiaSharp.HarfBuzz                                                                 2.88.6.0                                 dotnet  
 Svg.Custom                                                                         1.0.0.2                                  dotnet  
 Svg.Model                                                                          1.0.0.2                                  dotnet  
 Svg.Skia                                                                           1.0.0.2                                  dotnet  
@@ -426,8 +426,8 @@ gzip                                                                            
 hostname                                                                           3.23ubuntu2                              deb     
 init-system-helpers                                                                1.62                                     deb     
 jellyfin-ffmpeg5                                                                   5.1.3-6-jammy                            deb     
-jellyfin-server                                                                    20231103.1-unstable                      deb     
-jellyfin-web                                                                       20231103.1-unstable                      deb     
+jellyfin-server                                                                    20231103.2-unstable                      deb     
+jellyfin-web                                                                       20231103.7-unstable                      deb     
 jq                                                                                 1.6-2.1ubuntu3                           deb     
 libacl1                                                                            2.3.1-1                                  deb     
 libapt-pkg6.0                                                                      2.4.10                                   deb     
