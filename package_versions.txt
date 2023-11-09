@@ -191,7 +191,7 @@ RSSDP                                                               2019.1.20.3 
 SQLitePCLRaw.batteriesv2                                            2.1.4.1835                               dotnet  
 SQLitePCLRaw.core                                                   2.1.4.1835                               dotnet  
 SQLitePCLRaw.provider.esqlite3                                      2.1.4.1835                               dotnet  
-Serilog                                                             2.12.0.0                                 dotnet  
+Serilog                                                             3.1.0.0                                  dotnet  
 Serilog.AspNetCore                                                  7.0.0.0                                  dotnet  
 Serilog.Enrichers.Thread                                            3.1.0.0                                  dotnet  
 Serilog.Extensions.Hosting                                          7.0.0.0                                  dotnet  
@@ -199,7 +199,7 @@ Serilog.Extensions.Logging                                          7.0.0.0     
 Serilog.Formatting.Compact                                          1.1.0.0                                  dotnet  
 Serilog.Settings.Configuration                                      7.0.1.0                                  dotnet  
 Serilog.Sinks.Async                                                 1.5.0.0                                  dotnet  
-Serilog.Sinks.Console                                               4.1.0.0                                  dotnet  
+Serilog.Sinks.Console                                               5.0.0.0                                  dotnet  
 Serilog.Sinks.Debug                                                 2.0.0.0                                  dotnet  
 Serilog.Sinks.File                                                  5.0.0.0                                  dotnet  
 Serilog.Sinks.Graylog                                               3.0.0.0                                  dotnet  
@@ -424,8 +424,8 @@ gzip                                                                1.10-4ubuntu
 hostname                                                            3.23ubuntu2                              deb     
 init-system-helpers                                                 1.62                                     deb     
 jellyfin-ffmpeg5                                                    5.1.3-7-jammy                            deb     
-jellyfin-server                                                     20231108.5-unstable                      deb     
-jellyfin-web                                                        20231108.3-unstable                      deb     
+jellyfin-server                                                     20231109.8-unstable                      deb     
+jellyfin-web                                                        20231109.96-unstable                     deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
 libacl1                                                             2.3.1-1                                  deb     
 libapt-pkg6.0                                                       2.4.10                                   deb     
