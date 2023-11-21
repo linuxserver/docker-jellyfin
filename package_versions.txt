@@ -386,8 +386,8 @@ TagLibSharp                                                         2.3.0.0     
 UTFUnknown                                                          2.0.664                                  dotnet  
 WindowsBase                                                         7.0.1323.51816                           dotnet  
 adduser                                                             3.118ubuntu5                             deb     
-apt                                                                 2.4.10                                   deb     
-apt-utils                                                           2.4.10                                   deb     
+apt                                                                 2.4.11                                   deb     
+apt-utils                                                           2.4.11                                   deb     
 at                                                                  3.2.5-1ubuntu1                           deb     
 base-files                                                          12ubuntu4.3                              deb     
 base-passwd                                                         3.5.52build1                             deb     
@@ -425,10 +425,10 @@ hostname                                                            3.23ubuntu2 
 init-system-helpers                                                 1.62                                     deb     
 jellyfin-ffmpeg5                                                    5.1.3-7-jammy                            deb     
 jellyfin-server                                                     20231115.15-unstable                     deb     
-jellyfin-web                                                        20231115.22-unstable                     deb     
+jellyfin-web                                                        20231120.3-unstable                      deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
 libacl1                                                             2.3.1-1                                  deb     
-libapt-pkg6.0                                                       2.4.10                                   deb     
+libapt-pkg6.0                                                       2.4.11                                   deb     
 libass9                                                             1:0.15.2-1                               deb     
 libassuan0                                                          2.5.5-1build1                            deb     
 libattr1                                                            1:2.5.1-1build1                          deb     
