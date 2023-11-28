@@ -423,9 +423,9 @@ grep                                                                3.7-1build1 
 gzip                                                                1.10-4ubuntu4.1                          deb     
 hostname                                                            3.23ubuntu2                              deb     
 init-system-helpers                                                 1.62                                     deb     
-jellyfin-ffmpeg5                                                    5.1.3-7-jammy                            deb     
+jellyfin-ffmpeg5                                                    5.1.4-1-jammy                            deb     
 jellyfin-server                                                     20231115.15-unstable                     deb     
-jellyfin-web                                                        20231120.3-unstable                      deb     
+jellyfin-web                                                        20231127.6-unstable                      deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
 libacl1                                                             2.3.1-1                                  deb     
 libapt-pkg6.0                                                       2.4.11                                   deb     
