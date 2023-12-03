@@ -405,7 +405,7 @@ grep                                                                3.7-1build1 
 gzip                                                                1.10-4ubuntu4.1                          deb     
 hostname                                                            3.23ubuntu2                              deb     
 init-system-helpers                                                 1.62                                     deb     
-jellyfin-ffmpeg5                                                    5.1.4-1-jammy                            deb     
+jellyfin-ffmpeg5                                                    5.1.4-2-jammy                            deb     
 jellyfin-server                                                     10.8.13-1                                deb     
 jellyfin-web                                                        10.8.13-1                                deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
