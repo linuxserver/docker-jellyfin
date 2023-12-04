@@ -366,6 +366,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.12.23:** - Switch nightly to ffmpeg6.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase nightly to Jammy, migrate to s6v3.
 * **05.01.22:** - Specify Intel iHD driver versions to avoid mismatched libva errors.
