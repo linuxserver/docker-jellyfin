@@ -423,10 +423,11 @@ grep                                                                3.7-1build1 
 gzip                                                                1.10-4ubuntu4.1                          deb     
 hostname                                                            3.23ubuntu2                              deb     
 init-system-helpers                                                 1.62                                     deb     
-jellyfin-ffmpeg5                                                    5.1.4-1-jammy                            deb     
+jellyfin-ffmpeg6                                                    6.0.1-1-jammy                            deb     
 jellyfin-server                                                     20231115.15-unstable                     deb     
-jellyfin-web                                                        20231127.6-unstable                      deb     
+jellyfin-web                                                        20231203.7-unstable                      deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
+libaacs0                                                            0.11.1-1                                 deb     
 libacl1                                                             2.3.1-1                                  deb     
 libapt-pkg6.0                                                       2.4.11                                   deb     
 libass9                                                             1:0.15.2-1                               deb     
@@ -434,6 +435,7 @@ libassuan0                                                          2.5.5-1build
 libattr1                                                            1:2.5.1-1build1                          deb     
 libaudit-common                                                     1:3.0.7-1build1                          deb     
 libaudit1                                                           1:3.0.7-1build1                          deb     
+libbdplus0                                                          0.2.0-1                                  deb     
 libblkid1                                                           2.37.2-4ubuntu3                          deb     
 libbluray2                                                          1:1.3.1-1                                deb     
 libbrotli1                                                          1.0.9-2build6                            deb     
@@ -465,6 +467,7 @@ libfribidi0                                                         1.0.8-2ubunt
 libgcc-s1                                                           12.1.0-2ubuntu1~22.04                    deb     
 libgcrypt20                                                         1.9.4-3ubuntu3                           deb     
 libglib2.0-0                                                        2.72.4-0ubuntu2.2                        deb     
+libglib2.0-data                                                     2.72.4-0ubuntu2.2                        deb     
 libgmp10                                                            2:6.2.1+dfsg-3ubuntu1                    deb     
 libgnutls30                                                         3.7.3-4ubuntu1.2                         deb     
 libgpg-error0                                                       1.43-3                                   deb     
@@ -492,7 +495,7 @@ libmpg123-0                                                         1.29.3-1buil
 libncurses6                                                         6.3-2ubuntu0.1                           deb     
 libncursesw6                                                        6.3-2ubuntu0.1                           deb     
 libnettle8                                                          3.7.3-1build2                            deb     
-libnghttp2-14                                                       1.43.0-1build3                           deb     
+libnghttp2-14                                                       1.43.0-1ubuntu0.1                        deb     
 libnpth0                                                            1.6-3build2                              deb     
 libnsl2                                                             1.3.0-2build2                            deb     
 libnuma1                                                            2.0.14-3ubuntu2                          deb     
@@ -527,7 +530,7 @@ libsmartcols1                                                       2.37.2-4ubun
 libsqlite3-0                                                        3.37.2-2ubuntu0.1                        deb     
 libss2                                                              1.46.5-2ubuntu1.1                        deb     
 libssh-4                                                            0.9.6-2ubuntu0.22.04.1                   deb     
-libssl3                                                             3.0.2-0ubuntu1.12                        deb     
+libssl3                                                             3.0.2-0ubuntu1.10                        deb     
 libstdc++6                                                          12.1.0-2ubuntu1~22.04                    deb     
 libsystemd0                                                         249.11-0ubuntu3.9                        deb     
 libtasn1-6                                                          4.18.0-4build1                           deb     
@@ -593,6 +596,7 @@ publicsuffix                                                        20211207.102
 readline-common                                                     8.1.2-1                                  deb     
 sed                                                                 4.8-1ubuntu2                             deb     
 sensible-utils                                                      0.0.17                                   deb     
+shared-mime-info                                                    2.1-2                                    deb     
 sysvinit-utils                                                      3.01-1ubuntu1                            deb     
 tar                                                                 1.34+dfsg-1ubuntu0.1.22.04.1             deb     
 tzdata                                                              2023c-0ubuntu0.22.04.2                   deb     
@@ -600,5 +604,6 @@ ubuntu-keyring                                                      2021.03.26  
 ucf                                                                 3.0043                                   deb     
 usrmerge                                                            25ubuntu2                                deb     
 util-linux                                                          2.37.2-4ubuntu3                          deb     
+xdg-user-dirs                                                       0.17-2ubuntu4                            deb     
 zlib.net                                                            1.0.6.0                                  dotnet  
 zlib1g                                                              1:1.2.11.dfsg-2ubuntu9.2                 deb     
