@@ -425,7 +425,7 @@ hostname                                                            3.23ubuntu2 
 init-system-helpers                                                 1.62                                     deb     
 jellyfin-ffmpeg6                                                    6.0.1-1-jammy                            deb     
 jellyfin-server                                                     20231115.15-unstable                     deb     
-jellyfin-web                                                        20231204.1-unstable                      deb     
+jellyfin-web                                                        20231212.4-unstable                      deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
 libaacs0                                                            0.11.1-1                                 deb     
 libacl1                                                             2.3.1-1                                  deb     
