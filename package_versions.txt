@@ -397,7 +397,7 @@ bsdutils                                                            1:2.37.2-4ub
 ca-certificates                                                     20230311ubuntu0.22.04.1                  deb     
 coreutils                                                           8.32-4.1ubuntu1                          deb     
 cron                                                                3.0pl1-137ubuntu3                        deb     
-curl                                                                7.81.0-1ubuntu1.14                       deb     
+curl                                                                7.81.0-1ubuntu1.15                       deb     
 dash                                                                0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                                                             1.5.79ubuntu1                            deb     
 debianutils                                                         5.5-1ubuntu2                             deb     
@@ -425,7 +425,7 @@ hostname                                                            3.23ubuntu2 
 init-system-helpers                                                 1.62                                     deb     
 jellyfin-ffmpeg6                                                    6.0.1-1-jammy                            deb     
 jellyfin-server                                                     20231115.15-unstable                     deb     
-jellyfin-web                                                        20231212.4-unstable                      deb     
+jellyfin-web                                                        20231219.2-unstable                      deb     
 jq                                                                  1.6-2.1ubuntu3                           deb     
 libaacs0                                                            0.11.1-1                                 deb     
 libacl1                                                             2.3.1-1                                  deb     
@@ -448,7 +448,7 @@ libcap-ng0                                                          0.7.9-2.2bui
 libcap2                                                             1:2.44-1ubuntu0.22.04.1                  deb     
 libcom-err2                                                         1.46.5-2ubuntu1.1                        deb     
 libcrypt1                                                           1:4.4.27-1                               deb     
-libcurl4                                                            7.81.0-1ubuntu1.14                       deb     
+libcurl4                                                            7.81.0-1ubuntu1.15                       deb     
 libdb5.3                                                            5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdebconfclient0                                                   0.261ubuntu1                             deb     
 libdrm-amdgpu1                                                      2.4.113-2~ubuntu0.22.04.1                deb     
@@ -572,7 +572,7 @@ libxxhash0                                                          0.8.1-1     
 libzstd1                                                            1.4.8+dfsg-3build1                       deb     
 libzvbi-common                                                      0.2.35-19                                deb     
 libzvbi0                                                            0.2.35-19                                deb     
-locales                                                             2.35-0ubuntu3.4                          deb     
+locales                                                             2.35-0ubuntu3.5                          deb     
 login                                                               1:4.8.1-2ubuntu2.1                       deb     
 logsave                                                             1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                            11.1.0ubuntu4                            deb     
