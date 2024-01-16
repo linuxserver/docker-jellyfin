@@ -415,7 +415,7 @@ hostname                                                           3.23ubuntu2  
 init-system-helpers                                                1.62                                                                                                       deb     
 jellyfin-ffmpeg6                                                   6.0.1-1-jammy                                                                                              deb     
 jellyfin-server                                                    20231115.15-unstable                                                                                       deb     
-jellyfin-web                                                       20240108.5-unstable                                                                                        deb     
+jellyfin-web                                                       20240112.8-unstable                                                                                        deb     
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb     
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet  
 libaacs0                                                           0.11.1-1                                                                                                   deb     
@@ -518,7 +518,7 @@ libsemanage-common                                                 3.3-1build2  
 libsemanage2                                                       3.3-1build2                                                                                                deb     
 libsepol2                                                          3.3-1build1                                                                                                deb     
 libsmartcols1                                                      2.37.2-4ubuntu3                                                                                            deb     
-libsqlite3-0                                                       3.37.2-2ubuntu0.1                                                                                          deb     
+libsqlite3-0                                                       3.37.2-2ubuntu0.3                                                                                          deb     
 libss2                                                             1.46.5-2ubuntu1.1                                                                                          deb     
 libssh-4                                                           0.9.6-2ubuntu0.22.04.2                                                                                     deb     
 libssl3                                                            3.0.2-0ubuntu1.10                                                                                          deb     
