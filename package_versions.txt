@@ -542,7 +542,7 @@ libxxhash0                                                         0.8.1-1      
 libzstd1                                                           1.4.8+dfsg-3build1                                                                                         deb     
 libzvbi-common                                                     0.2.35-19                                                                                                  deb     
 libzvbi0                                                           0.2.35-19                                                                                                  deb     
-locales                                                            2.35-0ubuntu3.5                                                                                            deb     
+locales                                                            2.35-0ubuntu3.6                                                                                            deb     
 login                                                              1:4.8.1-2ubuntu2.1                                                                                         deb     
 logsave                                                            1.46.5-2ubuntu1.1                                                                                          deb     
 lsb-base                                                           11.1.0ubuntu4                                                                                              deb     
@@ -568,7 +568,7 @@ sed                                                                4.8-1ubuntu2 
 sensible-utils                                                     0.0.17                                                                                                     deb     
 sysvinit-utils                                                     3.01-1ubuntu1                                                                                              deb     
 tar                                                                1.34+dfsg-1ubuntu0.1.22.04.1                                                                               deb     
-tzdata                                                             2023c-0ubuntu0.22.04.2                                                                                     deb     
+tzdata                                                             2023d-0ubuntu0.22.04                                                                                       deb     
 ubuntu-keyring                                                     2021.03.26                                                                                                 deb     
 ucf                                                                3.0043                                                                                                     deb     
 usrmerge                                                           25ubuntu2                                                                                                  deb     
