@@ -452,8 +452,8 @@ libkeyutils1                                                       1.6.1-2ubuntu
 libkrb5-3                                                          1.19.2-2ubuntu0.2                                                                                          deb     
 libkrb5support0                                                    1.19.2-2ubuntu0.2                                                                                          deb     
 libksba8                                                           1.6.0-2ubuntu0.2                                                                                           deb     
-libldap-2.5-0                                                      2.5.16+dfsg-0ubuntu0.22.04.1                                                                               deb     
-libldap-common                                                     2.5.16+dfsg-0ubuntu0.22.04.1                                                                               deb     
+libldap-2.5-0                                                      2.5.16+dfsg-0ubuntu0.22.04.2                                                                               deb     
+libldap-common                                                     2.5.16+dfsg-0ubuntu0.22.04.2                                                                               deb     
 libllvm15                                                          1:15.0.7-0ubuntu0.22.04.3                                                                                  deb     
 liblz4-1                                                           1.9.3-2build2                                                                                              deb     
 liblzma5                                                           5.2.5-2ubuntu1                                                                                             deb     
@@ -556,7 +556,7 @@ netcat                                                             1.218-4ubuntu
 netcat-openbsd                                                     1.218-4ubuntu1                                                                                             deb     
 netstandard                                                        6.0.922.41905                                                                                              dotnet  
 ocl-icd-libopencl1                                                 2.2.14-3                                                                                                   deb     
-openssl                                                            3.0.2-0ubuntu1.12                                                                                          deb     
+openssl                                                            3.0.2-0ubuntu1.13                                                                                          deb     
 passwd                                                             1:4.8.1-2ubuntu2.1                                                                                         deb     
 perl-base                                                          5.34.0-3ubuntu1.2                                                                                          deb     
 pinentry-curses                                                    1.1.1-1build2                                                                                              deb     
