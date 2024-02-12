@@ -72,29 +72,18 @@ Webui can be found at `http://<your-ip>:8096`
 
 More information can be found on the official documentation [here](https://jellyfin.org/docs/general/quick-start.html).
 
-## Hardware Acceleration
+### Hardware Acceleration Enhancements
+
+This list out the enhancements we have explicit made for hardware acceleration in this image.
 
 ### Intel
-
-Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
-
-`--device=/dev/dri:/dev/dri`
-
-We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
 
 To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the OpenCL-Intel mod from here:
 
 https://mods.linuxserver.io/?mod=jellyfin
 
-### Nvidia
 
-Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
-
-https://github.com/NVIDIA/nvidia-docker
-
-We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
-
-### OpenMAX (Raspberry Pi)
+#### OpenMAX (Raspberry Pi)
 
 Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
@@ -104,7 +93,7 @@ Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount the
 -v /opt/vc/lib:/opt/vc/lib
 ```
 
-### V4L2 (Raspberry Pi)
+#### V4L2 (Raspberry Pi)
 
 Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
 
@@ -113,6 +102,31 @@ Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev
 --device=/dev/video11:/dev/video11
 --device=/dev/video12:/dev/video12
 ```
+
+### Hardware Acceleration
+
+Many desktop application will need access to a GPU to function properly and even some Desktop Environments have compisitor effects that will not function without a GPU. This is not a hard requirement and all base images will function without a video device mounted into the container.
+
+#### Intel/ATI/AMD
+
+To leverage hardware acceleration you will need to mount /dev/dri video device inside of the container.
+
+```text
+--device=/dev/dri:/dev/dri
+```
+
+We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
+
+#### Nvidia
+
+Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
+https://github.com/NVIDIA/nvidia-docker
+
+We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the container.
+
+#### Arm Devices
+
+Best effort is made to install tools to allow mounting in /dev/dri on Arm devices. In most cases if /dev/dri exists on the host it should just work. If running a Raspberry Pi 4 be sure to enable `dtoverlay=vc4-fkms-v3d` in your usercfg.txt.
 
 ## Usage
 
@@ -357,6 +371,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.02.24:** - Use universal hardware acceleration blurb
 * **12.09.23:** - Take ownership of plugin directories.
 * **04.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase master to Jammy, migrate to s6v3.

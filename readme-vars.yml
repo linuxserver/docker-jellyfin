@@ -69,7 +69,7 @@ app_setup_block: |
 
   More information can be found on the official documentation [here](https://jellyfin.org/docs/general/quick-start.html).
 
-  ## Hardware Acceleration Enhancements
+  ### Hardware Acceleration Enhancements
 
   This list out the enhancements we have explicit made for hardware acceleration in this image.
 
@@ -79,8 +79,8 @@ app_setup_block: |
 
   https://mods.linuxserver.io/?mod=jellyfin
 
- 
-  ### OpenMAX (Raspberry Pi)
+
+  #### OpenMAX (Raspberry Pi)
 
   Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
@@ -90,7 +90,7 @@ app_setup_block: |
   -v /opt/vc/lib:/opt/vc/lib
   ```
 
-  ### V4L2 (Raspberry Pi)
+  #### V4L2 (Raspberry Pi)
 
   Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
 
