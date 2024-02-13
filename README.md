@@ -74,7 +74,7 @@ More information can be found on the official documentation [here](https://jelly
 
 ### Hardware Acceleration Enhancements
 
-This list out the enhancements we have explicit made for hardware acceleration in this image.
+This section lists the enhancements we have made for hardware acceleration in this image specifically.
 
 ### Intel
 
