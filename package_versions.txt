@@ -14,7 +14,7 @@ EFCoreSecondLevelCacheInterceptor                                  4.0.0.0      
 EasyCaching.Core                                                   1.9.1.0                                                                                                    dotnet  
 ExCSS                                                              4.1.4.0                                                                                                    dotnet  
 Fizzler                                                            1.2.1.0                                                                                                    dotnet  
-HarfBuzzSharp                                                      7.3.0.0-e2c5c86249621857107c779af0f79b4d06613766                                                           dotnet  
+HarfBuzzSharp                                                      7.3.0.0                                                                                                    dotnet  
 Jellyfin Server                                                    10.9.0                                                                                                     dotnet  
 Jellyfin Server                                                    2019.1.20.3                                                                                                dotnet  
 Jellyfin.Api                                                       1.0.0.0                                                                                                    dotnet  
@@ -172,7 +172,7 @@ Microsoft.VisualBasic.Core                                         12.0.1323.518
 Microsoft.Win32.Primitives                                         7.0.1323.51816                                                                                             dotnet  
 Microsoft.Win32.Registry                                           7.0.1323.51816                                                                                             dotnet  
 Microsoft.Win32.SystemEvents                                       6.0.21.52210                                                                                               dotnet  
-Mono.Nat                                                           3.0.4-master+48ef888                                                                                       dotnet  
+Mono.Nat                                                           3.0.4                                                                                                      dotnet  
 NEbml.Core                                                         0.11.0.0                                                                                                   dotnet  
 NeoSmart.AsyncLock                                                 3.2.1.0                                                                                                    dotnet  
 PlaylistsNET                                                       1.4.0.0                                                                                                    dotnet  
@@ -192,11 +192,11 @@ Serilog.Sinks.Async                                                1.5.0.0      
 Serilog.Sinks.Console                                              5.0.0.0                                                                                                    dotnet  
 Serilog.Sinks.Debug                                                2.0.0.0                                                                                                    dotnet  
 Serilog.Sinks.File                                                 5.0.0.0                                                                                                    dotnet  
-Serilog.Sinks.Graylog                                              3.0.0.0                                                                                                    dotnet  
+Serilog.Sinks.Graylog                                              3.1.0                                                                                                      dotnet  
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet  
 ShimSkiaSharp                                                      1.0.0.2+5a85fa83158047f4d746362adfb65c4e2d7f6d77                                                           dotnet  
-SkiaSharp                                                          2.88.5.0-ea9fb439a8ff74130bce2d82d1aefff9b4523e2f                                                          dotnet  
-SkiaSharp.HarfBuzz                                                 2.88.5.0-ea9fb439a8ff74130bce2d82d1aefff9b4523e2f                                                          dotnet  
+SkiaSharp                                                          2.88.5.0                                                                                                   dotnet  
+SkiaSharp.HarfBuzz                                                 2.88.5.0                                                                                                   dotnet  
 Svg.Custom                                                         1.0.0.2+5a85fa83158047f4d746362adfb65c4e2d7f6d77                                                           dotnet  
 Svg.Model                                                          1.0.0.2+5a85fa83158047f4d746362adfb65c4e2d7f6d77                                                           dotnet  
 Svg.Skia                                                           1.0.0.2+5a85fa83158047f4d746362adfb65c4e2d7f6d77                                                           dotnet  
@@ -289,10 +289,10 @@ System.Numerics                                                    7.0.1323.5181
 System.Numerics.Vectors                                            7.0.1323.51816                                                                                             dotnet  
 System.ObjectModel                                                 7.0.1323.51816                                                                                             dotnet  
 System.Private.CoreLib                                             7.0.1323.51816                                                                                             dotnet  
-System.Private.DataContractSerialization                           7.0.13-servicing.23518.16+3f73a2f186e08c905aba441ea5545295ca261730                                         dotnet  
-System.Private.Uri                                                 7.0.13-servicing.23518.16+3f73a2f186e08c905aba441ea5545295ca261730                                         dotnet  
-System.Private.Xml                                                 7.0.13-servicing.23518.16+3f73a2f186e08c905aba441ea5545295ca261730                                         dotnet  
-System.Private.Xml.Linq                                            7.0.13-servicing.23518.16+3f73a2f186e08c905aba441ea5545295ca261730                                         dotnet  
+System.Private.DataContractSerialization                           7.0.1323.51816                                                                                             dotnet  
+System.Private.Uri                                                 7.0.1323.51816                                                                                             dotnet  
+System.Private.Xml                                                 7.0.1323.51816                                                                                             dotnet  
+System.Private.Xml.Linq                                            7.0.1323.51816                                                                                             dotnet  
 System.Reflection                                                  7.0.1323.51816                                                                                             dotnet  
 System.Reflection.DispatchProxy                                    7.0.1323.51816                                                                                             dotnet  
 System.Reflection.Emit                                             7.0.1323.51816                                                                                             dotnet  
@@ -413,9 +413,9 @@ grep                                                               3.7-1build1  
 gzip                                                               1.10-4ubuntu4.1                                                                                            deb     
 hostname                                                           3.23ubuntu2                                                                                                deb     
 init-system-helpers                                                1.62                                                                                                       deb     
-jellyfin-ffmpeg6                                                   6.0.1-2-jammy                                                                                              deb     
+jellyfin-ffmpeg6                                                   6.0.1-3-jammy                                                                                              deb     
 jellyfin-server                                                    20231115.15-unstable                                                                                       deb     
-jellyfin-web                                                       20240126.4-unstable                                                                                        deb     
+jellyfin-web                                                       20240212.4-unstable                                                                                        deb     
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb     
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet  
 libaacs0                                                           0.11.1-1                                                                                                   deb     
@@ -577,7 +577,7 @@ netcat                                                             1.218-4ubuntu
 netcat-openbsd                                                     1.218-4ubuntu1                                                                                             deb     
 netstandard                                                        7.0.1323.51816                                                                                             dotnet  
 ocl-icd-libopencl1                                                 2.2.14-3                                                                                                   deb     
-openssl                                                            3.0.2-0ubuntu1.13                                                                                          deb     
+openssl                                                            3.0.2-0ubuntu1.14                                                                                          deb     
 passwd                                                             1:4.8.1-2ubuntu2.1                                                                                         deb     
 perl-base                                                          5.34.0-3ubuntu1.2                                                                                          deb     
 pinentry-curses                                                    1.1.1-1build2                                                                                              deb     
