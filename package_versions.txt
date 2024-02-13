@@ -160,7 +160,7 @@ Microsoft.VisualBasic.Core                                         11.100.922.41
 Microsoft.Win32.Primitives                                         6.0.922.41905                                                                                              dotnet  
 Microsoft.Win32.Registry                                           6.0.922.41905                                                                                              dotnet  
 Microsoft.Win32.SystemEvents                                       5.0.20.51904                                                                                               dotnet  
-Mono.Nat                                                           3.0.3-master+4f1a615                                                                                       dotnet  
+Mono.Nat                                                           3.0.3                                                                                                      dotnet  
 NEbml.Core                                                         0.11.0.0                                                                                                   dotnet  
 PlaylistsNET                                                       1.2.1.0                                                                                                    dotnet  
 Prometheus.AspNetCore.dll                                          6.0.0                                                                                                      dotnet  
@@ -184,7 +184,7 @@ Serilog.Sinks.File                                                 5.0.0.0      
 Serilog.Sinks.Graylog                                              2.3.0.0                                                                                                    dotnet  
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet  
 SharpCompress                                                      0.32.2+3009e6dcfd183760fbdb675249b7a65a2894618b                                                            dotnet  
-SkiaSharp                                                          2.88.2.0-193b587552cb0ed39372a049d7e6c692db98c267                                                          dotnet  
+SkiaSharp                                                          2.88.2.0                                                                                                   dotnet  
 SkiaSharp.Extended.Svg (netstandard2.0)                            1.60.0.0                                                                                                   dotnet  
 Swashbuckle.AspNetCore.ReDoc                                       6.3.1.0                                                                                                    dotnet  
 Swashbuckle.AspNetCore.Swagger                                     6.2.3.0                                                                                                    dotnet  
@@ -274,10 +274,10 @@ System.Numerics                                                    6.0.922.41905
 System.Numerics.Vectors                                            6.0.922.41905                                                                                              dotnet  
 System.ObjectModel                                                 6.0.922.41905                                                                                              dotnet  
 System.Private.CoreLib                                             6.0.922.41905                                                                                              dotnet  
-System.Private.DataContractSerialization                           6.0.9-servicing.22419.5+163a63591cf9e9b682063cf3995948c2b885a042                                           dotnet  
-System.Private.Uri                                                 6.0.9-servicing.22419.5+163a63591cf9e9b682063cf3995948c2b885a042                                           dotnet  
-System.Private.Xml                                                 6.0.9-servicing.22419.5+163a63591cf9e9b682063cf3995948c2b885a042                                           dotnet  
-System.Private.Xml.Linq                                            6.0.9-servicing.22419.5+163a63591cf9e9b682063cf3995948c2b885a042                                           dotnet  
+System.Private.DataContractSerialization                           6.0.922.41905                                                                                              dotnet  
+System.Private.Uri                                                 6.0.922.41905                                                                                              dotnet  
+System.Private.Xml                                                 6.0.922.41905                                                                                              dotnet  
+System.Private.Xml.Linq                                            6.0.922.41905                                                                                              dotnet  
 System.Reflection                                                  6.0.922.41905                                                                                              dotnet  
 System.Reflection.DispatchProxy                                    6.0.922.41905                                                                                              dotnet  
 System.Reflection.Emit                                             6.0.922.41905                                                                                              dotnet  
@@ -556,7 +556,7 @@ netcat                                                             1.218-4ubuntu
 netcat-openbsd                                                     1.218-4ubuntu1                                                                                             deb     
 netstandard                                                        6.0.922.41905                                                                                              dotnet  
 ocl-icd-libopencl1                                                 2.2.14-3                                                                                                   deb     
-openssl                                                            3.0.2-0ubuntu1.13                                                                                          deb     
+openssl                                                            3.0.2-0ubuntu1.14                                                                                          deb     
 passwd                                                             1:4.8.1-2ubuntu2.1                                                                                         deb     
 perl-base                                                          5.34.0-3ubuntu1.2                                                                                          deb     
 pinentry-curses                                                    1.1.1-1build2                                                                                              deb     
