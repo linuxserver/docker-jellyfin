@@ -547,7 +547,7 @@ login                                                              1:4.8.1-2ubun
 logsave                                                            1.46.5-2ubuntu1.1                                                                                          deb     
 lsb-base                                                           11.1.0ubuntu4                                                                                              deb     
 mawk                                                               1.3.4.20200120-3                                                                                           deb     
-mesa-va-drivers                                                    23.0.4-0ubuntu1~22.04.1                                                                                    deb     
+mesa-va-drivers                                                    23.2.1-1ubuntu3.1~22.04.2                                                                                  deb     
 mount                                                              2.37.2-4ubuntu3                                                                                            deb     
 mscorlib                                                           6.0.922.41905                                                                                              dotnet  
 ncurses-base                                                       6.3-2ubuntu0.1                                                                                             deb     
