@@ -534,7 +534,7 @@ libxcb-xfixes0                                                     1.14-3ubuntu3
 libxcb1                                                            1.14-3ubuntu3                                                                                              deb     
 libxdmcp6                                                          1:1.1.3-0ubuntu5                                                                                           deb     
 libxext6                                                           2:1.3.4-1build1                                                                                            deb     
-libxml2                                                            2.9.13+dfsg-1ubuntu0.3                                                                                     deb     
+libxml2                                                            2.9.13+dfsg-1ubuntu0.4                                                                                     deb     
 libxrender1                                                        1:0.9.10-1build4                                                                                           deb     
 libxshmfence1                                                      1.3-1build4                                                                                                deb     
 libxslt1.1                                                         1.1.34-4ubuntu0.22.04.1                                                                                    deb     
