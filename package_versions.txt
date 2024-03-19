@@ -428,7 +428,7 @@ libdrm-radeon1                                                     2.4.113-2~ubu
 libdrm2                                                            2.4.113-2~ubuntu0.22.04.1                                                                                  deb                       
 libedit2                                                           3.1-20210910-1build1                                                                                       deb                       
 libelf1                                                            0.186-1build1                                                                                              deb                       
-libexpat1                                                          2.4.7-1ubuntu0.2                                                                                           deb                       
+libexpat1                                                          2.4.7-1ubuntu0.3                                                                                           deb                       
 libext2fs2                                                         1.46.5-2ubuntu1.1                                                                                          deb                       
 libffi8                                                            3.4.2-4                                                                                                    deb                       
 libfontconfig1                                                     2.13.1-4.2ubuntu5                                                                                          deb                       
