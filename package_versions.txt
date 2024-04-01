@@ -11,8 +11,8 @@ DiscUtils.Iso9660                                                  0.16.13.55129
 DiscUtils.Streams                                                  0.16.13.55129                                                                                              dotnet                    
 DiscUtils.Udf                                                      0.16.13.55129                                                                                              dotnet                    
 DotNet.Glob                                                        3.1.3+Branch.master.Sha.6f8a320a9cc6069e80f36bb24f777a21d1c48064.6f8a320a9cc6069e80f36bb24f777a21d1c48064  dotnet                    
-EFCoreSecondLevelCacheInterceptor                                  4.2.3.0                                                                                                    dotnet                    
-EasyCaching.Core                                                   1.9.1.0                                                                                                    dotnet                    
+EFCoreSecondLevelCacheInterceptor                                  4.3.1.0                                                                                                    dotnet                    
+EasyCaching.Core                                                   1.9.2.0                                                                                                    dotnet                    
 ExCSS                                                              4.2.3-release.0+Branch.release-v4.2.3.Sha.fae6c5b37e8dc7320518803aba15f64638100141                         dotnet                    
 HarfBuzzSharp                                                      7.3.0.1                                                                                                    dotnet                    
 ICU4N                                                              60.1.0                                                                                                     dotnet                    
@@ -201,12 +201,12 @@ Serilog.Sinks.Debug                                                2.0.0.0      
 Serilog.Sinks.File                                                 5.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Graylog                                              3.1.1                                                                                                      dotnet                    
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet                    
-ShimSkiaSharp                                                      1.0.0.16+96952630c0475f24ea6b674ed7afbb9e857ed9ec                                                          dotnet                    
+ShimSkiaSharp                                                      1.0.0.17+f3472d895d7a8ef14e5ce985cc37a09e4318fb50                                                          dotnet                    
 SkiaSharp                                                          2.88.7.0                                                                                                   dotnet                    
 SkiaSharp.HarfBuzz                                                 2.88.7.0                                                                                                   dotnet                    
-Svg.Custom                                                         1.0.0.16+96952630c0475f24ea6b674ed7afbb9e857ed9ec                                                          dotnet                    
-Svg.Model                                                          1.0.0.16+96952630c0475f24ea6b674ed7afbb9e857ed9ec                                                          dotnet                    
-Svg.Skia                                                           1.0.0.16+96952630c0475f24ea6b674ed7afbb9e857ed9ec                                                          dotnet                    
+Svg.Custom                                                         1.0.0.17+f3472d895d7a8ef14e5ce985cc37a09e4318fb50                                                          dotnet                    
+Svg.Model                                                          1.0.0.17+f3472d895d7a8ef14e5ce985cc37a09e4318fb50                                                          dotnet                    
+Svg.Skia                                                           1.0.0.17+f3472d895d7a8ef14e5ce985cc37a09e4318fb50                                                          dotnet                    
 Swashbuckle.AspNetCore.ReDoc                                       6.5.0.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.Swagger                                     6.2.3.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3.0                                                                                                    dotnet                    
@@ -422,8 +422,8 @@ gzip                                                               1.10-4ubuntu4
 hostname                                                           3.23ubuntu2                                                                                                deb                       
 init-system-helpers                                                1.62                                                                                                       deb                       
 jellyfin-ffmpeg6                                                   6.0.1-5-jammy                                                                                              deb                       
-jellyfin-server                                                    2024032505+ubu2204                                                                                         deb                       
-jellyfin-web                                                       2024032505+ubu2204                                                                                         deb                       
+jellyfin-server                                                    2024040113+ubu2204                                                                                         deb                       
+jellyfin-web                                                       2024040113+ubu2204                                                                                         deb                       
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb                       
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet                    
 libaacs0                                                           0.11.1-1                                                                                                   deb                       
