@@ -371,7 +371,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **12.02.24:** - Use universal hardware acceleration blurb
+* **01.05.24:** - Increase verbosity of device permissions fixing.
+* **12.02.24:** - Use universal hardware acceleration blurb.
 * **12.09.23:** - Take ownership of plugin directories.
 * **04.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase master to Jammy, migrate to s6v3.
