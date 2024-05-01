@@ -39,9 +39,9 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-jellyfin%2Fjob%2Fnightly%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-jellyfin/job/nightly/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fjellyfin%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/jellyfin/latest/index.html)
 
-[Jellyfin](https://jellyfin.github.io/) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.
+[Jellyfin](https://github.com/jellyfin/jellyfin) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it.
 
-[![jellyfin](https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true)](https://jellyfin.github.io/)
+[![jellyfin](https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true)](https://github.com/jellyfin/jellyfin)
 
 ## Supported Architectures
 
@@ -64,50 +64,69 @@ This image provides various versions that are available via tags. Please read th
 | Tag | Available | Description |
 | :----: | :----: |--- |
 | latest | ✅ | Stable Jellyfin releases |
-| nightly | ✅ | Unstable Jellyfin releases |
+| nightly | ✅ | Nightly Jellyfin releases |
 
 ## Application Setup
 
 Webui can be found at `http://<your-ip>:8096`
 
-More information can be found in their official documentation [here](https://jellyfin.org/docs/general/quick-start.html) .
+More information can be found on the official documentation [here](https://jellyfin.org/docs/general/quick-start.html).
 
-## Hardware Acceleration
+### Hardware Acceleration Enhancements
+
+This section lists the enhancements we have made for hardware acceleration in this image specifically.
 
 ### Intel
 
-Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
+To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the OpenCL-Intel mod from here:
 
-```--device=/dev/dri:/dev/dri```
+https://mods.linuxserver.io/?mod=jellyfin
 
-We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
 
-### Nvidia
+#### OpenMAX (Raspberry Pi)
 
-Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
-
-https://github.com/NVIDIA/nvidia-docker
-
-We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
-
-### MMAL/OpenMAX (Raspberry Pi)
-
-Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vc-mem` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
 ```
---device=/dev/vc-mem:/dev/vc-mem
+--device=/dev/vcsm:/dev/vcsm
 --device=/dev/vchiq:/dev/vchiq
 -v /opt/vc/lib:/opt/vc/lib
 ```
 
-### V4L2 (Raspberry Pi)
+#### V4L2 (Raspberry Pi)
 
 Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
+
 ```
 --device=/dev/video10:/dev/video10
 --device=/dev/video11:/dev/video11
 --device=/dev/video12:/dev/video12
 ```
+
+### Hardware Acceleration
+
+Many desktop applications need access to a GPU to function properly and even some Desktop Environments have compositor effects that will not function without a GPU. However this is not a hard requirement and all base images will function without a video device mounted into the container.
+
+#### Intel/ATI/AMD
+
+To leverage hardware acceleration you will need to mount /dev/dri video device inside of the container.
+
+```text
+--device=/dev/dri:/dev/dri
+```
+
+We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
+
+#### Nvidia
+
+Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
+https://github.com/NVIDIA/nvidia-container-toolkit
+
+We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-container-toolkit is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the container.
+
+#### Arm Devices
+
+Best effort is made to install tools to allow mounting in /dev/dri on Arm devices. In most cases if /dev/dri exists on the host it should just work. If running a Raspberry Pi 4 be sure to enable `dtoverlay=vc4-fkms-v3d` in your usercfg.txt.
 
 ## Usage
 
@@ -125,21 +144,16 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
     volumes:
       - /path/to/library:/config
-      - path/to/tvseries:/data/tvshows
+      - /path/to/tvseries:/data/tvshows
       - /path/to/movies:/data/movies
-      - /opt/vc/lib:/opt/vc/lib #optional
     ports:
       - 8096:8096
       - 8920:8920 #optional
-    devices:
-      - /dev/dri:/dev/dri #optional
-      - /dev/vc-mem:/dev/vc-mem #optional
-      - /dev/vchiq:/dev/vchiq #optional
-      - /dev/video10:/dev/video10 #optional
-      - /dev/video11:/dev/video11 #optional
-      - /dev/video12:/dev/video12 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
     restart: unless-stopped
 ```
 
@@ -151,18 +165,14 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
+  -e JELLYFIN_PublishedServerUrl=192.168.0.5 `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
+  -p 7359:7359/udp `#optional` \
+  -p 1900:1900/udp `#optional` \
   -v /path/to/library:/config \
-  -v path/to/tvseries:/data/tvshows \
+  -v /path/to/tvseries:/data/tvshows \
   -v /path/to/movies:/data/movies \
-  -v /opt/vc/lib:/opt/vc/lib `#optional` \
-  --device /dev/dri:/dev/dri `#optional` \
-  --device /dev/vc-mem:/dev/vc-mem `#optional` \
-  --device /dev/vchiq:/dev/vchiq `#optional` \
-  --device /dev/video10:/dev/video10 `#optional` \
-  --device /dev/video11:/dev/video11 `#optional` \
-  --device /dev/video12:/dev/video12 `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/jellyfin:nightly
 ```
@@ -174,20 +184,16 @@ Containers are configured using parameters passed at runtime (such as those abov
 | Parameter | Function |
 | :----: | --- |
 | `-p 8096` | Http webUI. |
-| `-p 8920` | Https webUI (you need to set up your own certificate). |
+| `-p 8920` | Optional - Https webUI (you need to set up your own certificate). |
+| `-p 7359/udp` | Optional - Allows clients to discover Jellyfin on the local network. |
+| `-p 1900/udp` | Optional - Service discovery used by DNLA and clients. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `-e JELLYFIN_PublishedServerUrl=192.168.0.5` | Set the autodiscovery response domain or IP address. |
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
-| `-v /opt/vc/lib` | Path for Raspberry Pi OpenMAX libs *optional*. |
-| `--device /dev/dri` | Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi). |
-| `--device /dev/vc-mem` | Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings). |
-| `--device /dev/vchiq` | Only needed if you want to use your Raspberry Pi OpenMax video encoding (Bellagio). |
-| `--device /dev/video10` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
-| `--device /dev/video11` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
-| `--device /dev/video12` | Only needed if you want to use your Raspberry Pi V4L2 video encoding. |
 
 ## Environment variables from files (Docker secrets)
 
@@ -205,6 +211,21 @@ Will set the environment variable `MYVAR` based on the contents of the `/run/sec
 
 For all of our images we provide the ability to override the default umask settings for services started within the containers using the optional `-e UMASK=022` setting.
 Keep in mind umask is not chmod it subtracts from permissions based on it's value it does not add. Please read up [here](https://en.wikipedia.org/wiki/Umask) before asking for support.
+
+## Optional Parameters
+
+The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has additional ports that can provide auto discovery.
+
+Service Discovery (`1900/udp`) - Since client auto-discover would break if this option were configurable, you cannot change this in the settings at this time. DLNA also uses this port and is required to be in the local subnet.
+
+Client Discovery (`7359/udp`) - Allows clients to discover Jellyfin on the local network. A broadcast message to this port with "Who is Jellyfin Server?" will get a JSON response that includes the server address, ID, and name.
+
+```
+  -p 7359:7359/udp \
+  -p 1900:1900/udp \
+```
+
+The [official documentation for environmentals](https://jellyfin.org/docs/general/administration/configuration.html) has additional environmentals that can provide additional configurability such as migrating to the native Jellyfin image.
 
 ## User / Group Identifiers
 
@@ -350,6 +371,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.05.24:** - Increase verbosity of device permissions fixing. Use universal hardware acceleration blurb.
 * **03.12.23:** - Switch nightly to ffmpeg6.
 * **01.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **07.12.22:** - Rebase nightly to Jammy, migrate to s6v3.

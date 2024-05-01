@@ -2,7 +2,7 @@
 
 # project information
 project_name: jellyfin
-project_url: "https://jellyfin.github.io/"
+project_url: "https://github.com/jellyfin/jellyfin"
 project_logo: "https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it."
@@ -14,82 +14,97 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - {tag: "latest", desc: "Stable Jellyfin releases"}
-  - {tag: "nightly", desc: "Unstable Jellyfin releases"}
+  - {tag: "nightly", desc: "Nightly Jellyfin releases"}
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
   - {vol_path: "/config", vol_host_path: "/path/to/library", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*"}
-  - {vol_path: "/data/tvshows", vol_host_path: "path/to/tvseries", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc."}
+  - {vol_path: "/data/tvshows", vol_host_path: "/path/to/tvseries", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc."}
   - {vol_path: "/data/movies", vol_host_path: "/path/to/movies", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc."}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "8096", internal_port: "8096", port_desc: "Http webUI."}
 param_usage_include_env: true
 param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use (e.g. Europe/London)."}
 # optional container parameters
-opt_param_usage_include_env: false
-opt_param_usage_include_vols: true
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - {env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
+opt_param_usage_include_vols: false
 opt_param_volumes:
   - {vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*."}
-opt_param_device_map: true
+opt_param_device_map: false
 opt_param_devices:
   - {device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)."}
-  - {device_path: "/dev/vc-mem", device_host_path: "/dev/vc-mem", desc: "Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings)."}
-  - {device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding (Bellagio)."}
+  - {device_path: "/dev/vcsm", device_host_path: "/dev/vcsm", desc: "Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings)."}
+  - {device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding."}
   - {device_path: "/dev/video10", device_host_path: "/dev/video10", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
   - {device_path: "/dev/video11", device_host_path: "/dev/video11", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
   - {device_path: "/dev/video12", device_host_path: "/dev/video12", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
 opt_param_usage_include_ports: true
 opt_param_ports:
-  - {external_port: "8920", internal_port: "8920", port_desc: "Https webUI (you need to set up your own certificate)."}
+  - {external_port: "8920", internal_port: "8920", port_desc: "Optional - Https webUI (you need to set up your own certificate)."}
+  - {external_port: "7359", internal_port: "7359/udp", port_desc: "Optional - Allows clients to discover Jellyfin on the local network."}
+  - {external_port: "1900", internal_port: "1900/udp", port_desc: "Optional - Service discovery used by DNLA and clients."}
+optional_parameters: |
+  The [official documentation for ports](https://jellyfin.org/docs/general/networking/index.html) has additional ports that can provide auto discovery.
+
+  Service Discovery (`1900/udp`) - Since client auto-discover would break if this option were configurable, you cannot change this in the settings at this time. DLNA also uses this port and is required to be in the local subnet.
+
+  Client Discovery (`7359/udp`) - Allows clients to discover Jellyfin on the local network. A broadcast message to this port with "Who is Jellyfin Server?" will get a JSON response that includes the server address, ID, and name.
+
+  ```
+    -p 7359:7359/udp \
+    -p 1900:1900/udp \
+  ```
+
+  The [official documentation for environmentals](https://jellyfin.org/docs/general/administration/configuration.html) has additional environmentals that can provide additional configurability such as migrating to the native Jellyfin image.
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   Webui can be found at `http://<your-ip>:8096`
 
-  More information can be found in their official documentation [here](https://jellyfin.org/docs/general/quick-start.html) .
+  More information can be found on the official documentation [here](https://jellyfin.org/docs/general/quick-start.html).
 
-  ## Hardware Acceleration
+  ### Hardware Acceleration Enhancements
+
+  This section lists the enhancements we have made for hardware acceleration in this image specifically.
 
   ### Intel
 
-  Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
+  To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the OpenCL-Intel mod from here:
 
-  ```--device=/dev/dri:/dev/dri```
+  https://mods.linuxserver.io/?mod=jellyfin
 
-  We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
 
-  ### Nvidia
+  #### OpenMAX (Raspberry Pi)
 
-  Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
-
-  https://github.com/NVIDIA/nvidia-docker
-
-  We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the jellyfin docker container.
-
-  ### MMAL/OpenMAX (Raspberry Pi)
-
-  Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vc-mem` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
+  Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
 
   ```
-  --device=/dev/vc-mem:/dev/vc-mem
+  --device=/dev/vcsm:/dev/vcsm
   --device=/dev/vchiq:/dev/vchiq
   -v /opt/vc/lib:/opt/vc/lib
   ```
 
-  ### V4L2 (Raspberry Pi)
+  #### V4L2 (Raspberry Pi)
 
   Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
+
   ```
   --device=/dev/video10:/dev/video10
   --device=/dev/video11:/dev/video11
   --device=/dev/video12:/dev/video12
   ```
+
+readme_hwaccel: true
+unraid_template_sync: false
 # changelog
 changelogs:
+  - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing. Use universal hardware acceleration blurb."}
   - {date: "03.12.23:", desc: "Switch nightly to ffmpeg6."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "07.12.22:", desc: "Rebase nightly to Jammy, migrate to s6v3."}
