@@ -27,8 +27,6 @@ param_usage_include_ports: true
 param_ports:
   - {external_port: "8096", internal_port: "8096", port_desc: "Http webUI."}
 param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use (e.g. Europe/London)."}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -104,7 +102,8 @@ readme_hwaccel: true
 unraid_template_sync: false
 # changelog
 changelogs:
-  - {date: "12.02.24:", desc: "Use universal hardware acceleration blurb"}
+  - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing."}
+  - {date: "12.02.24:", desc: "Use universal hardware acceleration blurb."}
   - {date: "12.09.23:", desc: "Take ownership of plugin directories."}
   - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "07.12.22:", desc: "Rebase master to Jammy, migrate to s6v3."}
