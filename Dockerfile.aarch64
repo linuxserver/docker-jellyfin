@@ -28,7 +28,8 @@ RUN \
     jellyfin-ffmpeg6 \
     libomxil-bellagio0 \
     libomxil-bellagio-bin \
-    libraspberrypi0 && \
+    libraspberrypi0 \
+    xmlstarlet && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
@@ -36,7 +37,7 @@ RUN \
     /var/tmp/*
 
 # add local files
-COPY root/ / 
+COPY root/ /
 
 # ports and volumes
 EXPOSE 8096 8920

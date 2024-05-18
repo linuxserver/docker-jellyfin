@@ -26,7 +26,8 @@ RUN \
     at \
     jellyfin-server=${JELLYFIN_RELEASE} \
     jellyfin-ffmpeg6 \
-    mesa-va-drivers && \
+    mesa-va-drivers \
+    xmlstarlet && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
@@ -34,7 +35,7 @@ RUN \
     /var/tmp/*
 
 # add local files
-COPY root/ / 
+COPY root/ /
 
 # ports and volumes
 EXPOSE 8096 8920

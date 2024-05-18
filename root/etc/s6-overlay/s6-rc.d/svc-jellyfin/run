@@ -13,6 +13,6 @@ export \
     JELLYFIN_WEB_DIR="/usr/share/jellyfin/web"
 
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "curl -s --output /dev/null http://localhost:8096/health" \
+    s6-notifyoncheck -d -n 300 -w 1000 \
         s6-setuidgid abc /usr/bin/jellyfin \
         --ffmpeg="${FFMPEG_PATH}"
