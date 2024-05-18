@@ -561,6 +561,7 @@ libxext6                                                           2:1.3.4-1buil
 libxml2                                                            2.9.13+dfsg-1ubuntu0.4                                                                                     deb                       
 libxrender1                                                        1:0.9.10-1build4                                                                                           deb                       
 libxshmfence1                                                      1.3-1build4                                                                                                deb                       
+libxslt1.1                                                         1.1.34-4ubuntu0.22.04.1                                                                                    deb                       
 libxxhash0                                                         0.8.1-1                                                                                                    deb                       
 libzstd1                                                           1.4.8+dfsg-3build1                                                                                         deb                       
 libzvbi-common                                                     0.2.35-19                                                                                                  deb                       
@@ -597,5 +598,6 @@ ubuntu-keyring                                                     2021.03.26   
 ucf                                                                3.0043                                                                                                     deb                       
 usrmerge                                                           25ubuntu2                                                                                                  deb                       
 util-linux                                                         2.37.2-4ubuntu3.4                                                                                          deb                       
+xmlstarlet                                                         1.6.1-2.1                                                                                                  deb                       
 zlib.net                                                           1.0.6.0                                                                                                    dotnet                    
 zlib1g                                                             1:1.2.11.dfsg-2ubuntu9.2                                                                                   deb                       
