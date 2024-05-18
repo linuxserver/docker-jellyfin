@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ -f "/config/network.xml" ]]; then
+    PORT=$(xmlstarlet sel -T -t -v /NetworkConfiguration/HttpServerPortNumber /config/network.xml)
+fi
+
+if [[ $(curl -sL "http://localhost:${PORT:-8096}/health" 2>/dev/null) = "Healthy" ]]; then
+    exit 0
+else
+    exit 1
+fi
