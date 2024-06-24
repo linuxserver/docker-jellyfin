@@ -422,8 +422,8 @@ gzip                                                               1.10-4ubuntu4
 hostname                                                           3.23ubuntu2                                                                                                deb                       
 init-system-helpers                                                1.62                                                                                                       deb                       
 jellyfin-ffmpeg6                                                   6.0.1-7-jammy                                                                                              deb                       
-jellyfin-server                                                    2024061705+ubu2204                                                                                         deb                       
-jellyfin-web                                                       2024061705+ubu2204                                                                                         deb                       
+jellyfin-server                                                    2024062405+ubu2204                                                                                         deb                       
+jellyfin-web                                                       2024062405+ubu2204                                                                                         deb                       
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb                       
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet                    
 libaacs0                                                           0.11.1-1                                                                                                   deb                       
