@@ -1,5 +1,5 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
-AsyncKeyedLock                                                     6.4.2.0                                                                                                    dotnet                    
+AsyncKeyedLock                                                     7.0.0.0                                                                                                    dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.2.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.2.0                                                                                                    dotnet                    
@@ -179,7 +179,7 @@ Microsoft.VisualBasic                                              8.0.724.31311
 Microsoft.VisualBasic.Core                                         13.0.724.31311                                                                                             dotnet                    
 Microsoft.Win32.Primitives                                         8.0.724.31311                                                                                              dotnet                    
 Microsoft.Win32.Registry                                           8.0.724.31311                                                                                              dotnet                    
-Microsoft.Win32.SystemEvents                                       7.0.22.51805                                                                                               dotnet                    
+Microsoft.Win32.SystemEvents                                       8.0.23.53103                                                                                               dotnet                    
 Mono.Nat                                                           3.0.4                                                                                                      dotnet                    
 NEbml.Core                                                         0.11.0.0                                                                                                   dotnet                    
 PlaylistsNET                                                       1.4.1.0                                                                                                    dotnet                    
@@ -201,12 +201,12 @@ Serilog.Sinks.Debug                                                2.0.0.0      
 Serilog.Sinks.File                                                 6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Graylog                                              3.1.1                                                                                                      dotnet                    
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet                    
-ShimSkiaSharp                                                      1.0.0.18+2b7ddddf67008488d2f5bd681bf61eb8a983ea79                                                          dotnet                    
+ShimSkiaSharp                                                      2.0.0.0                                                                                                    dotnet                    
 SkiaSharp                                                          2.88.8.0                                                                                                   dotnet                    
 SkiaSharp.HarfBuzz                                                 2.88.8.0                                                                                                   dotnet                    
-Svg.Custom                                                         1.0.0.18+2b7ddddf67008488d2f5bd681bf61eb8a983ea79                                                          dotnet                    
-Svg.Model                                                          1.0.0.18+2b7ddddf67008488d2f5bd681bf61eb8a983ea79                                                          dotnet                    
-Svg.Skia                                                           1.0.0.18+2b7ddddf67008488d2f5bd681bf61eb8a983ea79                                                          dotnet                    
+Svg.Custom                                                         2.0.0.0                                                                                                    dotnet                    
+Svg.Model                                                          2.0.0.0                                                                                                    dotnet                    
+Svg.Skia                                                           2.0.0.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.ReDoc                                       6.5.0.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.Swagger                                     6.2.3.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3.0                                                                                                    dotnet                    
@@ -243,7 +243,7 @@ System.Diagnostics.Tools                                           8.0.724.31311
 System.Diagnostics.TraceSource                                     8.0.724.31311                                                                                              dotnet                    
 System.Diagnostics.Tracing                                         8.0.724.31311                                                                                              dotnet                    
 System.Drawing                                                     8.0.724.31311                                                                                              dotnet                    
-System.Drawing.Common                                              7.0.22.51805                                                                                               dotnet                    
+System.Drawing.Common                                              8.0.624.26909                                                                                              dotnet                    
 System.Drawing.Primitives                                          8.0.724.31311                                                                                              dotnet                    
 System.Dynamic.Runtime                                             8.0.724.31311                                                                                              dotnet                    
 System.Formats.Asn1                                                8.0.724.31311                                                                                              dotnet                    
@@ -421,9 +421,9 @@ grep                                                               3.7-1build1  
 gzip                                                               1.10-4ubuntu4.1                                                                                            deb                       
 hostname                                                           3.23ubuntu2                                                                                                deb                       
 init-system-helpers                                                1.62                                                                                                       deb                       
-jellyfin-ffmpeg6                                                   6.0.1-7-jammy                                                                                              deb                       
-jellyfin-server                                                    2024072205+ubu2204                                                                                         deb                       
-jellyfin-web                                                       2024072205+ubu2204                                                                                         deb                       
+jellyfin-ffmpeg6                                                   6.0.1-8-jammy                                                                                              deb                       
+jellyfin-server                                                    2024072905+ubu2204                                                                                         deb                       
+jellyfin-web                                                       2024072905+ubu2204                                                                                         deb                       
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb                       
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet                    
 libaacs0                                                           0.11.1-1                                                                                                   deb                       
@@ -513,7 +513,7 @@ librtmp1                                                           2.4+20151223.
 libsasl2-2                                                         2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
 libsasl2-modules                                                   2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
 libsasl2-modules-db                                                2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
-libse                                                              4.0.5.1                                                                                                    dotnet                    
+libse                                                              4.0.7.45                                                                                                   dotnet                    
 libseccomp2                                                        2.5.3-2ubuntu2                                                                                             deb                       
 libselinux1                                                        3.3-1build2                                                                                                deb                       
 libsemanage-common                                                 3.3-1build2                                                                                                deb                       
