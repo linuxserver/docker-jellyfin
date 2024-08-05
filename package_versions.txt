@@ -1,5 +1,6 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
 AsyncKeyedLock                                                     7.0.0.0                                                                                                    dotnet                    
+Audio Tools Library (ATL) for .NET                                 5.25.0.0                                                                                                   dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.2.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.2.0                                                                                                    dotnet                    
@@ -189,7 +190,7 @@ SQLitePCLRaw.batteries_v2                                          2.1.6.2060   
 SQLitePCLRaw.core                                                  2.1.6.2060                                                                                                 dotnet                    
 SQLitePCLRaw.provider.e_sqlite3                                    2.1.6.2060                                                                                                 dotnet                    
 Serilog                                                            4.0.0.0                                                                                                    dotnet                    
-Serilog.AspNetCore                                                 8.0.1.0                                                                                                    dotnet                    
+Serilog.AspNetCore                                                 8.0.2.0                                                                                                    dotnet                    
 Serilog.Enrichers.Thread                                           4.0.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Hosting                                         8.0.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Logging                                         8.0.0.0                                                                                                    dotnet                    
@@ -381,6 +382,7 @@ System.Xml.XmlDocument                                             8.0.724.31311
 System.Xml.XmlSerializer                                           8.0.724.31311                                                                                              dotnet                    
 TMDbLib                                                            2.2.0.0                                                                                                    dotnet                    
 TagLib#                                                            2.3.0.0                                                                                                    dotnet                    
+Ude.NetStandard.dll                                                1.2                                                                                                        dotnet                    
 UtfUnknown                                                         2.5.1+0c87445567d750f685c739f92360ab43c129fe50                                                             dotnet                    
 WindowsBase                                                        8.0.724.31311                                                                                              dotnet                    
 adduser                                                            3.118ubuntu5                                                                                               deb                       
@@ -422,8 +424,8 @@ gzip                                                               1.10-4ubuntu4
 hostname                                                           3.23ubuntu2                                                                                                deb                       
 init-system-helpers                                                1.62                                                                                                       deb                       
 jellyfin-ffmpeg6                                                   6.0.1-8-jammy                                                                                              deb                       
-jellyfin-server                                                    2024072905+ubu2204                                                                                         deb                       
-jellyfin-web                                                       2024072905+ubu2204                                                                                         deb                       
+jellyfin-server                                                    2024080505+ubu2204                                                                                         deb                       
+jellyfin-web                                                       2024080505+ubu2204                                                                                         deb                       
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb                       
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet                    
 libaacs0                                                           0.11.1-1                                                                                                   deb                       
@@ -476,8 +478,8 @@ libkeyutils1                                                       1.6.1-2ubuntu
 libkrb5-3                                                          1.19.2-2ubuntu0.3                                                                                          deb                       
 libkrb5support0                                                    1.19.2-2ubuntu0.3                                                                                          deb                       
 libksba8                                                           1.6.0-2ubuntu0.2                                                                                           deb                       
-libldap-2.5-0                                                      2.5.18+dfsg-0ubuntu0.22.04.1                                                                               deb                       
-libldap-common                                                     2.5.18+dfsg-0ubuntu0.22.04.1                                                                               deb                       
+libldap-2.5-0                                                      2.5.18+dfsg-0ubuntu0.22.04.2                                                                               deb                       
+libldap-common                                                     2.5.18+dfsg-0ubuntu0.22.04.2                                                                               deb                       
 libllvm15                                                          1:15.0.7-0ubuntu0.22.04.3                                                                                  deb                       
 liblz4-1                                                           1.9.3-2build2                                                                                              deb                       
 liblzma5                                                           5.2.5-2ubuntu1                                                                                             deb                       
