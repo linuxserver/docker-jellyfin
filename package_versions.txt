@@ -3,7 +3,6 @@ AsyncKeyedLock                                                     6.4.2.0      
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.2.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.2.0                                                                                                    dotnet                    
-CacheManager.NET                                                   1.2.0.0                                                                                                    dotnet                    
 CommandLine                                                        2.9.1.0                                                                                                    dotnet                    
 Diacritics.NET                                                     3.3.29                                                                                                     dotnet                    
 DiscUtils.Core                                                     0.16.13.55129                                                                                              dotnet                    
@@ -11,21 +10,19 @@ DiscUtils.Iso9660                                                  0.16.13.55129
 DiscUtils.Streams                                                  0.16.13.55129                                                                                              dotnet                    
 DiscUtils.Udf                                                      0.16.13.55129                                                                                              dotnet                    
 DotNet.Glob                                                        3.1.3+Branch.master.Sha.6f8a320a9cc6069e80f36bb24f777a21d1c48064.6f8a320a9cc6069e80f36bb24f777a21d1c48064  dotnet                    
-EFCoreSecondLevelCacheInterceptor                                  4.5.0.0                                                                                                    dotnet                    
-EasyCaching.Core                                                   1.9.2.0                                                                                                    dotnet                    
 ExCSS                                                              4.2.3-release.0+Branch.release-v4.2.3.Sha.fae6c5b37e8dc7320518803aba15f64638100141                         dotnet                    
 HarfBuzzSharp                                                      7.3.0.2                                                                                                    dotnet                    
 ICU4N                                                              60.1.0                                                                                                     dotnet                    
 ICU4N.Transliterator                                               60.1.0                                                                                                     dotnet                    
 J2N                                                                2.0.0+ca530a621b935deeb854593acba0ebd103ceb35e                                                             dotnet                    
-Jellyfin Server                                                    10.9.8                                                                                                     dotnet  (+13 duplicates)  
+Jellyfin Server                                                    10.9.9                                                                                                     dotnet  (+13 duplicates)  
 Jellyfin.Api                                                       22.4.0.0                                                                                                   dotnet                    
-Jellyfin.Data.dll                                                  10.9.8                                                                                                     dotnet                    
-Jellyfin.Extensions.dll                                            10.9.8                                                                                                     dotnet                    
+Jellyfin.Data.dll                                                  10.9.9                                                                                                     dotnet                    
+Jellyfin.Extensions.dll                                            10.9.9                                                                                                     dotnet                    
 Jellyfin.LiveTv                                                    22.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Hls                                         22.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Keyframes                                   22.4.0.0                                                                                                   dotnet                    
-Jellyfin.Networking.dll                                            10.9.8                                                                                                     dotnet                    
+Jellyfin.Networking.dll                                            10.9.9                                                                                                     dotnet                    
 Jellyfin.XmlTv                                                     1.0.0.0                                                                                                    dotnet                    
 Json.NET                                                           13.0.3.27908                                                                                               dotnet                    
 MetaBrainz.Common                                                  3.0.0                                                                                                      dotnet                    
@@ -179,7 +176,7 @@ Microsoft.VisualBasic                                              8.0.724.31311
 Microsoft.VisualBasic.Core                                         13.0.724.31311                                                                                             dotnet                    
 Microsoft.Win32.Primitives                                         8.0.724.31311                                                                                              dotnet                    
 Microsoft.Win32.Registry                                           8.0.724.31311                                                                                              dotnet                    
-Microsoft.Win32.SystemEvents                                       7.0.22.51805                                                                                               dotnet                    
+Microsoft.Win32.SystemEvents                                       8.0.23.53103                                                                                               dotnet                    
 Mono.Nat                                                           3.0.4                                                                                                      dotnet                    
 NEbml.Core                                                         0.11.0.0                                                                                                   dotnet                    
 PlaylistsNET                                                       1.4.1.0                                                                                                    dotnet                    
@@ -188,17 +185,17 @@ Prometheus.NetStandard.dll                                         8.2.1        
 SQLitePCLRaw.batteries_v2                                          2.1.6.2060                                                                                                 dotnet                    
 SQLitePCLRaw.core                                                  2.1.6.2060                                                                                                 dotnet                    
 SQLitePCLRaw.provider.e_sqlite3                                    2.1.6.2060                                                                                                 dotnet                    
-Serilog                                                            3.1.1.0                                                                                                    dotnet                    
-Serilog.AspNetCore                                                 8.0.1.0                                                                                                    dotnet                    
+Serilog                                                            4.0.0.0                                                                                                    dotnet                    
+Serilog.AspNetCore                                                 8.0.2.0                                                                                                    dotnet                    
 Serilog.Enrichers.Thread                                           3.1.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Hosting                                         8.0.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Logging                                         8.0.0.0                                                                                                    dotnet                    
 Serilog.Formatting.Compact                                         2.0.0.0                                                                                                    dotnet                    
 Serilog.Settings.Configuration                                     8.0.2.0                                                                                                    dotnet                    
-Serilog.Sinks.Async                                                1.5.0.0                                                                                                    dotnet                    
-Serilog.Sinks.Console                                              5.0.1.0                                                                                                    dotnet                    
+Serilog.Sinks.Async                                                2.0.0.0                                                                                                    dotnet                    
+Serilog.Sinks.Console                                              6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Debug                                                2.0.0.0                                                                                                    dotnet                    
-Serilog.Sinks.File                                                 5.0.0.0                                                                                                    dotnet                    
+Serilog.Sinks.File                                                 6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Graylog                                              3.1.1                                                                                                      dotnet                    
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet                    
 ShimSkiaSharp                                                      1.0.0.18+2b7ddddf67008488d2f5bd681bf61eb8a983ea79                                                          dotnet                    
@@ -243,7 +240,7 @@ System.Diagnostics.Tools                                           8.0.724.31311
 System.Diagnostics.TraceSource                                     8.0.724.31311                                                                                              dotnet                    
 System.Diagnostics.Tracing                                         8.0.724.31311                                                                                              dotnet                    
 System.Drawing                                                     8.0.724.31311                                                                                              dotnet                    
-System.Drawing.Common                                              7.0.22.51805                                                                                               dotnet                    
+System.Drawing.Common                                              8.0.624.26909                                                                                              dotnet                    
 System.Drawing.Primitives                                          8.0.724.31311                                                                                              dotnet                    
 System.Dynamic.Runtime                                             8.0.724.31311                                                                                              dotnet                    
 System.Formats.Asn1                                                8.0.724.31311                                                                                              dotnet                    
@@ -261,7 +258,6 @@ System.IO.FileSystem.AccessControl                                 8.0.724.31311
 System.IO.FileSystem.DriveInfo                                     8.0.724.31311                                                                                              dotnet                    
 System.IO.FileSystem.Primitives                                    8.0.724.31311                                                                                              dotnet                    
 System.IO.FileSystem.Watcher                                       8.0.724.31311                                                                                              dotnet                    
-System.IO.Hashing                                                  8.0.23.53103                                                                                               dotnet                    
 System.IO.IsolatedStorage                                          8.0.724.31311                                                                                              dotnet                    
 System.IO.MemoryMappedFiles                                        8.0.724.31311                                                                                              dotnet                    
 System.IO.Pipelines                                                8.0.23.53103                                                                                               dotnet                    
@@ -421,10 +417,10 @@ grep                                                               3.7-1build1  
 gzip                                                               1.10-4ubuntu4.1                                                                                            deb                       
 hostname                                                           3.23ubuntu2                                                                                                deb                       
 init-system-helpers                                                1.62                                                                                                       deb                       
-jellyfin                                                           10.9.8+ubu2204                                                                                             deb                       
+jellyfin                                                           10.9.9+ubu2204                                                                                             deb                       
 jellyfin-ffmpeg6                                                   6.0.1-8-jammy                                                                                              deb                       
-jellyfin-server                                                    10.9.8+ubu2204                                                                                             deb                       
-jellyfin-web                                                       10.9.8+ubu2204                                                                                             deb                       
+jellyfin-server                                                    10.9.9+ubu2204                                                                                             deb                       
+jellyfin-web                                                       10.9.9+ubu2204                                                                                             deb                       
 jq                                                                 1.6-2.1ubuntu3                                                                                             deb                       
 karaoke --dev                                                      2023.524.0.0                                                                                               dotnet                    
 libacl1                                                            2.3.1-1                                                                                                    deb                       
@@ -475,8 +471,8 @@ libkeyutils1                                                       1.6.1-2ubuntu
 libkrb5-3                                                          1.19.2-2ubuntu0.3                                                                                          deb                       
 libkrb5support0                                                    1.19.2-2ubuntu0.3                                                                                          deb                       
 libksba8                                                           1.6.0-2ubuntu0.2                                                                                           deb                       
-libldap-2.5-0                                                      2.5.18+dfsg-0ubuntu0.22.04.1                                                                               deb                       
-libldap-common                                                     2.5.18+dfsg-0ubuntu0.22.04.1                                                                               deb                       
+libldap-2.5-0                                                      2.5.18+dfsg-0ubuntu0.22.04.2                                                                               deb                       
+libldap-common                                                     2.5.18+dfsg-0ubuntu0.22.04.2                                                                               deb                       
 libllvm15                                                          1:15.0.7-0ubuntu0.22.04.3                                                                                  deb                       
 liblz4-1                                                           1.9.3-2build2                                                                                              deb                       
 liblzma5                                                           5.2.5-2ubuntu1                                                                                             deb                       
@@ -512,7 +508,7 @@ librtmp1                                                           2.4+20151223.
 libsasl2-2                                                         2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
 libsasl2-modules                                                   2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
 libsasl2-modules-db                                                2.1.27+dfsg2-3ubuntu1.2                                                                                    deb                       
-libse                                                              4.0.5.1                                                                                                    dotnet                    
+libse                                                              4.0.7.45                                                                                                   dotnet                    
 libseccomp2                                                        2.5.3-2ubuntu2                                                                                             deb                       
 libselinux1                                                        3.3-1build2                                                                                                deb                       
 libsemanage-common                                                 3.3-1build2                                                                                                deb                       
