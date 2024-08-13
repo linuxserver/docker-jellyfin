@@ -20,7 +20,7 @@ common_param_env_vars_enabled: true #PGID, PUID, etc
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/library", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*"}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/library", desc: "Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.*"}
   - {vol_path: "/data/tvshows", vol_host_path: "/path/to/tvseries", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc."}
   - {vol_path: "/data/movies", vol_host_path: "/path/to/movies", desc: "Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc."}
 param_usage_include_ports: true
@@ -31,17 +31,6 @@ param_usage_include_env: true
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - {env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
-opt_param_usage_include_vols: false
-opt_param_volumes:
-  - {vol_path: "/opt/vc/lib", vol_host_path: "/opt/vc/lib", desc: "Path for Raspberry Pi OpenMAX libs *optional*."}
-opt_param_device_map: false
-opt_param_devices:
-  - {device_path: "/dev/dri", device_host_path: "/dev/dri", desc: "Only needed if you want to use your Intel GPU for hardware accelerated video encoding (vaapi)."}
-  - {device_path: "/dev/vcsm", device_host_path: "/dev/vcsm", desc: "Only needed if you want to use your Raspberry Pi MMAL video decoding (Enabled as OpenMax H264 decode in gui settings)."}
-  - {device_path: "/dev/vchiq", device_host_path: "/dev/vchiq", desc: "Only needed if you want to use your Raspberry Pi OpenMax video encoding."}
-  - {device_path: "/dev/video10", device_host_path: "/dev/video10", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
-  - {device_path: "/dev/video11", device_host_path: "/dev/video11", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
-  - {device_path: "/dev/video12", device_host_path: "/dev/video12", desc: "Only needed if you want to use your Raspberry Pi V4L2 video encoding."}
 opt_param_usage_include_ports: true
 opt_param_ports:
   - {external_port: "8920", internal_port: "8920", port_desc: "Optional - Https webUI (you need to set up your own certificate)."}
@@ -102,6 +91,7 @@ readme_hwaccel: true
 unraid_template_sync: false
 # changelog
 changelogs:
+  - {date: "13.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing. Use universal hardware acceleration blurb."}
   - {date: "03.12.23:", desc: "Switch nightly to ffmpeg6."}
   - {date: "01.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
