@@ -146,7 +146,7 @@ services:
       - TZ=Etc/UTC
       - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
     volumes:
-      - /path/to/library:/config
+      - /path/to/jellyfin/library:/config
       - /path/to/tvseries:/data/tvshows
       - /path/to/movies:/data/movies
     ports:
@@ -170,7 +170,7 @@ docker run -d \
   -p 8920:8920 `#optional` \
   -p 7359:7359/udp `#optional` \
   -p 1900:1900/udp `#optional` \
-  -v /path/to/library:/config \
+  -v /path/to/jellyfin/library:/config \
   -v /path/to/tvseries:/data/tvshows \
   -v /path/to/movies:/data/movies \
   --restart unless-stopped \
@@ -371,6 +371,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.08.24:** - Rebase to Ubuntu Noble.
 * **01.05.24:** - Increase verbosity of device permissions fixing.
 * **12.02.24:** - Use universal hardware acceleration blurb.
 * **12.09.23:** - Take ownership of plugin directories.
