@@ -20,7 +20,7 @@ jobs:
           echo "**** External trigger running off of nightly branch. To disable this trigger, set a Github secret named \"PAUSE_EXTERNAL_TRIGGER_JELLYFIN_NIGHTLY\". ****"
           echo "External trigger running off of nightly branch. To disable this trigger, set a Github secret named \`PAUSE_EXTERNAL_TRIGGER_JELLYFIN_NIGHTLY\`" >> $GITHUB_STEP_SUMMARY
           echo "**** Retrieving external version ****"
-          EXT_RELEASE=$(curl -sX GET https://repo.jellyfin.org/ubuntu/dists/jammy/unstable/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-server' | awk -F ': ' '/Version/{print $2;exit}')
+          EXT_RELEASE=$(curl -sX GET https://repo.jellyfin.org/ubuntu/dists/noble/unstable/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-server' | awk -F ': ' '/Version/{print $2;exit}')
           if [ -z "${EXT_RELEASE}" ] || [ "${EXT_RELEASE}" == "null" ]; then
             echo "**** Can't retrieve external version, exiting ****"
             FAILURE_REASON="Can't retrieve external version for jellyfin branch nightly"
