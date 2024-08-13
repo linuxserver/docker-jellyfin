@@ -391,7 +391,7 @@ ca-certificates                                                    20230311ubunt
 catatonit                                                          0.1.7-1                                                                                                    deb                       
 coreutils                                                          8.32-4.1ubuntu1.2                                                                                          deb                       
 cron                                                               3.0pl1-137ubuntu3                                                                                          deb                       
-curl                                                               7.81.0-1ubuntu1.16                                                                                         deb                       
+curl                                                               7.81.0-1ubuntu1.17                                                                                         deb                       
 dash                                                               0.5.11+git20210903+057cd650a4ed-3build1                                                                    deb                       
 debconf                                                            1.5.79ubuntu1                                                                                              deb                       
 debianutils                                                        5.5-1ubuntu2                                                                                               deb                       
@@ -441,7 +441,7 @@ libcap-ng0                                                         0.7.9-2.2buil
 libcap2                                                            1:2.44-1ubuntu0.22.04.1                                                                                    deb                       
 libcom-err2                                                        1.46.5-2ubuntu1.1                                                                                          deb                       
 libcrypt1                                                          1:4.4.27-1                                                                                                 deb                       
-libcurl4                                                           7.81.0-1ubuntu1.16                                                                                         deb                       
+libcurl4                                                           7.81.0-1ubuntu1.17                                                                                         deb                       
 libdb5.3                                                           5.3.28+dfsg1-0.8ubuntu3                                                                                    deb                       
 libdebconfclient0                                                  0.261ubuntu1                                                                                               deb                       
 libdrm-amdgpu1                                                     2.4.113-2~ubuntu0.22.04.1                                                                                  deb                       
@@ -518,7 +518,7 @@ libsmartcols1                                                      2.37.2-4ubunt
 libsqlite3-0                                                       3.37.2-2ubuntu0.3                                                                                          deb                       
 libss2                                                             1.46.5-2ubuntu1.1                                                                                          deb                       
 libssh-4                                                           0.9.6-2ubuntu0.22.04.3                                                                                     deb                       
-libssl3                                                            3.0.2-0ubuntu1.16                                                                                          deb                       
+libssl3                                                            3.0.2-0ubuntu1.17                                                                                          deb                       
 libstdc++6                                                         12.3.0-1ubuntu1~22.04                                                                                      deb                       
 libsystemd0                                                        249.11-0ubuntu3.12                                                                                         deb                       
 libtasn1-6                                                         4.18.0-4build1                                                                                             deb                       
@@ -575,7 +575,7 @@ netcat                                                             1.218-4ubuntu
 netcat-openbsd                                                     1.218-4ubuntu1                                                                                             deb                       
 netstandard                                                        8.0.724.31311                                                                                              dotnet                    
 ocl-icd-libopencl1                                                 2.2.14-3                                                                                                   deb                       
-openssl                                                            3.0.2-0ubuntu1.16                                                                                          deb                       
+openssl                                                            3.0.2-0ubuntu1.17                                                                                          deb                       
 passwd                                                             1:4.8.1-2ubuntu2.2                                                                                         deb                       
 perl-base                                                          5.34.0-3ubuntu1.3                                                                                          deb                       
 pinentry-curses                                                    1.1.1-1build2                                                                                              deb                       
