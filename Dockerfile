@@ -24,8 +24,7 @@ RUN \
   apt-get update && \
   apt-get install -y \
     at \
-    jellyfin-server=${JELLYFIN_RELEASE} \
-    jellyfin-ffmpeg6 \
+    jellyfin=${JELLYFIN_RELEASE} \
     mesa-va-drivers \
     xmlstarlet && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
