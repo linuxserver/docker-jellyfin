@@ -24,8 +24,7 @@ RUN \
   apt-get update && \
   apt-get install -y \
     at \
-    jellyfin-server=${JELLYFIN_RELEASE} \
-    jellyfin-ffmpeg6 \
+    jellyfin=${JELLYFIN_RELEASE} \
     libomxil-bellagio0 \
     libomxil-bellagio-bin \
     libraspberrypi0 \
