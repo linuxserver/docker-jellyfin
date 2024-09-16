@@ -443,7 +443,8 @@ hicolor-icon-theme                                                 0.17-2       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 humanity-icon-theme                                                0.6.16                                                                                                     deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin-ffmpeg6                                                   6.0.1-8-noble                                                                                              deb                       
+jellyfin                                                           2024091605+ubu2404                                                                                         deb                       
+jellyfin-ffmpeg7                                                   7.0.2-1-noble                                                                                              deb                       
 jellyfin-server                                                    2024091605+ubu2404                                                                                         deb                       
 jellyfin-web                                                       2024091605+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
