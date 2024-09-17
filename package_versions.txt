@@ -631,8 +631,8 @@ libproc2-0                                                         2:4.0.4-4ubun
 libpsl5t64                                                         0.21.2-1.1build1                                                                                           deb                       
 libpulse0                                                          1:16.1+dfsg1-2ubuntu10                                                                                     deb                       
 libpython3-stdlib                                                  3.12.3-0ubuntu2                                                                                            deb                       
-libpython3.12-minimal                                              3.12.3-1ubuntu0.1                                                                                          deb                       
-libpython3.12-stdlib                                               3.12.3-1ubuntu0.1                                                                                          deb                       
+libpython3.12-minimal                                              3.12.3-1ubuntu0.2                                                                                          deb                       
+libpython3.12-stdlib                                               3.12.3-1ubuntu0.2                                                                                          deb                       
 librabbitmq4                                                       0.11.0-1build2                                                                                             deb                       
 librav1e0                                                          0.7.1-2                                                                                                    deb                       
 libraw1394-11                                                      2.1.2-2build3                                                                                              deb                       
@@ -784,8 +784,8 @@ python3                                                            3.12.3-0ubunt
 python3-dbus                                                       1.3.2-5build3                                                                                              deb                       
 python3-gi                                                         3.48.2-1                                                                                                   deb                       
 python3-minimal                                                    3.12.3-0ubuntu2                                                                                            deb                       
-python3.12                                                         3.12.3-1ubuntu0.1                                                                                          deb                       
-python3.12-minimal                                                 3.12.3-1ubuntu0.1                                                                                          deb                       
+python3.12                                                         3.12.3-1ubuntu0.2                                                                                          deb                       
+python3.12-minimal                                                 3.12.3-1ubuntu0.2                                                                                          deb                       
 readline-common                                                    8.2-4build1                                                                                                deb                       
 sed                                                                4.9-2build1                                                                                                deb                       
 sensible-utils                                                     0.0.22                                                                                                     deb                       
