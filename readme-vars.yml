@@ -91,6 +91,7 @@ readme_hwaccel: true
 unraid_template_sync: false
 # changelog
 changelogs:
+  - {date: "06.10.24:", desc: "Fix fontconfig cache path."}
   - {date: "13.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing. Use universal hardware acceleration blurb."}
   - {date: "03.12.23:", desc: "Switch nightly to ffmpeg6."}
