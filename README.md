@@ -372,6 +372,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **06.10.24:** - Fix fontconfig cache path.
 * **13.08.24:** - Rebase to Ubuntu Noble.
 * **01.05.24:** - Increase verbosity of device permissions fixing.
 * **12.02.24:** - Use universal hardware acceleration blurb.
