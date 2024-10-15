@@ -30,7 +30,7 @@ param_usage_include_env: true
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - {env_var: "JELLYFIN_PublishedServerUrl", env_value: "192.168.0.5", desc: "Set the autodiscovery response domain or IP address."}
+  - {env_var: "JELLYFIN_PublishedServerUrl", env_value: "http://192.168.0.5", desc: "Set the autodiscovery response domain or IP address, include http(s)://."}
 opt_param_usage_include_ports: true
 opt_param_ports:
   - {external_port: "8920", internal_port: "8920", port_desc: "Optional - Https webUI (you need to set up your own certificate)."}
