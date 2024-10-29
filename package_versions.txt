@@ -406,7 +406,7 @@ findutils                                                          4.9.0-5build1
 fontconfig-config                                                  2.15.0-1.1ubuntu2                                                                                          deb                       
 fonts-dejavu-core                                                  2.37-8                                                                                                     deb                       
 fonts-dejavu-mono                                                  2.37-8                                                                                                     deb                       
-gcc-14-base                                                        14-20240412-0ubuntu1                                                                                       deb                       
+gcc-14-base                                                        14.2.0-4ubuntu2~24.04                                                                                      deb                       
 gnupg                                                              2.4.4-2ubuntu17                                                                                            deb                       
 gnupg-l10n                                                         2.4.4-2ubuntu17                                                                                            deb                       
 gnupg-utils                                                        2.4.4-2ubuntu17                                                                                            deb                       
@@ -421,7 +421,7 @@ gzip                                                               1.12-1ubuntu3
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
 jellyfin                                                           2024102105+ubu2404                                                                                         deb                       
-jellyfin-ffmpeg7                                                   7.0.2-4-noble                                                                                              deb                       
+jellyfin-ffmpeg7                                                   7.0.2-5-noble                                                                                              deb                       
 jellyfin-server                                                    2024102105+ubu2404                                                                                         deb                       
 jellyfin-web                                                       2024102105+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
@@ -464,7 +464,7 @@ libext2fs2t64                                                      1.47.0-2.4~ex
 libffi8                                                            3.4.6-1build1                                                                                              deb                       
 libfontconfig1                                                     2.15.0-1.1ubuntu2                                                                                          deb                       
 libfreetype6                                                       2.13.2+dfsg-1build3                                                                                        deb                       
-libgcc-s1                                                          14-20240412-0ubuntu1                                                                                       deb                       
+libgcc-s1                                                          14.2.0-4ubuntu2~24.04                                                                                      deb                       
 libgcrypt20                                                        1.10.3-2build1                                                                                             deb                       
 libgmp10                                                           2:6.3.0+dfsg-2ubuntu6                                                                                      deb                       
 libgnutls30t64                                                     3.8.3-1.1ubuntu3.2                                                                                         deb                       
@@ -506,7 +506,7 @@ libpciaccess0                                                      0.17-3build1 
 libpcre2-8-0                                                       10.42-4ubuntu2                                                                                             deb                       
 libpixman-1-0                                                      0.42.2-1build1                                                                                             deb                       
 libpng16-16t64                                                     1.6.43-5build1                                                                                             deb                       
-libproc2-0                                                         2:4.0.4-4ubuntu3.1                                                                                         deb                       
+libproc2-0                                                         2:4.0.4-4ubuntu3.2                                                                                         deb                       
 libpsl5t64                                                         0.21.2-1.1build1                                                                                           deb                       
 libreadline8t64                                                    8.2-4build1                                                                                                deb                       
 librtmp1                                                           2.4+20151223.gitfa8646d.1-2build7                                                                          deb                       
@@ -525,7 +525,7 @@ libsqlite3-0                                                       3.45.1-1ubunt
 libss2                                                             1.47.0-2.4~exp1ubuntu4.1                                                                                   deb                       
 libssh-4                                                           0.10.6-2build2                                                                                             deb                       
 libssl3t64                                                         3.0.13-0ubuntu3.4                                                                                          deb                       
-libstdc++6                                                         14-20240412-0ubuntu1                                                                                       deb                       
+libstdc++6                                                         14.2.0-4ubuntu2~24.04                                                                                      deb                       
 libsystemd0                                                        255.4-1ubuntu8.4                                                                                           deb                       
 libtasn1-6                                                         4.19.0-3build1                                                                                             deb                       
 libtheora0                                                         1.1.1+dfsg.1-16.1build3                                                                                    deb                       
@@ -566,7 +566,7 @@ libzstd1                                                           1.5.5+dfsg2-2
 libzvbi-common                                                     0.2.42-2                                                                                                   deb                       
 libzvbi0t64                                                        0.2.42-2                                                                                                   deb                       
 locales                                                            2.39-0ubuntu8.3                                                                                            deb                       
-login                                                              1:4.13+dfsg1-4ubuntu3                                                                                      deb                       
+login                                                              1:4.13+dfsg1-4ubuntu3.2                                                                                    deb                       
 logsave                                                            1.47.0-2.4~exp1ubuntu4.1                                                                                   deb                       
 mawk                                                               1.3.4.20240123-1build1                                                                                     deb                       
 mesa-va-drivers                                                    24.0.9-0ubuntu0.2                                                                                          deb                       
@@ -578,10 +578,10 @@ netcat-openbsd                                                     1.226-1ubuntu
 netstandard                                                        8.0.1024.46610                                                                                             dotnet                    
 ocl-icd-libopencl1                                                 2.3.2-1build1                                                                                              deb                       
 openssl                                                            3.0.13-0ubuntu3.4                                                                                          deb                       
-passwd                                                             1:4.13+dfsg1-4ubuntu3                                                                                      deb                       
+passwd                                                             1:4.13+dfsg1-4ubuntu3.2                                                                                    deb                       
 perl-base                                                          5.38.2-3.2build2                                                                                           deb                       
 pinentry-curses                                                    1.2.1-3ubuntu5                                                                                             deb                       
-procps                                                             2:4.0.4-4ubuntu3.1                                                                                         deb                       
+procps                                                             2:4.0.4-4ubuntu3.2                                                                                         deb                       
 prometheus-net.DotNetRuntime                                       4.4.1.0                                                                                                    dotnet                    
 publicsuffix                                                       20231001.0357-0.1                                                                                          deb                       
 readline-common                                                    8.2-4build1                                                                                                deb                       
