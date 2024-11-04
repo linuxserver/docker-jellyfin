@@ -1,6 +1,6 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
 AsyncKeyedLock                                                     7.0.2.0                                                                                                    dotnet                    
-Audio Tools Library (ATL) for .NET                                 6.6.0.0                                                                                                    dotnet                    
+Audio Tools Library (ATL) for .NET                                 6.7.0.0                                                                                                    dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.3.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.3.0                                                                                                    dotnet                    
@@ -16,14 +16,14 @@ HarfBuzzSharp                                                      7.3.0.2      
 ICU4N                                                              60.1.0                                                                                                     dotnet                    
 ICU4N.Transliterator                                               60.1.0                                                                                                     dotnet                    
 J2N                                                                2.0.0+ca530a621b935deeb854593acba0ebd103ceb35e                                                             dotnet                    
-Jellyfin Server                                                    10.10.0                                                                                                    dotnet  (+13 duplicates)  
+Jellyfin Server                                                    10.11.0                                                                                                    dotnet  (+13 duplicates)  
 Jellyfin.Api                                                       24.4.0.0                                                                                                   dotnet                    
-Jellyfin.Data.dll                                                  10.10.0                                                                                                    dotnet                    
-Jellyfin.Extensions.dll                                            10.10.0                                                                                                    dotnet                    
+Jellyfin.Data.dll                                                  10.11.0                                                                                                    dotnet                    
+Jellyfin.Extensions.dll                                            10.11.0                                                                                                    dotnet                    
 Jellyfin.LiveTv                                                    24.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Hls                                         24.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Keyframes                                   24.4.0.0                                                                                                   dotnet                    
-Jellyfin.Networking.dll                                            10.10.0                                                                                                    dotnet                    
+Jellyfin.Networking.dll                                            10.11.0                                                                                                    dotnet                    
 Jellyfin.XmlTv                                                     1.0.0.0                                                                                                    dotnet                    
 Json.NET                                                           13.0.3.27908                                                                                               dotnet                    
 MetaBrainz.Common                                                  3.0.0                                                                                                      dotnet                    
@@ -186,25 +186,25 @@ Prometheus.NetStandard.dll                                         8.2.1        
 SQLitePCLRaw.batteries_v2                                          2.1.6.2060                                                                                                 dotnet                    
 SQLitePCLRaw.core                                                  2.1.6.2060                                                                                                 dotnet                    
 SQLitePCLRaw.provider.e_sqlite3                                    2.1.6.2060                                                                                                 dotnet                    
-Serilog                                                            4.0.0.0                                                                                                    dotnet                    
+Serilog                                                            4.1.0.0                                                                                                    dotnet                    
 Serilog.AspNetCore                                                 8.0.3.0                                                                                                    dotnet                    
 Serilog.Enrichers.Thread                                           4.0.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Hosting                                         8.0.0.0                                                                                                    dotnet                    
 Serilog.Extensions.Logging                                         8.0.0.0                                                                                                    dotnet                    
 Serilog.Formatting.Compact                                         2.0.0.0                                                                                                    dotnet                    
 Serilog.Settings.Configuration                                     8.0.4.0                                                                                                    dotnet                    
-Serilog.Sinks.Async                                                2.0.0.0                                                                                                    dotnet                    
+Serilog.Sinks.Async                                                2.1.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Console                                              6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Debug                                                2.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.File                                                 6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Graylog                                              3.1.1                                                                                                      dotnet                    
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet                    
-ShimSkiaSharp                                                      2.0.0.1+b30ba2c1f5219e32a59693e0cea5fa2549d37109                                                           dotnet                    
+ShimSkiaSharp                                                      2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
 SkiaSharp                                                          2.88.8.0                                                                                                   dotnet                    
 SkiaSharp.HarfBuzz                                                 2.88.8.0                                                                                                   dotnet                    
-Svg.Custom                                                         2.0.0.1+b30ba2c1f5219e32a59693e0cea5fa2549d37109                                                           dotnet                    
-Svg.Model                                                          2.0.0.1+b30ba2c1f5219e32a59693e0cea5fa2549d37109                                                           dotnet                    
-Svg.Skia                                                           2.0.0.1+b30ba2c1f5219e32a59693e0cea5fa2549d37109                                                           dotnet                    
+Svg.Custom                                                         2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
+Svg.Model                                                          2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
+Svg.Skia                                                           2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
 Swashbuckle.AspNetCore.ReDoc                                       6.5.0.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.Swagger                                     6.2.3.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3.0                                                                                                    dotnet                    
@@ -420,10 +420,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           2024102105+ubu2404                                                                                         deb                       
+jellyfin                                                           2024110405+ubu2404                                                                                         deb                       
 jellyfin-ffmpeg7                                                   7.0.2-5-noble                                                                                              deb                       
-jellyfin-server                                                    2024102105+ubu2404                                                                                         deb                       
-jellyfin-web                                                       2024102105+ubu2404                                                                                         deb                       
+jellyfin-server                                                    2024110405+ubu2404                                                                                         deb                       
+jellyfin-web                                                       2024110405+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2024.728.2.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
