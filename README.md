@@ -103,6 +103,7 @@ Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev
 --device=/dev/video12:/dev/video12
 ```
 
+ 
 ### Hardware Acceleration
 
 Many desktop applications need access to a GPU to function properly and even some Desktop Environments have compositor effects that will not function without a GPU. However this is not a hard requirement and all base images will function without a video device mounted into the container.
@@ -362,10 +363,10 @@ docker build \
   -t lscr.io/linuxserver/jellyfin:nightly .
 ```
 
-The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
+The ARM variants can be built on x86_64 hardware and vice versa using `lscr.io/linuxserver/qemu-static`
 
 ```bash
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
+docker run --rm --privileged lscr.io/linuxserver/qemu-static --reset
 ```
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
