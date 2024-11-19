@@ -16,14 +16,14 @@ HarfBuzzSharp                                                      7.3.0.3      
 ICU4N                                                              60.1.0                                                                                                     dotnet                    
 ICU4N.Transliterator                                               60.1.0                                                                                                     dotnet                    
 J2N                                                                2.0.0+ca530a621b935deeb854593acba0ebd103ceb35e                                                             dotnet                    
-Jellyfin Server                                                    10.10.2                                                                                                    dotnet  (+13 duplicates)  
+Jellyfin Server                                                    10.10.3                                                                                                    dotnet  (+13 duplicates)  
 Jellyfin.Api                                                       24.4.0.0                                                                                                   dotnet                    
-Jellyfin.Data.dll                                                  10.10.2                                                                                                    dotnet                    
-Jellyfin.Extensions.dll                                            10.10.2                                                                                                    dotnet                    
+Jellyfin.Data.dll                                                  10.10.3                                                                                                    dotnet                    
+Jellyfin.Extensions.dll                                            10.10.3                                                                                                    dotnet                    
 Jellyfin.LiveTv                                                    24.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Hls                                         24.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Keyframes                                   24.4.0.0                                                                                                   dotnet                    
-Jellyfin.Networking.dll                                            10.10.2                                                                                                    dotnet                    
+Jellyfin.Networking.dll                                            10.10.3                                                                                                    dotnet                    
 Jellyfin.XmlTv                                                     1.0.0.0                                                                                                    dotnet                    
 Json.NET                                                           13.0.3.27908                                                                                               dotnet                    
 MetaBrainz.Common                                                  3.0.0                                                                                                      dotnet                    
@@ -420,10 +420,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           10.10.2+ubu2404                                                                                            deb                       
+jellyfin                                                           10.10.3+ubu2404                                                                                            deb                       
 jellyfin-ffmpeg7                                                   7.0.2-7-noble                                                                                              deb                       
-jellyfin-server                                                    10.10.2+ubu2404                                                                                            deb                       
-jellyfin-web                                                       10.10.2+ubu2404                                                                                            deb                       
+jellyfin-server                                                    10.10.3+ubu2404                                                                                            deb                       
+jellyfin-web                                                       10.10.3+ubu2404                                                                                            deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2024.728.2.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
