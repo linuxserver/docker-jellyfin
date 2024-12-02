@@ -86,9 +86,52 @@ app_setup_block: |
   --device=/dev/video11:/dev/video11
   --device=/dev/video12:/dev/video12
   ```
-
 readme_hwaccel: true
 unraid_template_sync: false
+# init diagram
+init_diagram: |
+  "jellyfin:nightly": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-jellyfin-video -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    init-config -> init-jellyfin-config
+    init-jellyfin-config -> init-jellyfin-video
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-jellyfin
+    svc-jellyfin -> legacy-services
+  }
+  Base Images: {
+    "baseimage-ubuntu:noble"
+  }
+  "jellyfin:nightly" <- Base Images
 # changelog
 changelogs:
   - {date: "06.10.24:", desc: "Fix fontconfig cache path."}
