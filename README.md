@@ -103,7 +103,6 @@ Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev
 --device=/dev/video12:/dev/video12
 ```
 
- 
 ### Hardware Acceleration
 
 Many desktop applications need access to a GPU to function properly and even some Desktop Environments have compositor effects that will not function without a GPU. However this is not a hard requirement and all base images will function without a video device mounted into the container.
@@ -132,6 +131,9 @@ Best effort is made to install tools to allow mounting in /dev/dri on Arm device
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -184,7 +186,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 8096` | Http webUI. |
+| `-p 8096:8096` | Http webUI. |
 | `-p 8920` | Optional - Https webUI (you need to set up your own certificate). |
 | `-p 7359/udp` | Optional - Allows clients to discover Jellyfin on the local network. |
 | `-p 1900/udp` | Optional - Service discovery used by DNLA and clients. |
