@@ -200,12 +200,12 @@ Serilog.Sinks.Debug                                                2.0.0.0      
 Serilog.Sinks.File                                                 6.0.0.0                                                                                                    dotnet                    
 Serilog.Sinks.Graylog                                              3.1.1                                                                                                      dotnet                    
 Serilog.Sinks.Graylog.Core                                         1.0.0.0                                                                                                    dotnet                    
-ShimSkiaSharp                                                      2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
+ShimSkiaSharp                                                      2.0.0.4+e958b025fb2a856b8b1d17f772329d014b92858a                                                           dotnet                    
 SkiaSharp                                                          2.88.9.0                                                                                                   dotnet                    
 SkiaSharp.HarfBuzz                                                 2.88.9.0                                                                                                   dotnet                    
-Svg.Custom                                                         2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
-Svg.Model                                                          2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
-Svg.Skia                                                           2.0.0.2+a8579c7bbc313a73e8f6e000f959c344afb11c90                                                           dotnet                    
+Svg.Custom                                                         2.0.0.4+e958b025fb2a856b8b1d17f772329d014b92858a                                                           dotnet                    
+Svg.Model                                                          2.0.0.4+e958b025fb2a856b8b1d17f772329d014b92858a                                                           dotnet                    
+Svg.Skia                                                           2.0.0.4+e958b025fb2a856b8b1d17f772329d014b92858a                                                           dotnet                    
 Swashbuckle.AspNetCore.ReDoc                                       6.5.0.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.Swagger                                     6.2.3.0                                                                                                    dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3.0                                                                                                    dotnet                    
@@ -421,10 +421,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           2024112505+ubu2404                                                                                         deb                       
+jellyfin                                                           2024120205+ubu2404                                                                                         deb                       
 jellyfin-ffmpeg7                                                   7.0.2-7-noble                                                                                              deb                       
-jellyfin-server                                                    2024112505+ubu2404                                                                                         deb                       
-jellyfin-web                                                       2024112505+ubu2404                                                                                         deb                       
+jellyfin-server                                                    2024120205+ubu2404                                                                                         deb                       
+jellyfin-web                                                       2024120205+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2024.728.2.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
