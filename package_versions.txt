@@ -1,6 +1,6 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
 AsyncKeyedLock                                                     7.1.4.0                                                                                                    dotnet                    
-Audio Tools Library (ATL) for .NET                                 6.9.0.0                                                                                                    dotnet                    
+Audio Tools Library (ATL) for .NET                                 6.10.0.0                                                                                                   dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.3.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.3.0                                                                                                    dotnet                    
@@ -395,7 +395,7 @@ catatonit                                                          0.1.7-1      
 coreutils                                                          9.4-3ubuntu6                                                                                               deb                       
 cron                                                               3.0pl1-184ubuntu2                                                                                          deb                       
 cron-daemon-common                                                 3.0pl1-184ubuntu2                                                                                          deb                       
-curl                                                               8.5.0-2ubuntu10.5                                                                                          deb                       
+curl                                                               8.5.0-2ubuntu10.6                                                                                          deb                       
 dash                                                               0.5.12-6ubuntu5                                                                                            deb                       
 debconf                                                            1.5.86ubuntu1                                                                                              deb                       
 debianutils                                                        5.17build1                                                                                                 deb                       
@@ -421,10 +421,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           2024121605+ubu2404                                                                                         deb                       
+jellyfin                                                           2024122305+ubu2404                                                                                         deb                       
 jellyfin-ffmpeg7                                                   7.0.2-8-noble                                                                                              deb                       
-jellyfin-server                                                    2024121605+ubu2404                                                                                         deb                       
-jellyfin-web                                                       2024121605+ubu2404                                                                                         deb                       
+jellyfin-server                                                    2024122305+ubu2404                                                                                         deb                       
+jellyfin-web                                                       2024122305+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2024.728.2.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
@@ -450,7 +450,7 @@ libcap-ng0                                                         0.8.4-2build2
 libcap2                                                            1:2.66-5ubuntu2                                                                                            deb                       
 libcom-err2                                                        1.47.0-2.4~exp1ubuntu4.1                                                                                   deb                       
 libcrypt1                                                          1:4.4.36-4build1                                                                                           deb                       
-libcurl4t64                                                        8.5.0-2ubuntu10.5                                                                                          deb                       
+libcurl4t64                                                        8.5.0-2ubuntu10.6                                                                                          deb                       
 libdb5.3t64                                                        5.3.28+dfsg2-7                                                                                             deb                       
 libdebconfclient0                                                  0.271ubuntu3                                                                                               deb                       
 libdrm-amdgpu1                                                     2.4.120-2build1                                                                                            deb                       
