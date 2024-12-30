@@ -1,6 +1,6 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
 AsyncKeyedLock                                                     7.1.4.0                                                                                                    dotnet                    
-Audio Tools Library (ATL) for .NET                                 6.10.0.0                                                                                                   dotnet                    
+Audio Tools Library (ATL) for .NET                                 6.11.0.0                                                                                                   dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
 BlurHashSharp                                                      1.3.3.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.3.0                                                                                                    dotnet                    
@@ -178,7 +178,7 @@ Microsoft.VisualBasic                                              9.0.24.52809 
 Microsoft.VisualBasic.Core                                         14.0.24.52809                                                                                              dotnet                    
 Microsoft.Win32.Primitives                                         9.0.24.52809                                                                                               dotnet                    
 Microsoft.Win32.Registry                                           9.0.24.52809                                                                                               dotnet                    
-Microsoft.Win32.SystemEvents                                       8.0.23.53103                                                                                               dotnet                    
+Microsoft.Win32.SystemEvents                                       9.0.24.52809                                                                                               dotnet                    
 Mono.Nat                                                           3.0.4                                                                                                      dotnet                    
 NEbml.Core                                                         0.11.0.0                                                                                                   dotnet                    
 PlaylistsNET                                                       1.4.1.0                                                                                                    dotnet                    
@@ -242,7 +242,7 @@ System.Diagnostics.Tools                                           9.0.24.52809 
 System.Diagnostics.TraceSource                                     9.0.24.52809                                                                                               dotnet                    
 System.Diagnostics.Tracing                                         9.0.24.52809                                                                                               dotnet                    
 System.Drawing                                                     9.0.24.52809                                                                                               dotnet                    
-System.Drawing.Common                                              8.0.824.36606                                                                                              dotnet                    
+System.Drawing.Common                                              9.0.24.52901                                                                                               dotnet                    
 System.Drawing.Primitives                                          9.0.24.52809                                                                                               dotnet                    
 System.Dynamic.Runtime                                             9.0.24.52809                                                                                               dotnet                    
 System.Formats.Asn1                                                9.0.24.52809                                                                                               dotnet                    
@@ -297,6 +297,7 @@ System.ObjectModel                                                 9.0.24.52809 
 System.Private.CoreLib                                             9.0.24.52809                                                                                               dotnet                    
 System.Private.DataContractSerialization                           9.0.24.52809                                                                                               dotnet                    
 System.Private.Uri                                                 9.0.24.52809                                                                                               dotnet                    
+System.Private.Windows.Core                                        9.0.24.52901                                                                                               dotnet                    
 System.Private.Xml                                                 9.0.24.52809                                                                                               dotnet                    
 System.Private.Xml.Linq                                            9.0.24.52809                                                                                               dotnet                    
 System.Reflection                                                  9.0.24.52809                                                                                               dotnet                    
@@ -421,10 +422,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           2024122305+ubu2404                                                                                         deb                       
+jellyfin                                                           2024123005+ubu2404                                                                                         deb                       
 jellyfin-ffmpeg7                                                   7.0.2-8-noble                                                                                              deb                       
-jellyfin-server                                                    2024122305+ubu2404                                                                                         deb                       
-jellyfin-web                                                       2024122305+ubu2404                                                                                         deb                       
+jellyfin-server                                                    2024123005+ubu2404                                                                                         deb                       
+jellyfin-web                                                       2024123005+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2024.728.2.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
@@ -514,7 +515,7 @@ librtmp1                                                           2.4+20151223.
 libsasl2-2                                                         2.1.28+dfsg1-5ubuntu3.1                                                                                    deb                       
 libsasl2-modules                                                   2.1.28+dfsg1-5ubuntu3.1                                                                                    deb                       
 libsasl2-modules-db                                                2.1.28+dfsg1-5ubuntu3.1                                                                                    deb                       
-libse                                                              4.0.8.0                                                                                                    dotnet                    
+libse                                                              4.0.9.0                                                                                                    dotnet                    
 libseccomp2                                                        2.5.5-1ubuntu3.1                                                                                           deb                       
 libselinux1                                                        3.5-2ubuntu2                                                                                               deb                       
 libsemanage-common                                                 3.5-1build5                                                                                                deb                       
