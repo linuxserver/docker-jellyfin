@@ -423,7 +423,7 @@ gzip                                                               1.12-1ubuntu3
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
 jellyfin                                                           2025012005+ubu2404                                                                                         deb                       
-jellyfin-ffmpeg7                                                   7.0.2-8-noble                                                                                              deb                       
+jellyfin-ffmpeg7                                                   7.0.2-9-noble                                                                                              deb                       
 jellyfin-server                                                    2025012005+ubu2404                                                                                         deb                       
 jellyfin-web                                                       2025012005+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
@@ -460,7 +460,7 @@ libdrm-nouveau2                                                    2.4.120-2buil
 libdrm-radeon1                                                     2.4.120-2build1                                                                                            deb                       
 libdrm2                                                            2.4.120-2build1                                                                                            deb                       
 libedit2                                                           3.1-20230828-1build1                                                                                       deb                       
-libelf1t64                                                         0.190-1.1build4                                                                                            deb                       
+libelf1t64                                                         0.190-1.1build4.1                                                                                          deb                       
 libexpat1                                                          2.6.1-2ubuntu0.2                                                                                           deb                       
 libext2fs2t64                                                      1.47.0-2.4~exp1ubuntu4.1                                                                                   deb                       
 libffi8                                                            3.4.6-1build1                                                                                              deb                       
