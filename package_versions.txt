@@ -1,7 +1,8 @@
 NAME                                                               VERSION                                                                                                    TYPE                     
 AsyncKeyedLock                                                     7.1.4.0                                                                                                    dotnet                    
-Audio Tools Library (ATL) for .NET                                 6.19+4f7b4887c912c0868c725cd9e2a6010140973506                                                              dotnet                    
+Audio Tools Library (ATL) for .NET                                 6.20+ec0bc1b532ac3b7a9388c40d59d42d606beb29d4                                                              dotnet                    
 BDInfo                                                             0.8.0.0+40d2c5be76f68096f7277b706ccaf23395ee6e6e                                                           dotnet                    
+BitFaster.Caching                                                  2.5.3.0                                                                                                    dotnet                    
 BlurHashSharp                                                      1.3.4.0                                                                                                    dotnet                    
 BlurHashSharp.SkiaSharp                                            1.3.4.0                                                                                                    dotnet                    
 CommandLine                                                        2.9.1.0                                                                                                    dotnet                    
@@ -16,9 +17,10 @@ HarfBuzzSharp                                                      7.3.0.3      
 ICU4N                                                              60.1.0                                                                                                     dotnet                    
 ICU4N.Transliterator                                               60.1.0                                                                                                     dotnet                    
 J2N                                                                2.0.0+ca530a621b935deeb854593acba0ebd103ceb35e                                                             dotnet                    
-Jellyfin Server                                                    10.11.0                                                                                                    dotnet  (+13 duplicates)  
+Jellyfin Server                                                    10.11.0                                                                                                    dotnet  (+14 duplicates)  
 Jellyfin.Api                                                       24.4.0.0                                                                                                   dotnet                    
 Jellyfin.Data.dll                                                  10.11.0                                                                                                    dotnet                    
+Jellyfin.Database.Implementations.dll                              10.11.0                                                                                                    dotnet                    
 Jellyfin.Extensions.dll                                            10.11.0                                                                                                    dotnet                    
 Jellyfin.LiveTv                                                    24.4.0.0                                                                                                   dotnet                    
 Jellyfin.MediaEncoding.Hls                                         24.4.0.0                                                                                                   dotnet                    
@@ -421,10 +423,10 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                                                                                              deb                       
 hostname                                                           3.23+nmu2ubuntu2                                                                                           deb                       
 init-system-helpers                                                1.66ubuntu1                                                                                                deb                       
-jellyfin                                                           2025032405+ubu2404                                                                                         deb                       
+jellyfin                                                           2025033105+ubu2404                                                                                         deb                       
 jellyfin-ffmpeg7                                                   7.0.2-9-noble                                                                                              deb                       
-jellyfin-server                                                    2025032405+ubu2404                                                                                         deb                       
-jellyfin-web                                                       2025032405+ubu2404                                                                                         deb                       
+jellyfin-server                                                    2025033105+ubu2404                                                                                         deb                       
+jellyfin-web                                                       2025033105+ubu2404                                                                                         deb                       
 jq                                                                 1.7.1-3build1                                                                                              deb                       
 karaoke --dev                                                      2025.228.1.0                                                                                               dotnet                    
 keyboxd                                                            2.4.4-2ubuntu17                                                                                            deb                       
