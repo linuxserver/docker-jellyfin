@@ -80,8 +80,10 @@ This section lists the enhancements we have made for hardware acceleration in th
 
 To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the OpenCL-Intel mod from here:
 
-https://mods.linuxserver.io/?mod=jellyfin
+https://mods.linuxserver.io/?mod=jellyfin 
 
+
+And follow this guide even if you are using iGPU: https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/#configure-and-verify-lp-mode-on-linux
 
 #### OpenMAX (Raspberry Pi)
 
