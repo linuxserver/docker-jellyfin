@@ -130,7 +130,7 @@ hostname                                                           3.23+nmu2ubun
 init-system-helpers                                                1.66ubuntu1                        deb       
 jellyfin                                                           10.10.7+ubu2404                    deb       
 jellyfin                                                           24.04                              dotnet    
-jellyfin-ffmpeg7                                                   7.0.2-9-noble                      deb       
+jellyfin-ffmpeg7                                                   7.1.1-1-noble                      deb       
 jellyfin-server                                                    10.10.7+ubu2404                    deb       
 jellyfin-web                                                       10.10.7+ubu2404                    deb       
 jq                                                                 1.7.1-3build1                      deb       
@@ -157,7 +157,6 @@ libcrypt1                                                          1:4.4.36-4bui
 libcurl4t64                                                        8.5.0-2ubuntu10.6                  deb       
 libdb5.3t64                                                        5.3.28+dfsg2-7                     deb       
 libdebconfclient0                                                  0.271ubuntu3                       deb       
-libedit2                                                           3.1-20230828-1build1               deb       
 libelf1t64                                                         0.190-1.1ubuntu0.1                 deb       
 libexpat1                                                          2.6.1-2ubuntu0.3                   deb       
 libext2fs2t64                                                      1.47.0-2.4~exp1ubuntu4.1           deb       
@@ -181,7 +180,6 @@ libkrb5support0                                                    1.20.1-6ubunt
 libksba8                                                           1.6.6-1build1                      deb       
 libldap-common                                                     2.6.7+dfsg-1~exp1ubuntu8.2         deb       
 libldap2                                                           2.6.7+dfsg-1~exp1ubuntu8.2         deb       
-libllvm17t64                                                       1:17.0.6-9ubuntu1                  deb       
 liblz4-1                                                           1.9.4-1build1.1                    deb       
 liblzma5                                                           5.6.1+really5.4.5-1ubuntu0.2       deb       
 libmd0                                                             1.1.0-2build1.1                    deb       
@@ -246,7 +244,6 @@ libx11-xcb1                                                        2:1.8.7-1buil
 libx264-164                                                        2:0.164.3108+git31e19f9-1          deb       
 libx265-199                                                        3.5-2build1                        deb       
 libxau6                                                            1:1.0.9-1build6                    deb       
-libxcb-dri2-0                                                      1.15-1ubuntu2                      deb       
 libxcb-dri3-0                                                      1.15-1ubuntu2                      deb       
 libxcb-present0                                                    1.15-1ubuntu2                      deb       
 libxcb-randr0                                                      1.15-1ubuntu2                      deb       
@@ -277,7 +274,7 @@ netcat-openbsd                                                     1.226-1ubuntu
 ocl-icd-libopencl1                                                 2.3.2-1build1                      deb       
 openssl                                                            3.0.13-0ubuntu3.5                  deb       
 passwd                                                             1:4.13+dfsg1-4ubuntu3.2            deb       
-perl-base                                                          5.38.2-3.2build2.1                 deb       
+perl-base                                                          5.38.2-3.2ubuntu0.1                deb       
 pinentry-curses                                                    1.2.1-3ubuntu5                     deb       
 procps                                                             2:4.0.4-4ubuntu3.2                 deb       
 prometheus-net                                                     8.2.1                              dotnet    
