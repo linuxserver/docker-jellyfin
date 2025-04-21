@@ -56,7 +56,7 @@ Microsoft.EntityFrameworkCore.Sqlite.Core                          9.0.4        
 Microsoft.Extensions.DependencyModel                               9.0.4                              dotnet    
 Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore  9.0.4                              dotnet    
 Microsoft.OpenApi                                                  1.2.3                              dotnet    
-Microsoft.Win32.SystemEvents                                       9.0.0                              dotnet    
+Microsoft.Win32.SystemEvents                                       9.0.2                              dotnet    
 NEbml                                                              0.12.0                             dotnet    
 Newtonsoft.Json                                                    13.0.3                             dotnet    
 PlaylistsNET                                                       1.4.1                              dotnet    
@@ -85,7 +85,7 @@ Swashbuckle.AspNetCore.ReDoc                                       6.5.0        
 Swashbuckle.AspNetCore.Swagger                                     6.2.3                              dotnet    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3                              dotnet    
 Swashbuckle.AspNetCore.SwaggerUI                                   6.2.3                              dotnet    
-System.Drawing.Common                                              9.0.0                              dotnet    
+System.Drawing.Common                                              9.0.2                              dotnet    
 System.Linq.Async                                                  6.0.1                              dotnet    
 TMDbLib                                                            2.2.0                              dotnet    
 TagLibSharp                                                        2.3.0                              dotnet    
@@ -130,11 +130,11 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                      deb       
 hostname                                                           3.23+nmu2ubuntu2                   deb       
 init-system-helpers                                                1.66ubuntu1                        deb       
-jellyfin                                                           2025041517+ubu2404                 deb       
+jellyfin                                                           2025042105+ubu2404                 deb       
 jellyfin                                                           24.04                              dotnet    
-jellyfin-ffmpeg7                                                   7.0.2-9-noble                      deb       
-jellyfin-server                                                    2025041517+ubu2404                 deb       
-jellyfin-web                                                       2025041517+ubu2404                 deb       
+jellyfin-ffmpeg7                                                   7.1.1-1-noble                      deb       
+jellyfin-server                                                    2025042105+ubu2404                 deb       
+jellyfin-web                                                       2025042105+ubu2404                 deb       
 jq                                                                 1.7.1-3build1                      deb       
 keyboxd                                                            2.4.4-2ubuntu17.2                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.5                  deb       
@@ -162,7 +162,6 @@ libcrypt1                                                          1:4.4.36-4bui
 libcurl4t64                                                        8.5.0-2ubuntu10.6                  deb       
 libdb5.3t64                                                        5.3.28+dfsg2-7                     deb       
 libdebconfclient0                                                  0.271ubuntu3                       deb       
-libedit2                                                           3.1-20230828-1build1               deb       
 libelf1t64                                                         0.190-1.1ubuntu0.1                 deb       
 libexpat1                                                          2.6.1-2ubuntu0.3                   deb       
 libext2fs2t64                                                      1.47.0-2.4~exp1ubuntu4.1           deb       
@@ -186,7 +185,6 @@ libkrb5support0                                                    1.20.1-6ubunt
 libksba8                                                           1.6.6-1build1                      deb       
 libldap-common                                                     2.6.7+dfsg-1~exp1ubuntu8.2         deb       
 libldap2                                                           2.6.7+dfsg-1~exp1ubuntu8.2         deb       
-libllvm17t64                                                       1:17.0.6-9ubuntu1                  deb       
 liblz4-1                                                           1.9.4-1build1.1                    deb       
 liblzma5                                                           5.6.1+really5.4.5-1ubuntu0.2       deb       
 libmd0                                                             1.1.0-2build1.1                    deb       
@@ -218,7 +216,7 @@ librtmp1                                                           2.4+20151223.
 libsasl2-2                                                         2.1.28+dfsg1-5ubuntu3.1            deb       
 libsasl2-modules                                                   2.1.28+dfsg1-5ubuntu3.1            deb       
 libsasl2-modules-db                                                2.1.28+dfsg1-5ubuntu3.1            deb       
-libse                                                              4.0.10                             dotnet    
+libse                                                              4.0.12                             dotnet    
 libseccomp2                                                        2.5.5-1ubuntu3.1                   deb       
 libselinux1                                                        3.5-2ubuntu2.1                     deb       
 libsemanage-common                                                 3.5-1build5                        deb       
@@ -251,7 +249,6 @@ libx11-xcb1                                                        2:1.8.7-1buil
 libx264-164                                                        2:0.164.3108+git31e19f9-1          deb       
 libx265-199                                                        3.5-2build1                        deb       
 libxau6                                                            1:1.0.9-1build6                    deb       
-libxcb-dri2-0                                                      1.15-1ubuntu2                      deb       
 libxcb-dri3-0                                                      1.15-1ubuntu2                      deb       
 libxcb-present0                                                    1.15-1ubuntu2                      deb       
 libxcb-randr0                                                      1.15-1ubuntu2                      deb       
@@ -282,7 +279,7 @@ netcat-openbsd                                                     1.226-1ubuntu
 ocl-icd-libopencl1                                                 2.3.2-1build1                      deb       
 openssl                                                            3.0.13-0ubuntu3.5                  deb       
 passwd                                                             1:4.13+dfsg1-4ubuntu3.2            deb       
-perl-base                                                          5.38.2-3.2build2.1                 deb       
+perl-base                                                          5.38.2-3.2ubuntu0.1                deb       
 pinentry-curses                                                    1.2.1-3ubuntu5                     deb       
 procps                                                             2:4.0.4-4ubuntu3.2                 deb       
 prometheus-net                                                     8.2.1                              dotnet    
