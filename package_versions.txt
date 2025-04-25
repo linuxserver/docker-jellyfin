@@ -16,6 +16,7 @@ Emby.Photos                                                        24.4.0       
 Emby.Server.Implementations                                        24.4.0                             dotnet    
 ExCSS                                                              4.3.0                              dotnet    
 HarfBuzzSharp                                                      7.3.0.3                            dotnet    
+HarfBuzzSharp.NativeAssets.Linux                                   7.3.0.3                            dotnet    
 ICU4N                                                              60.1.0-alpha.356                   dotnet    
 ICU4N.Transliterator                                               60.1.0-alpha.356                   dotnet    
 J2N                                                                2.0.0                              dotnet    
@@ -48,10 +49,12 @@ MetaBrainz.Common                                                  3.0.0        
 MetaBrainz.Common.Json                                             6.0.2                              dotnet    
 MetaBrainz.MusicBrainz                                             6.1.0                              dotnet    
 Microsoft.Bcl.AsyncInterfaces                                      6.0.0                              dotnet    
+Microsoft.Data.Sqlite                                              9.0.4                              dotnet    
 Microsoft.Data.Sqlite.Core                                         9.0.4                              dotnet    
 Microsoft.EntityFrameworkCore                                      9.0.4                              dotnet    
 Microsoft.EntityFrameworkCore.Abstractions                         9.0.4                              dotnet    
 Microsoft.EntityFrameworkCore.Relational                           9.0.4                              dotnet    
+Microsoft.EntityFrameworkCore.Sqlite                               9.0.4                              dotnet    
 Microsoft.EntityFrameworkCore.Sqlite.Core                          9.0.4                              dotnet    
 Microsoft.Extensions.DependencyModel                               9.0.4                              dotnet    
 Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore  9.0.4                              dotnet    
@@ -62,6 +65,7 @@ Newtonsoft.Json                                                    13.0.3       
 PlaylistsNET                                                       1.4.1                              dotnet    
 SQLitePCLRaw.bundle_e_sqlite3                                      2.1.10                             dotnet    
 SQLitePCLRaw.core                                                  2.1.10                             dotnet    
+SQLitePCLRaw.lib.e_sqlite3                                         2.1.10                             dotnet    
 SQLitePCLRaw.provider.e_sqlite3                                    2.1.10                             dotnet    
 Serilog                                                            4.2.0                              dotnet    
 Serilog.AspNetCore                                                 9.0.0                              dotnet    
@@ -78,9 +82,11 @@ Serilog.Sinks.Graylog                                              3.1.1        
 ShimSkiaSharp                                                      2.0.0.8                            dotnet    
 SkiaSharp                                                          2.88.9                             dotnet    
 SkiaSharp.HarfBuzz                                                 2.88.9                             dotnet    
+SkiaSharp.NativeAssets.Linux                                       2.88.9                             dotnet    
 Svg.Custom                                                         2.0.0.8                            dotnet    
 Svg.Model                                                          2.0.0.8                            dotnet    
 Svg.Skia                                                           2.0.0.8                            dotnet    
+Swashbuckle.AspNetCore                                             6.2.3                              dotnet    
 Swashbuckle.AspNetCore.ReDoc                                       6.5.0                              dotnet    
 Swashbuckle.AspNetCore.Swagger                                     6.2.3                              dotnet    
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3                              dotnet    
