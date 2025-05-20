@@ -136,7 +136,7 @@ hostname                                                           3.23+nmu2ubun
 init-system-helpers                                                1.66ubuntu1                        deb       
 jellyfin                                                           10.10.7+ubu2404                    deb       
 jellyfin                                                           24.04                              dotnet    
-jellyfin-ffmpeg7                                                   7.1.1-2-noble                      deb       
+jellyfin-ffmpeg7                                                   7.1.1-3-noble                      deb       
 jellyfin-server                                                    10.10.7+ubu2404                    deb       
 jellyfin-web                                                       10.10.7+ubu2404                    deb       
 jq                                                                 1.7.1-3build1                      deb       
