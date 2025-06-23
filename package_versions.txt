@@ -49,7 +49,6 @@ MediaBrowser.XbmcMetadata                                          24.4.0       
 MetaBrainz.Common                                                  3.0.0                              dotnet    
 MetaBrainz.Common.Json                                             6.0.2                              dotnet    
 MetaBrainz.MusicBrainz                                             6.1.0                              dotnet    
-Microsoft.Bcl.AsyncInterfaces                                      6.0.0                              dotnet    
 Microsoft.Data.Sqlite                                              9.0.6                              dotnet    
 Microsoft.Data.Sqlite.Core                                         9.0.6                              dotnet    
 Microsoft.EntityFrameworkCore                                      9.0.6                              dotnet    
@@ -65,8 +64,8 @@ Morestachio                                                        5.0.1.631    
 NEbml                                                              0.12.0                             dotnet    
 Newtonsoft.Json                                                    13.0.3                             dotnet    
 PlaylistsNET                                                       1.4.1                              dotnet    
-Polly                                                              8.6.0                              dotnet    
-Polly.Core                                                         8.6.0                              dotnet    
+Polly                                                              8.6.1                              dotnet    
+Polly.Core                                                         8.6.1                              dotnet    
 SQLitePCLRaw.bundle_e_sqlite3                                      2.1.10                             dotnet    
 SQLitePCLRaw.core                                                  2.1.10                             dotnet    
 SQLitePCLRaw.lib.e_sqlite3                                         2.1.10                             dotnet    
@@ -96,7 +95,7 @@ Swashbuckle.AspNetCore.Swagger                                     6.2.3        
 Swashbuckle.AspNetCore.SwaggerGen                                  6.2.3                              dotnet    
 Swashbuckle.AspNetCore.SwaggerUI                                   6.2.3                              dotnet    
 System.Drawing.Common                                              9.0.2                              dotnet    
-System.Linq.Async                                                  6.0.1                              dotnet    
+System.Linq.Async                                                  6.0.3                              dotnet    
 TMDbLib                                                            2.2.0                              dotnet    
 TagLibSharp                                                        2.3.0                              dotnet    
 UTF.Unknown                                                        2.5.1                              dotnet    
@@ -140,11 +139,11 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                      deb       
 hostname                                                           3.23+nmu2ubuntu2                   deb       
 init-system-helpers                                                1.66ubuntu1                        deb       
-jellyfin                                                           2025061605+ubu2404                 deb       
+jellyfin                                                           2025062305+ubu2404                 deb       
 jellyfin                                                           24.04                              dotnet    
 jellyfin-ffmpeg7                                                   7.1.1-6-noble                      deb       
-jellyfin-server                                                    2025061605+ubu2404                 deb       
-jellyfin-web                                                       2025061605+ubu2404                 deb       
+jellyfin-server                                                    2025062305+ubu2404                 deb       
+jellyfin-web                                                       2025062305+ubu2404                 deb       
 jq                                                                 1.7.1-3build1                      deb       
 keyboxd                                                            2.4.4-2ubuntu17.2                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.6                  deb       
