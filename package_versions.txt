@@ -215,7 +215,7 @@ libpam-modules                                                     1.5.3-5ubuntu
 libpam-modules-bin                                                 1.5.3-5ubuntu5.4                   deb       
 libpam-runtime                                                     1.5.3-5ubuntu5.4                   deb       
 libpam0g                                                           1.5.3-5ubuntu5.4                   deb       
-libpciaccess0                                                      0.17-3ubuntu0.24.04.1              deb       
+libpciaccess0                                                      0.17-3ubuntu0.24.04.2              deb       
 libpcre2-8-0                                                       10.42-4ubuntu2.1                   deb       
 libpixman-1-0                                                      0.42.2-1build1                     deb       
 libpng16-16t64                                                     1.6.43-5build1                     deb       
@@ -301,7 +301,7 @@ runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64             9.0.6        
 runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                9.0.6                              dotnet    
 sed                                                                4.9-2build1                        deb       
 sensible-utils                                                     0.0.22                             deb       
-sudo                                                               1.9.15p5-3ubuntu5                  deb       
+sudo                                                               1.9.15p5-3ubuntu5.24.04.1          deb       
 systemd-standalone-sysusers                                        255.4-1ubuntu8.8                   deb       
 sysvinit-utils                                                     3.08-6ubuntu3                      deb       
 tar                                                                1.35+dfsg-3build1                  deb       
