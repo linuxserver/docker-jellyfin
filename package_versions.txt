@@ -5,7 +5,7 @@ BitFaster.Caching                                                  2.5.4        
 BlurHashSharp                                                      1.4.0-pre.1                        dotnet    
 BlurHashSharp.SkiaSharp                                            1.4.0-pre.1                        dotnet    
 CommandLineParser                                                  2.9.1                              dotnet    
-Diacritics                                                         3.3.29                             dotnet    
+Diacritics                                                         4.0.14                             dotnet    
 DiscUtils.Core                                                     0.16.13                            dotnet    
 DiscUtils.Iso9660                                                  0.16.13                            dotnet    
 DiscUtils.Streams                                                  0.16.13                            dotnet    
@@ -139,11 +139,11 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3                      deb       
 hostname                                                           3.23+nmu2ubuntu2                   deb       
 init-system-helpers                                                1.66ubuntu1                        deb       
-jellyfin                                                           2025063005+ubu2404                 deb       
+jellyfin                                                           2025070705+ubu2404                 deb       
 jellyfin                                                           24.04                              dotnet    
-jellyfin-ffmpeg7                                                   7.1.1-6-noble                      deb       
-jellyfin-server                                                    2025063005+ubu2404                 deb       
-jellyfin-web                                                       2025063005+ubu2404                 deb       
+jellyfin-ffmpeg7                                                   7.1.1-7-noble                      deb       
+jellyfin-server                                                    2025070705+ubu2404                 deb       
+jellyfin-web                                                       2025070705+ubu2404                 deb       
 jq                                                                 1.7.1-3build1                      deb       
 keyboxd                                                            2.4.4-2ubuntu17.2                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.6                  deb       
