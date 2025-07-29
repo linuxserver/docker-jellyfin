@@ -139,7 +139,7 @@ jellyfin                                                           24.04        
 jellyfin-ffmpeg7                                                   7.1.1-7-noble                      deb       
 jellyfin-server                                                    10.10.7+ubu2404                    deb       
 jellyfin-web                                                       10.10.7+ubu2404                    deb       
-jq                                                                 1.7.1-3build1                      deb       
+jq                                                                 1.7.1-3ubuntu0.24.04.1             deb       
 keyboxd                                                            2.4.4-2ubuntu17.3                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.6                  deb       
 libacl1                                                            2.3.2-1build1.1                    deb       
@@ -178,7 +178,7 @@ libgssapi-krb5-2                                                   1.20.1-6ubunt
 libhogweed6t64                                                     3.9.1-2.2build1.1                  deb       
 libicu74                                                           74.2-1ubuntu3.1                    deb       
 libidn2-0                                                          2.3.7-2build1.1                    deb       
-libjq1                                                             1.7.1-3build1                      deb       
+libjq1                                                             1.7.1-3ubuntu0.24.04.1             deb       
 libk5crypto3                                                       1.20.1-6ubuntu2.6                  deb       
 libkeyutils1                                                       1.6.3-3build1                      deb       
 libkrb5-3                                                          1.20.1-6ubuntu2.6                  deb       
