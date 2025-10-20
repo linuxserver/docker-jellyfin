@@ -134,6 +134,7 @@ init_diagram: |
   "jellyfin:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.10.25:", desc: "Add libjemalloc as runtime dep."}
   - {date: "06.10.24:", desc: "Fix fontconfig cache path."}
   - {date: "13.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing."}

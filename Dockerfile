@@ -25,9 +25,11 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     at \
-    jellyfin=${JELLYFIN_RELEASE} \
+    libjemalloc2 \
     mesa-va-drivers \
     xmlstarlet && \
+  apt-get install -y --no-install-recommends \
+    jellyfin=${JELLYFIN_RELEASE} && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
