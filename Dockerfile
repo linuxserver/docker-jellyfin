@@ -27,9 +27,11 @@ RUN \
   apt-get update && \
   apt-get install -y \
     at \
-    jellyfin=${JELLYFIN_RELEASE} \
+    libjemalloc2 \
     mesa-va-drivers \
     xmlstarlet && \
+  apt-get install -y \
+    jellyfin=${JELLYFIN_RELEASE} && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf \
