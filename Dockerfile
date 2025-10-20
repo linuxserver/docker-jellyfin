@@ -25,11 +25,13 @@ RUN \
     JELLYFIN_RELEASE=$(curl -sX GET https://repo.jellyfin.org/ubuntu/dists/noble/unstable/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-server' | awk -F ': ' '/Version/{print $2;exit}'); \
   fi && \
   apt-get update && \
-  apt-get install -y \
+  apt-get install -y --no-install-recommends \
     at \
-    jellyfin=${JELLYFIN_RELEASE} \
+    libjemalloc2 \
     mesa-va-drivers \
     xmlstarlet && \
+  apt-get install -y --no-install-recommends \
+    jellyfin=${JELLYFIN_RELEASE} && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf \
