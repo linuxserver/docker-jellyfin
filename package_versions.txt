@@ -141,11 +141,11 @@ grep                                                               3.11-4build1 
 gzip                                                               1.12-1ubuntu3.1                    deb       
 hostname                                                           3.23+nmu2ubuntu2                   deb       
 init-system-helpers                                                1.66ubuntu1                        deb       
-jellyfin                                                           2025111005+ubu2404                 deb       
+jellyfin                                                           2025111705+ubu2404                 deb       
 jellyfin                                                           24.04                              dotnet    
 jellyfin-ffmpeg7                                                   7.1.2-4-noble                      deb       
-jellyfin-server                                                    2025111005+ubu2404                 deb       
-jellyfin-web                                                       2025111005+ubu2404                 deb       
+jellyfin-server                                                    2025111705+ubu2404                 deb       
+jellyfin-web                                                       2025111705+ubu2404                 deb       
 jq                                                                 1.7.1-3ubuntu0.24.04.1             deb       
 keyboxd                                                            2.4.4-2ubuntu17.3                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.6                  deb       
@@ -305,8 +305,8 @@ prometheus-net.AspNetCore                                          8.2.1        
 prometheus-net.DotNetRuntime                                       4.4.1                              dotnet    
 publicsuffix                                                       20231001.0357-0.1                  deb       
 readline-common                                                    8.2-4build1                        deb       
-runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64             9.0.10                             dotnet    
-runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                9.0.10                             dotnet    
+runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64             9.0.11                             dotnet    
+runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                9.0.11                             dotnet    
 sed                                                                4.9-2build1                        deb       
 sensible-utils                                                     0.0.22                             deb       
 systemd-standalone-sysusers                                        255.4-1ubuntu8.11                  deb       
