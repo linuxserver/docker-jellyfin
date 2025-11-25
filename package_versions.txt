@@ -169,10 +169,10 @@ libcrypt1                                                          1:4.4.36-4bui
 libcurl4t64                                                        8.5.0-2ubuntu10.6                  deb       
 libdb5.3t64                                                        5.3.28+dfsg2-7                     deb       
 libdebconfclient0                                                  0.271ubuntu3                       deb       
-libdrm-amdgpu1                                                     2.4.122-1~ubuntu0.24.04.1          deb       
-libdrm-common                                                      2.4.122-1~ubuntu0.24.04.1          deb       
-libdrm-intel1                                                      2.4.122-1~ubuntu0.24.04.1          deb       
-libdrm2                                                            2.4.122-1~ubuntu0.24.04.1          deb       
+libdrm-amdgpu1                                                     2.4.122-1~ubuntu0.24.04.2          deb       
+libdrm-common                                                      2.4.122-1~ubuntu0.24.04.2          deb       
+libdrm-intel1                                                      2.4.122-1~ubuntu0.24.04.2          deb       
+libdrm2                                                            2.4.122-1~ubuntu0.24.04.2          deb       
 libedit2                                                           3.1-20230828-1build1               deb       
 libelf1t64                                                         0.190-1.1ubuntu0.1                 deb       
 libexpat1                                                          2.6.1-2ubuntu0.3                   deb       
