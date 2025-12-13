@@ -108,13 +108,12 @@ init_diagram: |
     init-os-end -> init-config
     init-config -> init-config-end
     init-crontab-config -> init-config-end
-    init-jellyfin-video -> init-config-end
+    init-jellyfin-config -> init-config-end
     init-config -> init-crontab-config
     init-mods-end -> init-custom-files
     init-adduser -> init-device-perms
     base -> init-envfile
     init-config -> init-jellyfin-config
-    init-jellyfin-config -> init-jellyfin-video
     base -> init-migrations
     init-config-end -> init-mods
     init-mods-package-install -> init-mods-end
