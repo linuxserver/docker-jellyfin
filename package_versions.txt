@@ -221,7 +221,7 @@ libpam0g                                                           1.5.3-5ubuntu
 libpciaccess0                                                      0.17-3ubuntu0.24.04.2              deb       
 libpcre2-8-0                                                       10.42-4ubuntu2.1                   deb       
 libpixman-1-0                                                      0.42.2-1build1                     deb       
-libpng16-16t64                                                     1.6.43-5ubuntu0.3                  deb       
+libpng16-16t64                                                     1.6.43-5ubuntu0.4                  deb       
 libproc2-0                                                         2:4.0.4-4ubuntu3.2                 deb       
 libpsl5t64                                                         0.21.2-1.1build1                   deb       
 libreadline8t64                                                    8.2-4build1                        deb       
