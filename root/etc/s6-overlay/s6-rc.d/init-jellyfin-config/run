@@ -7,6 +7,19 @@ mkdir -p \
     /data \
     /transcode
 
+# test for and enable IPv6 support
+if [[ ! -f /config/network.xml ]]; then
+    if test -f /proc/net/if_inet6; then
+echo '<?xml version="1.0" encoding="utf-8"?>
+<NetworkConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EnableIPv6>true</EnableIPv6>
+  <LocalNetworkAddresses>
+    <string>::</string>
+  </LocalNetworkAddresses>
+</NetworkConfiguration>' > /config/network.xml
+    fi
+fi
+
 # permissions
 lsiown abc:abc \
     /config \

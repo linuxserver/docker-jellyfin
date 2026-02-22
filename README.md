@@ -372,6 +372,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **21.02.26:** - Add support for IPv6 OOTB.
 * **20.10.25:** - Add libjemalloc2 as runtime dep.
 * **06.10.24:** - Fix fontconfig cache path.
 * **13.08.24:** - Rebase to Ubuntu Noble.
