@@ -114,7 +114,7 @@ catatonit                                                          0.1.7-1      
 coreutils                                                          9.4-3ubuntu6.2                     deb       
 cron                                                               3.0pl1-184ubuntu2                  deb       
 cron-daemon-common                                                 3.0pl1-184ubuntu2                  deb       
-curl                                                               8.5.0-2ubuntu10.9                  deb       
+curl                                                               8.5.0-2ubuntu10.10                 deb       
 dash                                                               0.5.12-6ubuntu5                    deb       
 debconf                                                            1.5.86ubuntu1                      deb       
 debianutils                                                        5.17build1                         deb       
@@ -137,14 +137,14 @@ gpgconf                                                            2.4.4-2ubuntu
 gpgsm                                                              2.4.4-2ubuntu17.4                  deb       
 gpgv                                                               2.4.4-2ubuntu17.4                  deb       
 grep                                                               3.11-4build1                       deb       
-gzip                                                               1.12-1ubuntu3.1                    deb       
+gzip                                                               1.12-1ubuntu3.2                    deb       
 hostname                                                           3.23+nmu2ubuntu2                   deb       
 init-system-helpers                                                1.66ubuntu1                        deb       
-jellyfin                                                           2026070606+ubu2404                 deb       
+jellyfin                                                           2026071308+ubu2404                 deb       
 jellyfin                                                           24.04                              dotnet    
 jellyfin-ffmpeg8                                                   8.1.2-1-noble                      deb       
-jellyfin-server                                                    2026070606+ubu2404                 deb       
-jellyfin-web                                                       2026070606+ubu2404                 deb       
+jellyfin-server                                                    2026071308+ubu2404                 deb       
+jellyfin-web                                                       2026071308+ubu2404                 deb       
 jq                                                                 1.7.1-3ubuntu0.24.04.2             deb       
 keyboxd                                                            2.4.4-2ubuntu17.4                  deb       
 krb5-locales                                                       1.20.1-6ubuntu2.6                  deb       
@@ -166,7 +166,7 @@ libcap-ng0                                                         0.8.4-2build2
 libcap2                                                            1:2.66-5ubuntu2.4                  deb       
 libcom-err2                                                        1.47.0-2.4~exp1ubuntu4.1           deb       
 libcrypt1                                                          1:4.4.36-4build1                   deb       
-libcurl4t64                                                        8.5.0-2ubuntu10.9                  deb       
+libcurl4t64                                                        8.5.0-2ubuntu10.10                 deb       
 libdb5.3t64                                                        5.3.28+dfsg2-7                     deb       
 libdebconfclient0                                                  0.271ubuntu3                       deb       
 libdrm-amdgpu1                                                     2.4.125-1ubuntu0.1~24.04.2         deb       
@@ -205,9 +205,9 @@ libmd0                                                             1.1.0-2build1
 libmount1                                                          2.39.3-9ubuntu6.5                  deb       
 libmp3lame0                                                        3.100-6build1                      deb       
 libmpg123-0t64                                                     1.32.5-1ubuntu1.1                  deb       
-libncursesw6                                                       6.4+20240113-1ubuntu2              deb       
+libncursesw6                                                       6.4+20240113-1ubuntu2.1            deb       
 libnettle8t64                                                      3.9.1-2.2build1.1                  deb       
-libnghttp2-14                                                      1.59.0-1ubuntu0.3                  deb       
+libnghttp2-14                                                      1.59.0-1ubuntu0.4                  deb       
 libnpth0t64                                                        1.6-3.1build1                      deb       
 libnuma1                                                           2.0.18-1ubuntu0.24.04.1            deb       
 libogg0                                                            1.3.5-3build1                      deb       
@@ -248,7 +248,7 @@ libstdc++6                                                         14.2.0-4ubunt
 libsystemd0                                                        255.4-1ubuntu8.16                  deb       
 libtasn1-6                                                         4.19.0-3ubuntu0.24.04.2            deb       
 libtheora0                                                         1.1.1+dfsg.1-16.1build3            deb       
-libtinfo6                                                          6.4+20240113-1ubuntu2              deb       
+libtinfo6                                                          6.4+20240113-1ubuntu2.1            deb       
 libudev1                                                           255.4-1ubuntu8.16                  deb       
 libudfread0                                                        1.1.2-1build1                      deb       
 libunistring5                                                      1.1-2build1.1                      deb       
@@ -290,8 +290,8 @@ mawk                                                               1.3.4.2024012
 mesa-libgallium                                                    25.2.8-0ubuntu0.24.04.2            deb       
 mesa-va-drivers                                                    25.2.8-0ubuntu0.24.04.2            deb       
 mount                                                              2.39.3-9ubuntu6.5                  deb       
-ncurses-base                                                       6.4+20240113-1ubuntu2              deb       
-ncurses-bin                                                        6.4+20240113-1ubuntu2              deb       
+ncurses-base                                                       6.4+20240113-1ubuntu2.1            deb       
+ncurses-bin                                                        6.4+20240113-1ubuntu2.1            deb       
 netcat-openbsd                                                     1.226-1ubuntu2                     deb       
 ocl-icd-libopencl1                                                 2.3.2-1build1                      deb       
 openssl                                                            3.0.13-0ubuntu3.11                 deb       
@@ -310,7 +310,7 @@ sed                                                                4.9-2ubuntu0.
 sensible-utils                                                     0.0.22                             deb       
 systemd-standalone-sysusers                                        255.4-1ubuntu8.16                  deb       
 sysvinit-utils                                                     3.08-6ubuntu3                      deb       
-tar                                                                1.35+dfsg-3ubuntu0.1               deb       
+tar                                                                1.35+dfsg-3ubuntu0.2               deb       
 tzdata                                                             2026a-0ubuntu0.24.04.1             deb       
 ubuntu-keyring                                                     2023.11.28.1                       deb       
 unminimize                                                         0.2.1                              deb       
