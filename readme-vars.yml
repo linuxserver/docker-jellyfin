@@ -68,26 +68,6 @@ app_setup_block: |
   https://mods.linuxserver.io/?mod=jellyfin
 
   And follow this guide even if you are using iGPU: https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/#configure-and-verify-lp-mode-on-linux
-
-  #### OpenMAX (Raspberry Pi)
-
-  Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
-
-  ```
-  --device=/dev/vcsm:/dev/vcsm
-  --device=/dev/vchiq:/dev/vchiq
-  -v /opt/vc/lib:/opt/vc/lib
-  ```
-
-  #### V4L2 (Raspberry Pi)
-
-  Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
-
-  ```
-  --device=/dev/video10:/dev/video10
-  --device=/dev/video11:/dev/video11
-  --device=/dev/video12:/dev/video12
-  ```
 readme_hwaccel: true
 unraid_template_sync: false
 # init diagram
@@ -133,8 +113,9 @@ init_diagram: |
   "jellyfin:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "14.07.26:", desc: "Rebase to Ubuntu Resolute."}
   - {date: "02.03.26:", desc: "Add support for IPv6 OOTB."}
-  - {date: "20.10.25:", desc: "Add libjemalloc as runtime dep."}
+  - {date: "20.10.25:", desc: "Add libjemalloc2 as runtime dep."}
   - {date: "06.10.24:", desc: "Fix fontconfig cache path."}
   - {date: "13.08.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "01.05.24:", desc: "Increase verbosity of device permissions fixing."}
