@@ -79,26 +79,7 @@ To enable the OpenCL based DV, HDR10 and HLG tone-mapping, please refer to the O
 
 https://mods.linuxserver.io/?mod=jellyfin
 
-
-#### OpenMAX (Raspberry Pi)
-
-Hardware acceleration users for Raspberry Pi MMAL/OpenMAX will need to mount their `/dev/vcsm` and `/dev/vchiq` video devices inside of the container and their system OpenMax libs by passing the following options when running or creating the container:
-
-```
---device=/dev/vcsm:/dev/vcsm
---device=/dev/vchiq:/dev/vchiq
--v /opt/vc/lib:/opt/vc/lib
-```
-
-#### V4L2 (Raspberry Pi)
-
-Hardware acceleration users for Raspberry Pi V4L2 will need to mount their `/dev/video1X` devices inside of the container by passing the following options when running or creating the container:
-
-```
---device=/dev/video10:/dev/video10
---device=/dev/video11:/dev/video11
---device=/dev/video12:/dev/video12
-```
+And follow this guide even if you are using iGPU: https://jellyfin.org/docs/general/administration/hardware-acceleration/intel/#configure-and-verify-lp-mode-on-linux
 
 ### Hardware Acceleration
 
@@ -144,7 +125,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
+      - JELLYFIN_PublishedServerUrl=http://192.168.0.5 #optional
     volumes:
       - /path/to/jellyfin/library:/config
       - /path/to/tvseries:/data/tvshows
@@ -165,7 +146,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e JELLYFIN_PublishedServerUrl=192.168.0.5 `#optional` \
+  -e JELLYFIN_PublishedServerUrl=http://192.168.0.5 `#optional` \
   -p 8096:8096 \
   -p 8920:8920 `#optional` \
   -p 7359:7359/udp `#optional` \
@@ -190,7 +171,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-e JELLYFIN_PublishedServerUrl=192.168.0.5` | Set the autodiscovery response domain or IP address. |
+| `-e JELLYFIN_PublishedServerUrl=http://192.168.0.5` | Set the autodiscovery response domain or IP address. |
 | `-v /config` | Jellyfin data storage location. *This can grow very large, 50gb+ is likely for a large collection.* |
 | `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
 | `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
@@ -372,6 +353,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **14.07.26:** - Rebase to Ubuntu Resolute.
 * **21.02.26:** - Add support for IPv6 OOTB.
 * **20.10.25:** - Add libjemalloc2 as runtime dep.
 * **06.10.24:** - Fix fontconfig cache path.
