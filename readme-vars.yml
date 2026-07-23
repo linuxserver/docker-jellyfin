@@ -108,7 +108,7 @@ init_diagram: |
     svc-jellyfin -> legacy-services
   }
   Base Images: {
-    "baseimage-ubuntu:noble"
+    "baseimage-ubuntu:resolute"
   }
   "jellyfin:nightly" <- Base Images
 # changelog
