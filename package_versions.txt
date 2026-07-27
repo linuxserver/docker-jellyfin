@@ -63,6 +63,7 @@ Microsoft.Win32.SystemEvents                                       9.0.2        
 Morestachio                                                        5.0.1.670                              dotnet       
 NEbml                                                              1.1.0.5                                dotnet       
 Newtonsoft.Json                                                    13.0.4                                 dotnet       
+PDFtoImage                                                         5.2.1                                  dotnet       
 PlaylistsNET                                                       1.4.1                                  dotnet       
 Polly                                                              8.7.0                                  dotnet       
 Polly.Core                                                         8.7.0                                  dotnet       
@@ -83,7 +84,7 @@ Serilog.Sinks.Console                                              6.1.1        
 Serilog.Sinks.Debug                                                3.0.0                                  dotnet       
 Serilog.Sinks.File                                                 7.0.0                                  dotnet       
 Serilog.Sinks.Graylog                                              3.1.1                                  dotnet       
-SharpCompress                                                      0.49.1                                 dotnet       
+SharpCompress                                                      0.50.1                                 dotnet       
 ShimSkiaSharp                                                      3.7.0                                  dotnet       
 SkiaSharp                                                          3.119.4                                dotnet       
 SkiaSharp.HarfBuzz                                                 3.119.4                                dotnet       
@@ -109,6 +110,7 @@ base-files                                                         14ubuntu6.1  
 base-passwd                                                        3.6.8                                  deb          
 bash                                                               5.3-2ubuntu1                           deb          
 bash-completion                                                    1:2.16.0-8build1                       deb          
+bblanchon.PDFium.Linux                                             147.0.7690                             dotnet       
 bsdutils                                                           1:2.41.3-3ubuntu2                      deb          
 ca-certificates                                                    20260601~26.04.1                       deb          
 catatonit                                                          0.2.1-2build1                          deb          
@@ -156,11 +158,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           2026072008+ubu2604                     deb          
+jellyfin                                                           2026072708+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
 jellyfin-ffmpeg8                                                   8.1.2-2-resolute                       deb          
-jellyfin-server                                                    2026072008+ubu2604                     deb          
-jellyfin-web                                                       2026072008+ubu2604                     deb          
+jellyfin-server                                                    2026072708+ubu2604                     deb          
+jellyfin-web                                                       2026072708+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4                        deb          
 libacl1                                                            2.3.2-2                                deb          
