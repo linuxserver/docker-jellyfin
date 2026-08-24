@@ -157,11 +157,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           2026081705+ubu2604                     deb          
+jellyfin                                                           2026082405+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
-jellyfin-ffmpeg8                                                   8.1.2-2-resolute                       deb          
-jellyfin-server                                                    2026081705+ubu2604                     deb          
-jellyfin-web                                                       2026081705+ubu2604                     deb          
+jellyfin-ffmpeg8                                                   8.1.2-3-resolute                       deb          
+jellyfin-server                                                    2026082405+ubu2604                     deb          
+jellyfin-web                                                       2026082405+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4.1                      deb          
 libacl1                                                            2.3.2-2                                deb          
@@ -297,7 +297,7 @@ login                                                              1:4.16.0-2+re
 login.defs                                                         1:4.17.4-2ubuntu3                      deb          
 logsave                                                            1.47.2-3ubuntu4                        deb          
 mawk                                                               1.3.4.20260129-1                       deb          
-mesa-libgallium                                                    26.0.3-1ubuntu1                        deb          
+mesa-libgallium                                                    26.0.8-1ubuntu0.3                      deb          
 mount                                                              2.41.3-3ubuntu2                        deb          
 ncurses-base                                                       6.6+20251231-1                         deb          
 ncurses-bin                                                        6.6+20251231-1                         deb          
