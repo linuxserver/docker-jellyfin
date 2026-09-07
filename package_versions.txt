@@ -157,11 +157,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           2026090423+ubu2604                     deb          
+jellyfin                                                           2026090709+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
-jellyfin-ffmpeg8                                                   8.1.2-3-resolute                       deb          
-jellyfin-server                                                    2026090423+ubu2604                     deb          
-jellyfin-web                                                       2026090423+ubu2604                     deb          
+jellyfin-ffmpeg8                                                   8.1.2-4-resolute                       deb          
+jellyfin-server                                                    2026090709+ubu2604                     deb          
+jellyfin-web                                                       2026090709+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4.1                      deb          
 libacl1                                                            2.3.2-2                                deb          
