@@ -133,7 +133,7 @@ fonts-dejavu-mono                                                  2.37-8build1 
 gcc-16-base                                                        16-20260322-1ubuntu1                   deb          
 github.com/GehirnInc/crypt                                         v0.0.0-20230320061759-8cc1b52080c5     go-module    
 github.com/canonical/go-flags                                      v0.0.0-20230403090104-105d09a091b8     go-module    
-github.com/canonical/pebble                                        v1.32.2-0.20260721212935-faa1696b477d  go-module    
+github.com/canonical/pebble                                        v1.32.3-0.20260908071357-f1688182910f  go-module    
 github.com/canonical/x-go                                          v0.0.0-20230522092633-7947a7587f5b     go-module    
 github.com/gorilla/mux                                             v1.8.1                                 go-module    
 github.com/gorilla/websocket                                       v1.5.3                                 go-module    
@@ -142,8 +142,8 @@ gnu-coreutils                                                      9.7-3ubuntu2.
 gnupg                                                              2.4.8-4ubuntu3.1                       deb          
 gnupg-l10n                                                         2.4.8-4ubuntu3.1                       deb          
 gnupg-utils                                                        2.4.8-4ubuntu3.1                       deb          
-golang.org/x/sys                                                   v0.46.0                                go-module    
-golang.org/x/term                                                  v0.44.0                                go-module    
+golang.org/x/sys                                                   v0.47.0                                go-module    
+golang.org/x/term                                                  v0.45.0                                go-module    
 gopkg.in/tomb.v2                                                   v2.0.0-20161208151619-d5d1b5820637     go-module    
 gopkg.in/yaml.v2                                                   v2.4.0                                 go-module    
 gopkg.in/yaml.v3                                                   v3.0.1                                 go-module    
@@ -157,11 +157,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           2026091410+ubu2604                     deb          
+jellyfin                                                           2026092110+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
 jellyfin-ffmpeg8                                                   8.1.2-5-resolute                       deb          
-jellyfin-server                                                    2026091410+ubu2604                     deb          
-jellyfin-web                                                       2026091410+ubu2604                     deb          
+jellyfin-server                                                    2026092110+ubu2604                     deb          
+jellyfin-web                                                       2026092110+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4.1                      deb          
 libacl1                                                            2.3.2-2                                deb          
@@ -306,7 +306,7 @@ ocl-icd-libopencl1                                                 2.3.4-1      
 openssl                                                            3.5.5-1ubuntu3.5                       deb          
 openssl-provider-legacy                                            3.5.5-1ubuntu3.5                       deb          
 passwd                                                             1:4.17.4-2ubuntu3                      deb          
-perl-base                                                          5.40.1-7ubuntu0.2                      deb          
+perl-base                                                          5.40.1-7ubuntu0.3                      deb          
 pinentry-curses                                                    1.3.2-3ubuntu1                         deb          
 procps                                                             2:4.0.4-9ubuntu1                       deb          
 prometheus-net                                                     8.2.1                                  dotnet       
@@ -319,7 +319,7 @@ runtimepack.Microsoft.NETCore.App.Runtime.linux-x64                10.0.12      
 rust-coreutils                                                     0.8.0-0ubuntu3                         deb          
 sed                                                                4.9-2ubuntu1                           deb          
 sensible-utils                                                     0.0.26build1                           deb          
-stdlib                                                             go1.26.5                               go-module    
+stdlib                                                             go1.26.7                               go-module    
 systemd-standalone-sysusers                                        259.5-0ubuntu3.4                       deb          
 sysvinit-utils                                                     3.15-5ubuntu1                          deb          
 tar                                                                1.35+dfsg-4ubuntu0.4                   deb          
