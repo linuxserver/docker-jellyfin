@@ -11,7 +11,7 @@ DiscUtils.Iso9660                                                  0.16.13      
 DiscUtils.Streams                                                  0.16.13                                dotnet       
 DiscUtils.Udf                                                      0.16.13                                dotnet       
 DotNet.Glob                                                        3.1.3                                  dotnet       
-Emby.Naming                                                        12.1.0.0                               dotnet       
+Emby.Naming                                                        12.2.0.0                               dotnet       
 Emby.Photos                                                        26.4.0                                 dotnet       
 Emby.Server.Implementations                                        26.4.0                                 dotnet       
 ExCSS                                                              4.3.1                                  dotnet       
@@ -39,11 +39,11 @@ Jellyfin.Networking                                                26.4.0       
 Jellyfin.Server.Implementations                                    26.4.0                                 dotnet       
 Jellyfin.XmlTv                                                     10.12.0-pre1                           dotnet       
 LrcParser                                                          2025.623.0                             dotnet       
-MediaBrowser.Common                                                12.1.0.0                               dotnet       
-MediaBrowser.Controller                                            12.1.0.0                               dotnet       
+MediaBrowser.Common                                                12.2.0.0                               dotnet       
+MediaBrowser.Controller                                            12.2.0.0                               dotnet       
 MediaBrowser.LocalMetadata                                         26.4.0                                 dotnet       
 MediaBrowser.MediaEncoding                                         26.4.0                                 dotnet       
-MediaBrowser.Model                                                 12.1.0.0                               dotnet       
+MediaBrowser.Model                                                 12.2.0.0                               dotnet       
 MediaBrowser.Providers                                             26.4.0                                 dotnet       
 MediaBrowser.XbmcMetadata                                          26.4.0                                 dotnet       
 MetaBrainz.Common                                                  4.1.1                                  dotnet       
@@ -117,7 +117,7 @@ coreutils                                                          9.5-1ubuntu2+
 coreutils-from-uutils                                              0.0.0~ubuntu25                         deb          
 cron                                                               3.0pl1-200ubuntu1                      deb          
 cron-daemon-common                                                 3.0pl1-200ubuntu1                      deb          
-curl                                                               8.18.0-1ubuntu2.5                      deb          
+curl                                                               8.18.0-1ubuntu2.7                      deb          
 dash                                                               0.5.12-12ubuntu3                       deb          
 debconf                                                            1.5.92                                 deb          
 debianutils                                                        5.23.2build1                           deb          
@@ -156,11 +156,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           12.1+ubu2604                           deb          
+jellyfin                                                           12.2+ubu2604                           deb          
 jellyfin                                                           26.04                                  dotnet       
 jellyfin-ffmpeg8                                                   8.1.3-1-resolute                       deb          
-jellyfin-server                                                    12.1+ubu2604                           deb          
-jellyfin-web                                                       12.1+ubu2604                           deb          
+jellyfin-server                                                    12.2+ubu2604                           deb          
+jellyfin-web                                                       12.2+ubu2604                           deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4.1                      deb          
 libacl1                                                            2.3.2-2                                deb          
@@ -180,7 +180,7 @@ libc6                                                              2.43-2ubuntu2
 libcap-ng0                                                         0.8.5-4build5                          deb          
 libcom-err2                                                        1.47.2-3ubuntu4                        deb          
 libcrypt1                                                          1:4.5.1-1                              deb          
-libcurl4t64                                                        8.18.0-1ubuntu2.5                      deb          
+libcurl4t64                                                        8.18.0-1ubuntu2.7                      deb          
 libdb5.3t64                                                        5.3.28+dfsg2-10ubuntu1                 deb          
 libdebconfclient0                                                  0.280ubuntu1                           deb          
 libdrm-amdgpu1                                                     2.4.131-1                              deb          
@@ -256,7 +256,7 @@ libsmartcols1                                                      2.41.3-3ubunt
 libsqlite3-0                                                       3.46.1-9ubuntu0.3                      deb          
 libss2                                                             1.47.2-3ubuntu4                        deb          
 libssh2-1t64                                                       1.11.1-1ubuntu0.26.04.4                deb          
-libssl3t64                                                         3.5.5-1ubuntu3.5                       deb          
+libssl3t64                                                         3.5.5-1ubuntu3.6                       deb          
 libstdc++6                                                         16-20260322-1ubuntu1                   deb          
 libsystemd0                                                        259.5-0ubuntu3.4                       deb          
 libtasn1-6                                                         4.21.0-2                               deb          
@@ -302,8 +302,8 @@ ncurses-base                                                       6.6+20251231-
 ncurses-bin                                                        6.6+20251231-1                         deb          
 netcat-openbsd                                                     1.234-1                                deb          
 ocl-icd-libopencl1                                                 2.3.4-1                                deb          
-openssl                                                            3.5.5-1ubuntu3.5                       deb          
-openssl-provider-legacy                                            3.5.5-1ubuntu3.5                       deb          
+openssl                                                            3.5.5-1ubuntu3.6                       deb          
+openssl-provider-legacy                                            3.5.5-1ubuntu3.6                       deb          
 passwd                                                             1:4.17.4-2ubuntu3                      deb          
 perl-base                                                          5.40.1-7ubuntu0.3                      deb          
 pinentry-curses                                                    1.3.2-3ubuntu1                         deb          
@@ -326,6 +326,6 @@ tzdata                                                             2026c-0ubuntu
 ubuntu-keyring                                                     2023.11.28.1build1                     deb          
 util-linux                                                         2.41.3-3ubuntu2.2                      deb          
 xmlstarlet                                                         1.6.1-5build1                          deb          
-z440.atl.core                                                      7.16.0                                 dotnet       
+z440.atl.core                                                      7.18.0                                 dotnet       
 zlib.net-mutliplatform                                             1.0.8                                  dotnet       
 zlib1g                                                             1:1.3.dfsg+really1.3.1-1ubuntu3.1      deb          
