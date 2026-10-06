@@ -193,7 +193,7 @@ libexpat1                                                          2.7.4-1ubuntu
 libext2fs2t64                                                      1.47.2-3ubuntu4                        deb          
 libffi8                                                            3.5.2-4                                deb          
 libfontconfig1                                                     2.17.1-3ubuntu1                        deb          
-libfreetype6                                                       2.14.2+dfsg-1ubuntu0.1                 deb          
+libfreetype6                                                       2.14.2+dfsg-1ubuntu0.2                 deb          
 libgcc-s1                                                          16-20260322-1ubuntu1                   deb          
 libgcrypt20                                                        1.12.0-2ubuntu1.1                      deb          
 libgmp10                                                           2:6.3.0+dfsg-5ubuntu2                  deb          
