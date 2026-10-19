@@ -4,6 +4,8 @@
 project_name: docker-jellyfin
 external_type: na
 custom_version_command: "curl -sX GET https://repo.jellyfin.org/ubuntu/dists/resolute/main/binary-amd64/Packages |grep -A 7 -m 1 'Package: jellyfin-server' | awk -F ': ' '/Version/{print $2;exit}'"
+custom_release_notes_command: |-
+  curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/jellyfin/jellyfin/releases/tags/v${EXT_RELEASE%%+ubu*}" | jq -r '. |.body' | sed -e 's|\\[PR #\\([0-9]*\\)\\]|[PR #\\1](https://github.com/jellyfin/jellyfin/pull/\\1)|g' > releasebody.json
 release_type: stable
 release_tag: latest
 ls_branch: master
