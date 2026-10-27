@@ -27,6 +27,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     at \
     libjemalloc2 \
+    intel-opencl-icd \
     mesa-va-drivers \
     xmlstarlet && \
   apt-get install -y --no-install-recommends \
