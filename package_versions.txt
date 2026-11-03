@@ -157,7 +157,7 @@ hostname                                                           3.25build1   
 init-system-helpers                                                1.69                                   deb          
 jellyfin                                                           2026110213+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
-jellyfin-ffmpeg8                                                   8.1.3-1-resolute                       deb          
+jellyfin-ffmpeg8                                                   8.1.3-2-resolute                       deb          
 jellyfin-server                                                    2026110213+ubu2604                     deb          
 jellyfin-web                                                       2026110213+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
