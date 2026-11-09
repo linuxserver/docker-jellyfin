@@ -155,11 +155,11 @@ grep                                                               3.12-1       
 gzip                                                               1.14-1~exp2ubuntu1.1                   deb          
 hostname                                                           3.25build1                             deb          
 init-system-helpers                                                1.69                                   deb          
-jellyfin                                                           2026110213+ubu2604                     deb          
+jellyfin                                                           2026110913+ubu2604                     deb          
 jellyfin                                                           26.04                                  dotnet       
 jellyfin-ffmpeg8                                                   8.1.3-2-resolute                       deb          
-jellyfin-server                                                    2026110213+ubu2604                     deb          
-jellyfin-web                                                       2026110213+ubu2604                     deb          
+jellyfin-server                                                    2026110913+ubu2604                     deb          
+jellyfin-web                                                       2026110913+ubu2604                     deb          
 jq                                                                 1.8.1-4ubuntu2                         deb          
 krb5-locales                                                       1.22.1-2ubuntu4.1                      deb          
 libacl1                                                            2.3.2-2                                deb          
@@ -233,7 +233,7 @@ libpam-modules-bin                                                 1.7.0-5ubuntu
 libpam-runtime                                                     1.7.0-5ubuntu3.2                       deb          
 libpam0g                                                           1.7.0-5ubuntu3.2                       deb          
 libpciaccess0                                                      0.18.1-1ubuntu4.1                      deb          
-libpcre2-8-0                                                       10.46-1build1                          deb          
+libpcre2-8-0                                                       10.46-1ubuntu0.1                       deb          
 libpng16-16t64                                                     1.6.57-1ubuntu0.1                      deb          
 libproc2-0                                                         2:4.0.4-9ubuntu1                       deb          
 libpsl5t64                                                         0.21.2-1.1build2                       deb          
