@@ -172,9 +172,9 @@ libbluray3                                                         1:1.4.1-1    
 libbrotli1                                                         1.2.0-3ubuntu0.1                       deb          
 libbsd0                                                            0.12.2-2build2                         deb          
 libbz2-1.0                                                         1.0.8-6ubuntu0.1                       deb          
-libc-bin                                                           2.43-2ubuntu2.4                        deb          
-libc-gconv-modules-extra                                           2.43-2ubuntu2.4                        deb          
-libc6                                                              2.43-2ubuntu2.4                        deb          
+libc-bin                                                           2.43-2ubuntu2.7                        deb          
+libc-gconv-modules-extra                                           2.43-2ubuntu2.7                        deb          
+libc6                                                              2.43-2ubuntu2.7                        deb          
 libcap-ng0                                                         0.8.5-4build5                          deb          
 libcom-err2                                                        1.47.2-3ubuntu4                        deb          
 libcrypt1                                                          1:4.5.1-1                              deb          
@@ -289,7 +289,7 @@ libxxhash0                                                         0.8.3-2build1
 libzstd1                                                           1.5.7+dfsg-3                           deb          
 libzvbi-common                                                     0.2.44-1ubuntu2                        deb          
 libzvbi0t64                                                        0.2.44-1ubuntu2                        deb          
-locales                                                            2.43-2ubuntu2.4                        deb          
+locales                                                            2.43-2ubuntu2.7                        deb          
 login                                                              1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                                                         1:4.17.4-2ubuntu3                      deb          
 logsave                                                            1.47.2-3ubuntu4                        deb          
